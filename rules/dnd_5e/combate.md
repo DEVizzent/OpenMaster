@@ -2,7 +2,7 @@
 type: rules
 game: dnd_5e
 created: 2026-05-15
-updated: 2026-05-15
+updated: 2026-05-16
 tags: [rules, dnd_5e, combat]
 ---
 
@@ -105,3 +105,47 @@ Fuente: `SP_SRD_CC_v5.2.1.pdf`
 - **Tags**: `#combate #areas #conjuros`
 - **Regla**: Formas de área: **Esfera** (punto de origen, radio), **Cono** (desde el lanzador, se ensancha), **Cubo** (desde un punto), **Cilindro** (radio y altura), **Línea** (trayectoria recta desde el origen hasta su alcance), **Emanación** (origen, el área se extiende en todas direcciones). El área de efecto cubre el espacio especificado. Para objetivos en el borde, el DM decide.
 - **Relacionado**: [conjuros](magia.md#lanzamiento-de-conjuros)
+
+---
+
+### Combate montado
+- **Fuente**: `sistema_raw/01_como_jugar.txt`, PÁGINA 17, sección «Combate montado»
+- **Versión**: SRD 5.2.1 (2024)
+- **Tags**: `#combate #montura`
+- **Regla**: Se puede usar como montura a cualquier criatura voluntaria que sea al menos una categoría de tamaño superior al jinete y tenga anatomía apropiada. **Montar/desmontar**: gasta la mitad de tu velocidad (redondeada abajo). **Montura controlada**: debe estar entrenada para aceptar jinete (caballos, mulas, etc.); su iniciativa cambia para coincidir con la tuya; en su turno solo puede Correr, Destrabarse y Esquivar. **Montura independiente**: conserva su propia iniciativa y actúa según su criterio. **Caerse**: si un efecto mueve a tu montura contra su voluntad, salvación de Destreza CD 10 o caes con el estado de derribado a 1,5 m. También tiras si te derriban a ti o a la montura.
+- **Relacionado**: [movimiento](combate.md#movimiento-y-posicion)
+
+---
+
+### Combate bajo el agua
+- **Fuente**: `sistema_raw/01_como_jugar.txt`, PÁGINA 17, sección «Combate bajo el agua»
+- **Versión**: SRD 5.2.1 (2024)
+- **Tags**: `#combate #acuatico`
+- **Regla**: (1) **Armas inadecuadas**: ataques cuerpo a cuerpo bajo el agua sin velocidad nadando tienen desventaja, salvo que el arma cause daño perforante. (2) **Ataques a distancia**: fallan automáticamente más allá del alcance normal; desventaja dentro del alcance normal. (3) **Resistencia al fuego**: todo lo que haya bajo el agua tiene resistencia al daño de fuego.
+- **Relacionado**: [daño y curación](combate.md#dano-y-curacion)
+
+---
+
+### Ataque sin armas (Daño, Agarre, Empujón)
+- **Fuente**: `sistema_raw/07_glosario_reglas.txt`, PÁGINA 196, sección «Ataque sin armas»
+- **Versión**: SRD 5.2.1 (2024)
+- **Tags**: `#combate #ataque-sin-armas`
+- **Regla**: Ataque cuerpo a cuerpo usando el cuerpo. Opciones al usar tu ataque sin armas: (a) **Daño**: tirada de ataque (Fue + BC), 1 + mod. Fue de daño contundente. (b) **Agarre**: objetivo supera salvación de Fue o Des (CD = 8 + mod. Fue + BC) o queda agarrado; requiere que el objetivo sea como mucho 1 categoría de tamaño mayor y mano libre. (c) **Empujón**: objetivo supera salvación de Fue o Des (misma CD) o es empujado 1,5 m o derribado; mismas restricciones de tamaño y mano libre.
+- **Relacionado**: [agarrar](combate.md#agarrar), [derribado](reglas_basicas.md#derribado-estado)
+
+---
+
+### Daño masivo (regla opcional)
+- **Fuente**: `sistema_raw/01_como_jugar.txt`, PÁGINA 18
+- **Versión**: SRD 5.2.1 (2024)
+- **Tags**: `#combate #dano #opcional`
+- **Regla**: Si recibes daño de un solo ataque igual o superior a la mitad de tus PG máximos, el GM puede exigir una tirada de salvación de Constitución CD 15. Si fallas, tira en la tabla de "Heridas persistentes" (pág. 18) para determinar un efecto debilitante (como una cicatriz visible, cojera, pérdida de un ojo, etc.). La mayoría de estas heridas pueden curarse con descanso largo y conjuros de curación.
+
+---
+
+### Objetos en combate
+- **Fuente**: `sistema_raw/07_glosario_reglas.txt`, sección «Objetos»
+- **Versión**: SRD 5.2.1 (2024)
+- **Tags**: `#combate #objetos`
+- **Regla**: Los objetos tienen CA, PG e inmunidades según su material. Se pueden atacar directamente para romperlos (puertas, cofres, cuerdas). Un objeto de tamaño Mediano típico: CA 15 (madera/cristal) o 19 (piedra/metal). PG según tamaño: Diminuto 2-10, Pequeño 3-27, Mediano 4-40. Inmunes a daño psíquico y veneno.
+- **Relacionado**: [daño y curación](combate.md#dano-y-curacion)

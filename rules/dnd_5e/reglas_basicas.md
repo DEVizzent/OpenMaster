@@ -2,7 +2,7 @@
 type: rules
 game: dnd_5e
 created: 2026-05-15
-updated: 2026-05-15
+updated: 2026-05-16
 tags: [rules, dnd_5e, basic]
 ---
 
@@ -161,3 +161,141 @@ Fuente: `SP_SRD_CC_v5.2.1.pdf`
 - **Tags**: `#basico #estados`
 - **Regla**: No puedes atacar al hechizador ni apuntarle con capacidades dañinas ni efectos mágicos. El hechizador tiene ventaja en las pruebas de Carisma para interactuar socialmente contigo.
 - **Relacionado**: [interacciones sociales](reglas_basicas.md#interacciones-sociales)
+
+---
+
+### Aturdido [estado]
+- **Fuente**: `sistema_raw/07_glosario_reglas.txt`, PÁGINA 196, sección «Aturdido»
+- **Versión**: SRD 5.2.1 (2024)
+- **Tags**: `#basico #estados`
+- **Regla**: Mientras tengas el estado de aturdido: (1) tienes el estado de incapacitado, (2) fallas automáticamente las tiradas de salvación de Fuerza y Destreza, (3) las tiradas de ataque contra ti tienen ventaja.
+- **Relacionado**: [incapacitado](reglas_basicas.md#incapacitado-estado)
+
+---
+
+### Ensordecido [estado]
+- **Fuente**: `sistema_raw/07_glosario_reglas.txt`, PÁGINA 201, sección «Ensordecido»
+- **Versión**: SRD 5.2.1 (2024)
+- **Tags**: `#basico #estados`
+- **Regla**: No puedes oír y fallas automáticamente las pruebas de característica que requieran el oído.
+- **Relacionado**: [cegado](reglas_basicas.md#cegado-estado)
+
+---
+
+### Invisible [estado]
+- **Fuente**: `sistema_raw/07_glosario_reglas.txt`, PÁGINA 204, sección «Invisible»
+- **Versión**: SRD 5.2.1 (2024)
+- **Tags**: `#basico #estados #sigilo`
+- **Regla**: Mientras tengas el estado de invisible: (1) **Sorpresa**: ventaja en la tirada de iniciativa, (2) **Oculto**: no te afectan efectos que requieran ver a su objetivo (salvo que el creador pueda verte); tu equipo también se oculta, (3) **Ataques afectados**: las tiradas de ataque contra ti tienen desventaja y tus tiradas de ataque tienen ventaja. Si una criatura puede verte, no obtienes este beneficio contra ella.
+- **Relacionado**: [esconderse](reglas_basicas.md#esconderse-accion)
+
+---
+
+### Paralizado [estado]
+- **Fuente**: `sistema_raw/07_glosario_reglas.txt`, PÁGINA 205, sección «Paralizado»
+- **Versión**: SRD 5.2.1 (2024)
+- **Tags**: `#basico #estados`
+- **Regla**: Mientras tengas el estado de paralizado: (1) tienes el estado de incapacitado, (2) tu velocidad es 0 y no puede aumentar, (3) fallas automáticamente las tiradas de salvación de Fuerza y Destreza, (4) las tiradas de ataque contra ti tienen ventaja, (5) cualquier tirada de ataque que te acierte es un crítico si el atacante está a 1,5 m o menos de ti.
+- **Relacionado**: [inconsciente](reglas_basicas.md#inconsciente-estado)
+
+---
+
+### Petrificado [estado]
+- **Fuente**: `sistema_raw/07_glosario_reglas.txt`, PÁGINA 206, sección «Petrificado»
+- **Versión**: SRD 5.2.1 (2024)
+- **Tags**: `#basico #estados`
+- **Regla**: Mientras tengas el estado de petrificado: (1) te transformas, junto con objetos no mágicos que vistas o lleves, en sustancia sólida inanimada (normalmente piedra); tu peso se multiplica por diez y dejas de envejecer, (2) tienes el estado de incapacitado, (3) velocidad 0, (4) ataques contra ti con ventaja, (5) fallas automáticamente salvaciones de Fuerza y Destreza, (6) tienes resistencia a todo el daño, (7) inmunidad al estado de envenenado.
+- **Relacionado**: [inconsciente](reglas_basicas.md#inconsciente-estado)
+
+---
+
+### Peligros — Caídas
+- **Fuente**: `sistema_raw/07_glosario_reglas.txt`, PÁGINA 197, sección «Caídas [peligro]»
+- **Versión**: SRD 5.2.1 (2024)
+- **Tags**: `#basico #peligros #caidas`
+- **Regla**: Una criatura que sufra una caída recibe 1d6 de daño contundente por cada 3 m de caída, hasta un máximo de 20d6. La criatura cae de bruces y tiene el estado de derribada salvo que evite el daño. Si cae al agua u otro líquido, puede usar su reacción para una prueba de Fuerza (Atletismo) o Destreza (Acrobacias) CD 15; si la supera, el daño se reduce a la mitad.
+- **Relacionado**: [derribado](reglas_basicas.md#derribado-estado)
+
+---
+
+### Peligros — Asfixia
+- **Fuente**: `sistema_raw/07_glosario_reglas.txt`, PÁGINA 196, sección «Asfixia [peligro]»
+- **Versión**: SRD 5.2.1 (2024)
+- **Tags**: `#basico #peligros #asfixia`
+- **Regla**: Una criatura puede aguantar la respiración durante una cantidad de minutos igual a 1 + su modificador por Constitución (mínimo 30 segundos) antes de asfixiarse. Cuando se quede sin aire o se ahogue, suma 1 nivel de cansancio al final de cada uno de sus turnos. Cuando recupere el aliento, pierde todos los niveles de cansancio sumados por la asfixia.
+- **Relacionado**: [cansancio](reglas_basicas.md#agotamiento)
+
+---
+
+### Ataque sin armas (daño, agarre, empujón)
+- **Fuente**: `sistema_raw/07_glosario_reglas.txt`, PÁGINA 196, sección «Ataque sin armas»
+- **Versión**: SRD 5.2.1 (2024)
+- **Tags**: `#basico #combate #ataque-sin-armas`
+- **Regla**: En lugar de usar un arma, puedes dar puñetazos, patadas, cabezazos, etc. Al usar tu ataque sin armas, eliges una de estas opciones:
+  - **Daño**: Tirada de ataque (Fue + BC). Si acierta, infliges daño contundente igual a 1 + modificador por Fuerza.
+  - **Agarre**: El objetivo debe superar una tirada de salvación de Fuerza o Destreza (a su elección) o queda agarrado. CD = 8 + mod. Fue + BC. Solo funciona si el objetivo es como mucho una categoría de tamaño superior a la tuya y tienes una mano libre.
+  - **Empujón**: El objetivo debe superar una tirada de salvación de Fuerza o Destreza (a su elección) o es empujado 1,5 m o queda derribado. Mismas restricciones de tamaño y mano libre.
+- **Relacionado**: [agarrar](combate.md#agarrar), [derribado](reglas_basicas.md#derribado-estado)
+
+---
+
+### Percepción pasiva
+- **Fuente**: `sistema_raw/07_glosario_reglas.txt`, PÁGINA 205, sección «Percepción pasiva»
+- **Versión**: SRD 5.2.1 (2024)
+- **Tags**: `#basico #exploracion #percepcion`
+- **Regla**: La Percepción pasiva es 10 + bonificador a pruebas de Sabiduría (Percepción). Con ventaja en Percepción: +5. Con desventaja: −5. El GM usa esta puntuación para determinar si una criatura se percata de algo sin hacer una prueba activa.
+- **Relacionado**: [exploración](reglas_basicas.md#exploracion)
+
+---
+
+### Esconderse [acción]
+- **Fuente**: `sistema_raw/07_glosario_reglas.txt`, PÁGINA 201, sección «Esconderse»
+- **Versión**: SRD 5.2.1 (2024)
+- **Tags**: `#basico #acciones #sigilo`
+- **Regla**: Para esconderte, debes superar una prueba de Destreza (Sigilo) CD 15 mientras estás en una zona muy oscura o con cobertura tres cuartos o completa, fuera de la línea de visión de cualquier enemigo. Si la superas, obtienes el estado de invisible mientras permanezcas oculto. El resultado de tu prueba es la CD para que una criatura te detecte con Sabiduría (Percepción). Dejas de estar oculto si haces ruido fuerte, atacas, lanzas un conjuro con componente verbal o te acercas a un enemigo.
+- **Relacionado**: [invisible](reglas_basicas.md#invisible-estado)
+
+---
+
+### Ayudar [acción]
+- **Fuente**: `sistema_raw/07_glosario_reglas.txt`, PÁGINA 197, sección «Ayudar»
+- **Versión**: SRD 5.2.1 (2024)
+- **Tags**: `#basico #acciones`
+- **Regla**: Dos opciones: (1) **Ayudar en una prueba de característica**: elige una competencia en habilidad/herramienta y un aliado cercano; el aliado tiene ventaja en su siguiente prueba con esa habilidad/herramienta antes de tu siguiente turno. (2) **Ayudar en una tirada de ataque**: distraes a un enemigo a 1,5 m o menos, dando ventaja a la siguiente tirada de ataque de un aliado contra ese enemigo antes de tu siguiente turno.
+- **Relacionado**: [acciones en combate](reglas_basicas.md#acciones-en-combate)
+
+---
+
+### Buscar [acción]
+- **Fuente**: `sistema_raw/07_glosario_reglas.txt`, PÁGINA 197, sección «Buscar»
+- **Versión**: SRD 5.2.1 (2024)
+- **Tags**: `#basico #acciones #exploracion`
+- **Regla**: Realizas una prueba de Sabiduría para distinguir algo no evidente. Habilidades aplicables: **Medicina** (dolencia o causa de muerte), **Percepción** (criatura u objeto ocultos), **Supervivencia** (rastros o pistas). El GM determina la CD.
+- **Relacionado**: [percepción pasiva](reglas_basicas.md#percepcion-pasiva)
+
+---
+
+### Preparar una acción [acción]
+- **Fuente**: `sistema_raw/07_glosario_reglas.txt`, PÁGINA 206, sección «Preparar una acción»
+- **Versión**: SRD 5.2.1 (2024)
+- **Tags**: `#basico #acciones #reaccion`
+- **Regla**: En tu turno, decides una circunstancia perceptible que activará tu reacción y la acción que realizarás (Atacar, Lanzar conjuro, Correr, Destrabarse, Esconderse, Utilizar). Si la circunstancia ocurre antes de tu siguiente turno, usas tu reacción para realizar la acción preparada. Si preparas un conjuro, debes lanzarlo en tu turno (gastando el espacio) y mantener la concentración hasta soltarlo como reacción.
+- **Relacionado**: [reacción](reglas_basicas.md#acciones-en-combate)
+
+---
+
+### Luz y visión
+- **Fuente**: `sistema_raw/07_glosario_reglas.txt`, PÁGINA 201-204, secciones «Luz brillante», «Luz tenue»
+- **Versión**: SRD 5.2.1 (2024)
+- **Tags**: `#basico #exploracion #vision`
+- **Regla**: **Luz brillante**: iluminación normal. **Luz tenue**: zona ligeramente oscura; desventaja en pruebas de Sabiduría (Percepción) para ver. **Oscuridad**: criaturas sin visión especial tienen el estado de cegado. **Visión en la oscuridad**: permite ver en oscuridad como si fuera luz tenue y en luz tenue como si fuera brillante, hasta el alcance indicado (sin distinguir colores, solo grises).
+- **Relacionado**: [cegado](reglas_basicas.md#cegado-estado), [exploración](reglas_basicas.md#exploracion)
+
+---
+
+### Daño en objetos
+- **Fuente**: `sistema_raw/07_glosario_reglas.txt`, sección «Objetos»
+- **Versión**: SRD 5.2.1 (2024)
+- **Tags**: `#basico #objetos`
+- **Regla**: Los objetos tienen CA, PG e inmunidades/resistencias según su material. Un objeto de tamaño Mediano tiene CA 15 (madera/cristal) o 19 (piedra/metal). PG por categoría de tamaño: Diminuto 2 (frágil) a 10 (resistente); Pequeño 3-27; Mediano 4-40. Para objetos Grandes o mayores, el GM divide el objeto en secciones. Los objetos son inmunes al daño psíquico y veneno. Objetos transportados usan las estadísticas del portador.
+- **Relacionado**: [equipo](personajes.md#equipo--armas)
