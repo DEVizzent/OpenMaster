@@ -17,8 +17,8 @@ la memoria y responsabilidades de escritura específicas.
 | **Asistente** | Asistente virtual del DM. Documenta, consulta reglas y memoria, genera contenido | Consultas y notas (no escribe archivos de campaña directamente) |
 | **Rules Keeper** | Consulta y aplica el sistema de reglas | rules/&lt;game_id&gt;/*.md |
 | **Memory Keeper** | Gestiona la memoria persistente de campaña | Toda la memoria excepto sesiones |
-| **Character Keeper** | Gestiona fichas y estado de personajes | characters/ |
-| **Combat Keeper** | Gestiona y narra combates. Iniciativa, turnos, HP | state.md (solo durante combate) |
+| **Character Keeper** | Gestiona fichas y estado de personajes. Se invoca en tiempo real ante cualquier cambio de recursos (PG, conjuros, munición, objetos). | characters/ |
+| **Combat Keeper** | Gestiona y narra combates. Mantiene estado completo: iniciativa, turnos, HP, posiciones y condiciones. Notifica cambios de recursos de PJs al Director para delegar en Character Keeper. | state.md (durante combate), notifica cambios de recursos al Director |
 
 ## 3. Estructura de Directorios
 
@@ -44,7 +44,12 @@ OpenMaster/
 ├── rules/
 │   ├── index.md                    ← Índice maestro de sistemas disponibles
 │   └── <game_id>/                  ← Un directorio por sistema de juego
-│       ├── <SRD>.pdf               ← Documento fuente del sistema
+│       ├── <SRD>.pdf               ← Documento fuente del sistema (referencia, no se lee)
+│       ├── sistema_raw/            ← ★ Volcado verbatim del PDF a .txt por secciones
+│       │   ├── srd_completo.txt    ← Texto íntegro página a página
+│       │   ├── 01_como_jugar.txt
+│       │   ├── 02_creacion_personajes.txt
+│       │   └── ...
 │       ├── index.md                ← Índice del sistema con progreso de extracción
 │       └── <categoria>.md          ← Reglas extraídas por categoría
 ├── .opencode/
@@ -307,17 +312,26 @@ rules/
 │                                 y enlaces a cada rules/<game_id>/index.md
 └── <game_id>/
     ├── index.md                ← Índice del sistema con progreso de extracción
-    ├── <SRD>.pdf               ← Documento fuente original
+    ├── <SRD>.pdf               ← Documento fuente original (referencia, no se lee)
+    ├── sistema_raw/            ← ★ Volcado verbatim del PDF a .txt por secciones
+    │   ├── srd_completo.txt    ← Texto íntegro página a página
+    │   ├── 01_como_jugar.txt
+    │   ├── 02_creacion_personajes.txt
+    │   └── ...
     ├── reglas_basicas.md       ← Reglas extraídas por categoría
     ├── combate.md
     ├── magia.md
     ├── personajes.md
-    └── direccion.md
+    ├── direccion.md
+    ├── objetos_magicos.md      ← Objetos mágicos extraídos
+    ├── bestiario.md            ← Monstruos y animales extraídos
+    └── formato_mecanico.md     ← Formato de notación mecánica del sistema
 ```
 
 - `rules/index.md` (raíz) contiene solo la lista de sistemas disponibles y enlaces.
 - Cada `rules/<game_id>/index.md` contiene el índice detallado con checkboxes de progreso.
 - Cada categoría se extrae a su propio archivo `<categoria>.md` para facilitar la consulta por agentes.
+- **`sistema_raw/` contiene el volcado verbatim del PDF a texto plano, página por página, sin omisiones ni alteraciones. Es la fuente de verdad canónica para toda extracción.**
 - El campo `game` en el frontmatter identifica el sistema en cada archivo.
 
 ### 8.2 Plantilla de Entrada Extraída
@@ -326,7 +340,8 @@ Cada regla extraída dentro de un archivo de categoría debe seguir este formato
 
 ```markdown
 ### [Nombre de la regla]
-- **Fuente**: `<SRD>.pdf`, pág. XX, sección Y
+- **Fuente**: `sistema_raw/<archivo>.txt`, PAGINA XX, sección Y
+- **Versión**: SRD X.X (año)
 - **Tags**: `#tag1 #tag2`
 - **Regla**: Texto conciso de la mecánica. Incluir valores numéricos, dados,
   CD, condiciones, etc.
@@ -337,7 +352,8 @@ Cada regla extraída dentro de un archivo de categoría debe seguir este formato
 
 ```markdown
 ### Caída
-- **Fuente**: `SP_SRD_CC_v5.2.1.pdf`, pág. 67, sección «Caída»
+- **Fuente**: `sistema_raw/01_como_jugar.txt`, PAGINA 67, sección «Caída»
+- **Versión**: SRD 5.2.1 (2024)
 - **Tags**: `#combate #dano #movimiento`
 - **Regla**: Una criatura recibe 1d6 de daño contundente por cada 3 metros
   de caída, hasta un máximo de 20d6. La criatura cae tumbada si recibe daño.
@@ -356,13 +372,48 @@ Cada regla extraída dentro de un archivo de categoría debe seguir este formato
 
 ### 8.3 Proceso de Extracción
 
-1. **Escaneo inicial**: Leer la tabla de contenidos del SRD y mapear las secciones a las categorías definidas en el índice.
-2. **Creación de archivos**: Para cada categoría, crear `rules/<game_id>/<categoria>.md`.
-3. **Extracción**: Por cada regla dentro de la sección, escribir una entrada siguiendo la plantilla 8.2.
+La extracción del SRD es **exhaustiva y one-time**. Los pasos son:
+
+0. **Volcado a texto**: Convertir el PDF del SRD a archivos `.txt` en `rules/<game_id>/sistema_raw/`. El volcado debe ser **verbatim** — no se puede cambiar, resumir, omitir ni alterar ningún contenido. Cada palabra, tabla y valor numérico debe conservarse exactamente como está en el PDF. Un archivo `srd_completo.txt` con todo el texto página a página, y archivos adicionales partidos por secciones lógicas (cómo jugar, creación de personajes, clases, etc.).
+1. **Escaneo inicial**: Leer la tabla de contenidos desde `sistema_raw/` y mapear las secciones a las categorías definidas en el índice. Identificar la versión exacta del documento (ej: "SRD 5.2.1 (2024)").
+2. **Creación de archivos**: Para cada categoría, crear o actualizar `rules/<game_id>/<categoria>.md`.
+3. **Extracción**: Por cada regla, leer del archivo `.txt` correspondiente en `sistema_raw/` (NO del PDF) y escribir una entrada siguiendo la plantilla 8.2. La extracción debe ser **completa** — no omitir subsecciones, variantes ni excepciones. Si una especie tiene sub-rasgos con opciones (ej. Linaje gigante con 6 variantes), extraer TODAS con sus valores mecánicos completos. Cada entrada debe incluir el campo `Versión` para identificar de qué edición del SRD proviene.
 4. **Checklist de creación**: Para `personajes.md`, extraer también la lista completa de elementos que constituyen un personaje completo en este sistema (características, competencias, equipo, etc.). El Character Keeper usará este checklist durante la creación para no olvidar ningún paso.
 5. **Indexado**: Marcar casillas en `rules/<game_id>/index.md` a medida que se completan categorías.
-5. **Validación**: Verificar que todos los enlaces cruzados entre reglas apuntan a archivos y anclas existentes.
-6. **Actualización de raíz**: Si el sistema es nuevo, añadirlo a `rules/index.md`.
+6. **Validación**: Verificar que todos los enlaces cruzados entre reglas apuntan a archivos y anclas existentes. Revisar que cada entrada de especie, clase, conjuro, etc. contenga **todos** los rasgos y valores del archivo `.txt` fuente — no solo los que parecen relevantes.
+
+   **Checklist de auto-validación obligatorio** (ejecutar antes del paso 7):
+   - [ ] **Muestrear 5 entradas por categoría**: comparar cada valor numérico (daño, CD, precio, nivel, VD, PG) contra el `.txt` fuente.
+   - [ ] **Verificar edición**: confirmar que no hay valores de una edición anterior del sistema (ej. umbrales de 5e 2014 en un SRD 5.2.1 2024, o sistema Fácil/Medio/Difícil/Mortal en lugar de Baja/Moderada/Alta).
+   - [ ] **Integridad de tablas**: las tablas extraídas deben tener las mismas filas, columnas y valores numéricos que en el `.txt` fuente. Verificar celda por celda si es viable, o al menos 2 columnas completas.
+   - [ ] **Longitud de líneas**: ninguna línea debe superar los 5,000 caracteres (señal de bug de parsing que fusionó varias entradas).
+   - [ ] **Tags correctos**: los tags siguen el formato `#categoria #subcategoria` sin errores ortográficos (ej. `#conjuracion`, no `#conjuracian`).
+7. **Verificación por segundo agente**: Tras la validación del Rules Keeper, el **Memory Keeper** audita los archivos extraídos. Lee los archivos `.txt` de `sistema_raw/` y los enfrenta a los `.md` generados. Comprueba que: (a) el checklist de creación cubre todos los pasos, (b) cada categoría lista todas las opciones que el SRD ofrece para creación de personajes, (c) no hay omisiones de sub-rasgos o variantes, (d) no hay contradicciones entre archivos extraídos ni discrepancias de versión, y (e) los valores en tablas (terrenos, umbrales, venenos) coinciden exactamente con el `.txt` fuente — verificando al menos 2 columnas completas de cada tabla contra el raw.
+8. **Bucle de corrección**: Si el Memory Keeper encuentra fallos (entradas faltantes, rasgos omitidos, contradicciones), el **Rules Keeper corrige** y el **Memory Keeper re-verifica**. Este ciclo se repite hasta que el Memory Keeper emite un **visto bueno sin objeciones**. Solo entonces la categoría se marca como completa en el índice.
+9. **Actualización de raíz**: Si el sistema es nuevo, añadirlo a `rules/index.md`.
+10. **Cierre**: Una vez completados los pasos 1-8, los archivos `.md` son la **única fuente de verdad**. Los `.txt` de `sistema_raw/` y el PDF no se consultan más durante sesiones ni creación de personajes. Si durante la partida se detecta que falta información, el Rules Keeper vuelve a los `.txt` para complementar — y repite los pasos 6-8 para la nueva información.
+
+### 8.3b Extracción masiva por scripts (volúmenes >100 entradas)
+
+Cuando una categoría contiene más de 100 entradas individuales (conjuros, monstruos, objetos mágicos), la extracción manual entrada por entrada es inviable. Se debe usar un **script de automatización** (PowerShell o bash) que:
+
+1. **Lea el archivo `.txt` fuente completo**.
+2. **Identifique cada entrada** mediante patrones de inicio y fin (ej. nombres de conjuro seguidos de `Truco de` o `X de nivel Y`; nombres de monstruo seguidos de tamaño y tipo; nombres de objeto seguidos de rareza).
+3. **Extraiga cada entrada** con sus campos completos, respetando el texto verbatim del `.txt`.
+4. **Genere el `.md`** con el formato de la plantilla 8.2.
+5. **Valide el archivo generado** antes de marcarlo como completo:
+   - Ninguna línea debe superar los 5,000 caracteres (señal de bug de parsing que fusionó varias entradas en una sola línea).
+   - El conteo de entradas extraídas debe ser próximo al esperado (~340 conjuros, ~330 criaturas, ~260 objetos mágicos para un SRD típico).
+   - Muestrear al menos 5 entradas contra el `.txt` fuente para verificar fidelidad de valores numéricos.
+
+**Patrón de extracción iterativa** (recomendado para archivos >5,000 líneas):
+
+1. **Script inicial** → extrae la mayoría de entradas (~75-85%).
+2. **Gap analysis** → comparar las entradas extraídas contra todos los nombres presentes en el raw para identificar las faltantes.
+3. **Script de segunda pasada** → extraer las entradas faltantes.
+4. **Concatenar** los resultados en el archivo `.md` definitivo.
+
+**Responsabilidad**: El **Asistente** es responsable de crear, depurar y ejecutar el script. Los subagentes (Rules Keeper) tienen limitaciones de contexto en tareas muy extensas y delegan la automatización al Asistente. Una vez generado el archivo, el Rules Keeper toma el relevo para la validación (paso 6) y el Memory Keeper para la auditoría (paso 7).
 
 ### 8.4 Consulta por Agente
 
@@ -370,8 +421,10 @@ Cada regla extraída dentro de un archivo de categoría debe seguir este formato
 |---|---|---|
 | **Director** | Consulta rápida durante la partida (una regla concreta) | Busca por palabra clave en `rules/<game_id>/*.md` |
 | **Rules Keeper** | Conocimiento profundo, mantiene el índice | Escanea `rules/<game_id>/` entero, actualiza entradas |
-| **Character Keeper** | Reglas de clase, raza, equipo, dotes | Filtra por tags (`#clase #guerrero`) en `personajes.md` |
-| **Memory Keeper** | Solo referencias para enlazar desde la memoria | Lee `rules/<game_id>/index.md` |
+| **Character Keeper** | Reglas de clase, raza, equipo, dotes — y orquesta la creación completa de personajes | Carga `personajes.md` completo, sigue el checklist, delega consultas puntuales al Rules Keeper solo si falta información en los `.md` |
+| **Memory Keeper** | Referencias para enlazar desde la memoria; verifica extracciones post-validación | Lee `rules/<game_id>/index.md`; audita archivos extraídos contra los `.txt` de `sistema_raw/` |
+
+> **Nota sobre delegación de extracciones masivas**: Los subagentes (Rules Keeper, Memory Keeper) tienen limitaciones de contexto en tareas muy extensas. Para extracciones de más de 100 entradas o archivos raw de más de 5,000 líneas, el **Asistente** debe ejecutar scripts de extracción directamente (sección 8.3b). Los subagentes son efectivos para tareas acotadas: corregir errores puntuales, validar muestras, o extraer categorías pequeñas (armas, armaduras, herramientas).
 
 ### 8.5 Mantenimiento Multi-Sistema
 
@@ -395,6 +448,9 @@ Cada regla extraída dentro de un archivo de categoría debe seguir este formato
 6. **Mantener** una línea en blanco al final de cada archivo
 7. **Reportar** inconsistencias encontradas en la memoria al Memory Keeper
 8. **Autoimprove**: Si un agente tiene `autoimprove: true` en su frontmatter, puede modificar su propio archivo de definición si determina que un cambio en su prompt o configuración le permitirá cumplir mejor sus objetivos. Los cambios deben ser razonados y conservar el propósito original del agente.
+9. **Anti-improvisación de sistema**: **Nunca inventar mecánicas, opciones de personaje, conjuros, equipo ni precios que estén definidos en el SRD del sistema.** Si la información no está en los archivos extraídos, delegar en Rules Keeper. Esto aplica a todos los agentes sin excepción.
+10. **Improvisación narrativa del Director**: La regla 9 no restringe al Director durante la partida. Las interacciones creativas de los jugadores con el entorno (tirar una lámpara de velas, volcar una mesa, usar un barril como arma improvisada) no están definidas en el SRD y se resuelven con arbitraje del Director: CD razonable, daño improvisado (ej. 2d6), ventaja/desventaja según la situación. Esto es parte del rol del Director y no se considera «improvisación de sistema».
+11. **Punto de restauración antes de scripts**: Antes de ejecutar cualquier script que modifique archivos `.md`, verificar el tamaño actual del archivo (líneas y KB). Si tras la ejecución el archivo crece desproporcionadamente (>3× tamaño original) o tiene líneas de más de 10,000 caracteres, restaurar inmediatamente desde el estado anterior y depurar el script. Esto previene la corrupción silenciosa de archivos por bugs de parsing (ej. líneas de 294K caracteres que inflan un archivo de 366 KB a 13 MB).
 
 ## 11. Protocolo de Inicio de Campaña (Session 0)
 
@@ -493,6 +549,7 @@ Si `index.md` crece hasta volverse difícil de mantener, los campos de contrato 
 - **Opciones, no catálogos**: Máximo 5 opciones por pregunta, con 1 línea de descripción.
 - **Recomienda, no impongas**: Sugiere la mejor opción según el concepto, pero deja decidir.
 - **Usa el checklist del sistema**: Carga la sección «Checklist de creación completa» de `rules/<game_id>/personajes.md` y marca los elementos a medida que se completan. Esto asegura que ningún paso se olvide.
+- **Delegación obligatoria al Character Keeper**: El Director o Asistente **siempre delegan la creación de personajes al Character Keeper**. El Character Keeper orquesta el proceso completo y consulta al Rules Keeper solo cuando `personajes.md` no contiene la información necesaria. Nunca improvisar opciones ni listas que estén definidas en el SRD.
 
 ### 12.2 Fases
 
