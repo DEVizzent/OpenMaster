@@ -145,3 +145,12 @@ tags: []
 - Actualiza siempre el campo `updated` en el frontmatter.
 - No dupliques información que ya existe en otros archivos; usa enlaces relativos.
 - Si un personaje cambia de ubicación, estado o nivel, reflejarlo en la ficha.
+
+## Edición de rasgos existentes
+
+Cuando actualices un rasgo que ya existe en la ficha (como usos de una habilidad racial, espacios de conjuro, o cualquier contador de recursos), **edita la línea original** del rasgo. No añadas una nueva línea duplicada con otro nombre. Ejemplo:
+
+- ❌ INCORRECTO: El rasgo dice *«Linaje gigante (Excursión de las nubes): Usos = +2/día»* y añades una línea nueva *«Paso Nuboso: 1/2 usos»*.
+- ✅ CORRECTO: Editas la línea existente: *«Linaje gigante (Excursión de las nubes): 1/2 usos por día»*.
+
+Si el rasgo original no tiene un tracker de usos pero necesita uno, edita la línea para añadirlo. No dupliques la entrada del rasgo.
