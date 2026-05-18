@@ -74,6 +74,7 @@ OpenMaster/
 - **Cross-referencing**: Enlaces markdown relativos `[texto](ruta/archivo.md)`
 - **Línea final**: Siempre dejar una línea en blanco al final del archivo
 - **Archivos de personaje**: Prefijar con el nombre del personaje, ej. `thorvald_forjahierro.md`
+- **Sesiones múltiples el mismo día**: Si hay más de una sesión en la misma fecha real, añadir un sufijo numérico **antes** del título para mantener el orden cronológico: `YYYY-MM-DD-N-titulo.md` (ej. `2026-05-18-1-la_forja_eterna.md`, `2026-05-18-2-guardian_forja.md`).
 
 ## 5. Frontmatter — Campos Comunes
 
@@ -277,6 +278,7 @@ Cuando ambos procesos finalizan, el Memory Keeper puede crear la campaña en `me
 1. Memory Keeper crea el archivo de sesión en `sessions/` con el formato `YYYY-MM-DD-titulo_breve.md`
 2. Se copia el `state.md` actual como sección inicial de contexto
 3. Los agentes cargan `state.md` + última sesión para contexto
+4. El Director resume en 2-4 líneas lo ocurrido en la sesión anterior para situar a los jugadores.
 
 ### 7.3 Durante la partida
 
@@ -290,9 +292,12 @@ Al terminar la sesión se deben actualizar:
 
 1. **Archivo de sesión**: Completar secciones (summary, decisions, cliffhanger, etc.)
 2. **`state.md`**: Reflejar el nuevo estado (fecha, ubicación, quests activas, eventos recientes, hook)
-3. **`sessions/_index.md`**: Añadir entrada en la tabla cronológica
-4. **Personajes**: Actualizar si hubo cambios (nivel, equipo, estado, relaciones)
-5. **Lugares/PNJs/Facciones/Quests**: Actualizar si aplica
+3. **`sessions/_index.md`**: Añadir entrada en la tabla cronológica. Verificar que el campo `updated` del frontmatter está al día.
+4. **Personajes**: Actualizar si hubo cambios (nivel, equipo, estado, relaciones, ubicación, XP).
+   - Verificar que no haya campos `TBD`, `Pendiente` o vacíos en `player`, `location`/`ubicación`, `status`.
+5. **Sesión anterior**: Verificar que la sesión previa no tenga XP "Pendiente de cálculo". Si lo tiene, calcularlo y actualizarlo.
+6. **Lugares/PNJs/Facciones/Quests**: Actualizar si aplica.
+7. **Frontmatter global**: Verificar que el campo `updated` está al día en todos los archivos tocados durante el cierre.
 
 ### 7.5 Post-partida
 
