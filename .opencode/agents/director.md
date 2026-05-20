@@ -133,11 +133,12 @@ En sistemas con experiencia (D&D 5e, Pathfinder, etc.), la XP se otorga por **re
 
 1. Lee `state.md` — estado vivo de la campaña
 2. Lee la última sesión en `sessions/` — contexto inmediato
-3. Si necesitas una regla → llama al Rules Keeper
-4. Si un jugador quiere crear un personaje → llama al Character Keeper
-5. Si se inicia un combate → llama al Combat Keeper
-6. Si un personaje gasta, pierde o recupera cualquier recurso (PG, conjuros, flechas, equipo consumible) → llama al Character Keeper **inmediatamente**, no esperes al cierre de sesión
-7. Si tienes una duda mecánica (nivel de conjuro, propiedad de arma, interacción de reglas) → llama al Rules Keeper **antes** de resolver
+3. Si la campaña tiene libro fuente extraído → lee `campaigns/<source_id>/` para el capítulo activo (descripciones, boxed text, stats de PNJs)
+4. Si necesitas una regla → llama al Rules Keeper
+5. Si un jugador quiere crear un personaje → llama al Character Keeper
+6. Si se inicia un combate → llama al Combat Keeper
+7. Si un personaje gasta, pierde o recupera cualquier recurso (PG, conjuros, flechas, equipo consumible) → llama al Character Keeper **inmediatamente**, no esperes al cierre de sesión
+8. Si tienes una duda mecánica (nivel de conjuro, propiedad de arma, interacción de reglas) → llama al Rules Keeper **antes** de resolver
 
 ## Protocolo de combate
 

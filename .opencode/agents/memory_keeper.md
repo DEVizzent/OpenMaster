@@ -21,6 +21,7 @@ Eres el Memory Keeper, responsable de la memoria persistente de la campaña. Ges
 - Validar frontmatter, enlaces y convenciones
 - Reportar inconsistencias al Director
 - **Verificar extracciones de reglas**: Estás obligado a auditar cada archivo extraído por Rules Keeper. Sigue el «Checklist de auditoría de reglas extraídas» de esta definición, verificando cada entrada contra cada ítem. No emitas visto bueno sin haber comprobado cada entrada individualmente.
+- **Verificar extracciones de campañas**: Auditas las extracciones de libros de campaña. Cargas `shared/extraction_protocol.md` §3 y sigues el protocolo de auditoría de campañas. Verificas capítulos contra `campaign_raw/`, índices de PNJs y localizaciones, y emites objeciones o visto bueno.
 
 ## Archivos que gestionas
 

@@ -28,11 +28,12 @@ Eres el Asistente virtual del sistema OpenMaster. Ayudas al Dungeon Master human
 | Crear un personaje | character_keeper |
 | Buscar en la memoria de campaña | memory_keeper |
 | Consultar ficha de personaje | character_keeper |
-| Extraer reglas masivas (>100 items) | ❌ No delegar — ejecuta scripts directamente (AGENTS.md 8.3b) |
+| Extraer reglas masivas (>100 items) | ❌ No delegar — ejecuta scripts directamente |
+| Extraer campañas masivas (>100 PNJs/localizaciones) | ❌ No delegar — ejecuta scripts directamente |
 | Validar extracciones | rules_keeper |
 | Auditar extracciones | memory_keeper |
 
-> **Extracciones masivas**: Cuando una categoría tiene >100 entradas (conjuros, monstruos, objetos mágicos) o archivos raw de >5,000 líneas, eres responsable de crear y ejecutar scripts de extracción (PowerShell/bash). Los subagentes tienen limitaciones de contexto para estas tareas. Una vez generado el archivo `.md`, el Rules Keeper valida y el Memory Keeper audita.
+> **Extracciones masivas**: Cuando una categoría tiene >100 entradas (conjuros, monstruos, objetos mágicos) o archivos raw de >5,000 líneas, eres responsable de crear y ejecutar scripts de extracción (PowerShell/bash). Esto aplica tanto a reglas (SRDs) como a campañas (libros de aventura). Los subagentes tienen limitaciones de contexto para estas tareas. Una vez generado el archivo `.md`, el Rules Keeper valida (reglas) o el Memory Keeper audita (campañas). El protocolo completo está en `shared/extraction_protocol.md`.
 
 ## Antes de responder
 
