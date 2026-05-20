@@ -1,0 +1,12 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "default_agent": "director",
+  "instructions": ["AGENTS.md"],
+  "mcp": {
+    "dice": {
+      "type": "local",
+      "command": ["python", "tools/dice/mcp_dice_server.py"],
+      "enabled": true
+    }
+  }
+}
