@@ -8,7 +8,7 @@ tags: [rules, dnd_5e, format]
 
 # Formato Mecánico — D&D 5e
 
-Este archivo define la notación compacta para el **bloque mecánico** de las respuestas en partida. El agente debe usar este formato para todas las acciones resueltas.
+Este archivo documenta la notación compacta del **bloque mecánico** generado automáticamente por el MCP `dice_roll`. Los agentes deben usar el MCP en lugar de construir el bloque manualmente: el output del MCP ya incluye cálculo completo, emojis y comparación contra CA/CD. Los ejemplos siguientes muestran el formato que produce el MCP para cada tipo de acción.
 
 ---
 

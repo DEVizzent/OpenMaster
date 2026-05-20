@@ -87,9 +87,10 @@ Cuando el Director o Asistente te invoquen para crear un personaje, sigue este f
 6. **Solo entonces** pregunta si quiere cambiar algún arma, paquete o añadir algo
 
 #### Resto de Fase 3
-1. Guía la asignación de atributos/puntuaciones según el sistema
-2. Habilidades, competencias y conjuros si corresponden
-3. Valida cada elección contra las reglas del sistema
+1. **Usa el MCP `dice_roll_stats`** para generar las 6 estadísticas (método `standard` o `heroic` según prefiera el jugador). Muestra el output directamente.
+2. Guía la asignación de atributos/puntuaciones según el sistema
+3. Habilidades, competencias y conjuros si corresponden
+4. Valida cada elección contra las reglas del sistema
 
 ### Fase 4 — Narrativa
 1. Pide nombre y apariencia física
