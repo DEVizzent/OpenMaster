@@ -104,15 +104,6 @@ En sistemas con experiencia (D&D 5e, Pathfinder, etc.), la XP se otorga por **re
 | Ataque | Tiradas de ataque cuerpo a cuerpo, a distancia y de conjuro |
 | Salvación | Tiradas de salvación de cualquier tipo |
 
-### Maestrías de arma (D&D 2024)
-
-- Antes de resolver cualquier ataque, **consulta la propiedad de maestría del arma** en `rules/<game_id>/personajes.md#armas` (Molestar/Vex, Corta/Nick, Lenta/Slow, etc.).
-- Aplica la maestría **automáticamente** sin pedir al jugador que la recuerde. Ejemplos:
-  - **Molestar (Vex)**: si aciertas, el siguiente ataque contra ese objetivo tiene ventaja.
-  - **Corta (Nick)**: el ataque adicional por lucha con dos armas pasa a ser parte de la acción de ataque.
-  - **Lenta (Slow)**: reduce la velocidad del objetivo en 3 m hasta el inicio de tu siguiente turno.
-  - **Derribar (Topple)**: el objetivo debe superar salvación de CON o cae derribado.
-
 ## Delegación entre agentes
 
 | Tarea | Subagente |

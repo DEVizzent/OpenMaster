@@ -2,7 +2,7 @@
 type: rules
 game: dnd_5e
 created: 2026-05-15
-updated: 2026-05-16
+updated: 2026-05-20
 tags: [rules, dnd_5e, characters]
 ---
 
@@ -31,7 +31,7 @@ Fuente: `SP_SRD_CC_v5.2.1.pdf`
 ### Equipo — Armas
 - **Fuente**: pág. 97, sección «Armas»
 - **Tags**: `#personajes #equipo #armas`
-- **Regla**: Las armas tienen: nombre, coste, daño (dado y tipo), peso, propiedades (Acrobática, Arrojadiza, A dos manos, Cargadora, Ligera, A distancia, Especial, A dos manos cuerpo a cuerpo, Versátil, etc.) y propiedades de maestría (Corta, Larga, Punzante, etc.).
+- **Regla**: Las armas tienen: nombre, coste, daño (dado y tipo), peso, propiedades (Acrobática, Arrojadiza, A dos manos, Cargadora, Ligera, A distancia, Especial, A dos manos cuerpo a cuerpo, Versátil, etc.) y propiedades de maestría (ver [Propiedades de maestría](combate.md#propiedades-de-maestria)).
 - **Relacionado**: [armaduras](personajes.md#equipo--armaduras)
 
 ---

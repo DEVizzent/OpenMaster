@@ -2,7 +2,7 @@
 type: rules
 game: dnd_5e
 created: 2026-05-15
-updated: 2026-05-16
+updated: 2026-05-20
 tags: [rules, dnd_5e, combat]
 ---
 
@@ -149,3 +149,25 @@ Fuente: `SP_SRD_CC_v5.2.1.pdf`
 - **Tags**: `#combate #objetos`
 - **Regla**: Los objetos tienen CA, PG e inmunidades según su material. Se pueden atacar directamente para romperlos (puertas, cofres, cuerdas). Un objeto de tamaño Mediano típico: CA 15 (madera/cristal) o 19 (piedra/metal). PG según tamaño: Diminuto 2-10, Pequeño 3-27, Mediano 4-40. Inmunes a daño psíquico y veneno.
 - **Relacionado**: [daño y curación](combate.md#dano-y-curacion)
+
+---
+
+### Propiedades de maestría
+
+- **Fuente**: `sistema_raw/05_equipo.txt`, PÁGINA 98-99, sección «Propiedades de maestría»
+- **Versión**: SRD 5.2.1 (2024)
+- **Tags**: `#combate #armas #maestria`
+- **Regla**: Cada arma tiene una propiedad de maestría. Solo los personajes con un rasgo que lo permita (como *Maestría con armas*) pueden usar la propiedad de maestría de un arma. La propiedad se aplica **siempre** de forma automática al acertar (o fallar, según la propiedad), sin necesidad de que el jugador la recuerde o la active.
+
+| Maestría | Efecto |
+|---|---|
+| **Debilitar** | Si aciertas, el objetivo tiene desventaja en su próxima tirada de ataque antes del principio de tu siguiente turno. |
+| **Derribar** | Si aciertas, puedes obligar al objetivo a hacer una salvación de Constitución (CD = 8 + mod. de característica del ataque + BC). Si falla, queda derribado. |
+| **Empujar** | Si aciertas, puedes empujar al objetivo hasta 3 m en línea recta respecto a ti si es Grande o más pequeño. |
+| **Hender** | Si aciertas con un ataque cuerpo a cuerpo, puedes hacer un ataque extra con la misma arma contra una segunda criatura adyacente y a tu alcance. Si aciertas, infliges el daño del arma (sin sumar mod. de característica, salvo que sea negativo). Solo una vez por turno. |
+| **Mellar** | Cuando hagas el ataque extra de la propiedad *Ligera*, puedes hacerlo como parte de la acción de Atacar en lugar de como acción adicional. Solo una vez por turno. |
+| **Molestar** | Si aciertas y causas daño, tienes ventaja en tu siguiente tirada de ataque contra esa misma criatura antes del final de tu siguiente turno. |
+| **Ralentizar** | Si aciertas y causas daño, reduces la velocidad del objetivo en 3 m hasta el principio de tu siguiente turno. La reducción no se acumula con múltiples ataques de esta propiedad (máximo 3 m). |
+| **Rozar** | Si tu tirada de ataque falla, causas daño igual a tu modificador de característica del ataque. El daño es del mismo tipo que el arma y solo aumenta si aumenta el modificador. |
+
+- **Relacionado**: [armas](personajes.md#equipo--armas), [atacar](combate.md#atacar)
