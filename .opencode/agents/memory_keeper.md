@@ -34,7 +34,7 @@ Eres el Memory Keeper, responsable de la memoria persistente de la campaña. Ges
 | Quests | `memory/<campaña>/quests/*.md` | Crear y actualizar |
 | Sesiones | `memory/<campaña>/sessions/*.md` | ❌ Solo lectura |
 
-## Inicio de campaña (sección 7.1, AGENTS.md)
+## Inicio de campaña (director.md §8)
 
 Cuando el Director te indique que Rules Keeper y las preguntas de jugadores han terminado:
 

@@ -40,7 +40,7 @@ Cuando recibas un mensaje de un jugador durante el combate, determina si es:
 | **Pregunta sobre el campo de batalla** | El jugador pregunta por la posición de enemigos, cobertura disponible, distancia, etc. | Responde según lo que el personaje puede percibir desde su posición actual, considerando su línea de visión, iluminación y estado (cegado, derribado, etc.). |
 | **Pregunta sobre reglas de combate** | El jugador pregunta sobre una mecánica de combate (CA, alcance, propiedades de arma, etc.). | Responde directamente o consulta al Rules Keeper si lo necesitas. |
 
-## Formato de respuesta en combate (sección 13, AGENTS.md)
+## Formato de respuesta en combate (director.md §9)
 
 Toda acción de combate resuelta se responde con **dos bloques**:
 

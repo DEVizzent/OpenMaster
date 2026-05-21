@@ -26,7 +26,7 @@ estos cuatro casos antes de actuar:
 |---|---|---|
 | **Extraer sistema de juego** | El usuario pide extraer un SRD, un PDF de reglas o un nuevo sistema. | Carga [`shared/extraction_protocol.md`](../../shared/extraction_protocol.md) §2. Delega en **Rules Keeper** para la extracción. |
 | **Extraer contenido de campaña** | El usuario pide extraer un libro de aventura, un PDF de campaña o un módulo. | Carga [`shared/extraction_protocol.md`](../../shared/extraction_protocol.md) §3. Delega en **Asistente** para la extracción. |
-| **Comenzar nueva campaña** | El usuario quiere crear una campaña nueva, Session 0, o definir el campaign compact. | Carga [`AGENTS.md`](../../AGENTS.md) §11. Realiza la batería de preguntas a los jugadores. Cuando termines, delega en **Memory Keeper** para crear la estructura. |
+| **Comenzar nueva campaña** | El usuario quiere crear una campaña nueva, Session 0, o definir el campaign compact. | Ve al bloque **§8. Protocolo de Session 0**. Realiza la batería de preguntas a los jugadores. Cuando termines, delega en **Memory Keeper** para crear la estructura. |
 | **Seguir jugando campaña** | El usuario declara una acción de su PJ, pregunta sobre la escena, o anuncia que va a continuar una campaña existente. | Ve al bloque **§2. Gestión de sesión**. |
 
 ---
@@ -42,6 +42,7 @@ Cuando comienza una sesión de juego:
 3. Si la campaña tiene libro fuente extraído, carga el capítulo activo desde `campaigns/<source_id>/`.
 4. Carga `rules/<game_id>/formato_mecanico.md` para ver el formato de los bloques mecánicos.
 5. Resume en 2-4 líneas lo ocurrido en la sesión anterior para situar a los jugadores.
+5.5. **Verificación pre-sesión**: Verifica que la sesión anterior tiene el cierre completo. Comprobar: XP aplicados a las fichas, inventario actualizado, `_index.md` al día. Si falta algo, se corrige **antes** de empezar.
 6. **Al narrar la escena de apertura**: verifica antes en `state.md` y la última sesión los datos que vas a mencionar: quién lleva cada objeto, ubicación exacta, estado del grupo, PNJs presentes. No improvises hechos establecidos.
 
 ### 2.2 Durante la sesión
@@ -119,6 +120,18 @@ Al terminar la sesión, verifica en este orden:
 - [ ] **Enlaces cruzados**: verificar que todo `[texto](ruta.md)` en archivos nuevos o editados apunta a un archivo existente. Corregir enlaces rotos.
 - [ ] **Línea final en blanco**: verificar que los archivos nuevos terminan con una línea en blanco.
 - [ ] **Frontmatter global**: verificar que el campo `updated` está al día en todos los archivos tocados durante el cierre.
+
+Al finalizar el cierre, verifica contra los archivos modificados:
+
+```
+## Verificación de cierre
+
+- [ ] XP de esta sesión sumado a todas las fichas de PJ
+- [ ] Total acumulado recalculado (suma explícita de todos los +XP, ver AGENTS.md §10.13)
+- [ ] Inventario revisado: ¿se añadieron objetos nuevos? ¿se consumieron objetos existentes?
+- [ ] Sesión anterior: ¿tenía XP "Pendiente de cálculo"? → Actualizar
+- [ ] Campo `updated` al día en todos los archivos tocados
+```
 
 ---
 
@@ -203,3 +216,135 @@ En sistemas con experiencia (D&D 5e, Pathfinder, etc.), la XP se otorga por **re
 - Actualiza `updated` en el frontmatter al modificar
 - No modifiques archivos de sesión ya cerrados
 - Para correcciones o retrocontinuidad, añade una nota al inicio del archivo con fecha de corrección
+
+---
+
+## 8. Protocolo de Session 0
+
+Al iniciar una campaña nueva, el Director recoge las preferencias de los jugadores y las registra en `memory/<campaña>/index.md`.
+
+### 8.1 Batería de Preguntas para Jugadores
+
+| # | Pregunta | Propósito |
+|---|---|---|
+| 1 | ¿Qué estilo narrativo prefieres? (funcional, equilibrado, detallado, barroco) | Definir `narrative_style` |
+| 2 | ¿Hay temas que quieras que no aparezcan en la partida? (violencia infantil, tortura, arañas, etc.) | Definir `lines` |
+| 3 | ¿Hay temas que puedan aparecer pero no quieras que se describan en escena? | Definir `veils` |
+| 4 | ¿Qué tono te apetece? (épico, oscuro, humorístico, intriga, supervivencia) | Definir `tone` |
+| 5 | ¿Qué porcentaje de combate vs rol social te gustaría? | Definir `expectations` |
+| 6 | ¿Prefieres una aventura lineal o sandbox? | Definir `expectations` |
+| 7 | ¿Qué edad tienes? (para adecuar contenido) | Definir `age_rating` |
+| 8 | ¿Qué esperas de esta campaña? ¿Algo que te gustaría explorar? | Definir `expectations` |
+
+### 8.2 Estilo Narrativo
+
+| Valor | Significado |
+|---|---|
+| `funcional` | Descripciones mínimas («Entras en la cueva. Hay un goblin.»). Máximo ritmo de juego. |
+| `equilibrado` | Descripciones moderadas. Ambiente sin ralentizar. |
+| `detallado` | Descripciones ricas. Se busca inmersión sensorial. |
+| `barroco` | Descripciones muy elaboradas. La narración es parte central de la experiencia. |
+
+### 8.3 Líneas y Velos
+
+- **Línea (Line)**: El tema no aparece en la partida bajo ninguna circunstancia.
+- **Velo (Veil)**: El tema puede ocurrir pero ocurre *fuera de escena*. No se describe; se salta o se resume.
+
+### 8.4 Edad y Clasificación
+
+| `age_rating` | Qué implica |
+|---|---|
+| `+18` | Sin restricciones. Violencia, horror, temas adultos permitidos. |
+| `+16` | Violencia moderada. Sin sexo explícito ni gore gratuito. |
+| `+12` | Violencia ligera y fantástica. Sin horror psicológico. |
+| `todos` | Aventura ligera. Sin sangre, sin muerte gráfica, sin temas adultos. |
+
+### 8.5 Tono y Expectativas
+
+- **Épico**: Hazañas, heroísmo, escalas grandes.
+- **Oscuro**: Peligro real, moralidad gris, consecuencias duras.
+- **Humorístico**: Situaciones cómicas, tono ligero, cuarta pared flexible.
+- **Intriga**: Misterio, política, secretos, manipulación.
+- **Supervivencia**: Recursos limitados, entorno hostil, gestión.
+
+### 8.6 Generación del campaign compact
+
+Las respuestas se registran en `index.md` de la campaña:
+
+```yaml
+---
+narrative_style: equilibrado
+age_rating: +18
+lines: [violencia sexual, tortura]
+veils: [muerte de PNJs]
+tone: épico
+expectations: >
+  60% combate / 40% rol. Dungeon crawling con momentos de
+  interpretación.
+---
+```
+
+---
+
+## 9. Formato de Respuesta en Partida
+
+### 9.1 Dos bloques de respuesta
+
+Toda acción resuelta de un jugador se responde con dos bloques:
+
+1. **Bloque narrativo**: Describe lo ocurrido según los campos de la campaña:
+   - `narrative_style` — nivel de detalle
+   - `tone` — atmósfera
+   - `narrative_control` — cuánto narra el jugador vs el agente
+   - `age_rating` — respeta líneas y velos
+
+2. **Bloque mecánico**: Notación compacta con cálculo completo, emoji de resultado y efecto. El formato concreto depende del sistema de juego y se define en `rules/<game_id>/formato_mecanico.md`.
+
+### 9.2 Control narrativo (`narrative_control`)
+
+Valor de 0 a 10 definido en el campaign compact:
+
+| Rango | Comportamiento del agente |
+|---|---|
+| **0-3** | Solo bloque mecánico. El jugador narra todo lo de su PJ. |
+| **4-6** | Narración breve del agente + bloque mecánico. A veces se pregunta al jugador cómo lo ha hecho. |
+| **7-10** | Narración completa del agente. El jugador solo declara la acción y recibe la descripción. |
+
+**Restricciones**:
+- El jugador solo narra las acciones de **su propio personaje**. El resto de la escena la narra siempre el agente.
+- La narración del jugador **no puede contradecir el resultado mecánico**. Si el jugador describe algo inconsistente con los dados, el agente ignora esa narración y toma el control.
+- El agente aplica siempre el bloque mecánico tras cualquier narración.
+
+### 9.3 Códigos de emoji estándar
+
+| Emoji | Significado | Uso |
+|---|---|---|
+| ✅ | Éxito | Tirada iguala o supera CD/CA |
+| ❌ | Fallo | Tirada no alcanza CD/CA |
+| 🎯 | Crítico | 20 natural (o equivalente del sistema) |
+| 💀 | Pifia | 1 natural (o equivalente) |
+| 🩸 | Daño | Pérdida de PG o heridas |
+| 🔥 | Daño elemental | Fuego, rayo, ácido, etc. |
+| 🛡️ | Defensa | Bloqueo, armadura, cobertura, resistencia |
+| ✨ | Magia | Conjuro o efecto mágico |
+| ☠️ | Estado | Condición aplicada (envenenado, asustado, etc.) |
+| 💚 | Curación | Recuperación de PG o heridas |
+| ⚡ | Reacción | Ataque de oportunidad, reacción usada |
+| 📍 | Movimiento | Cambio de posición relevante |
+
+### 9.4 Formato mecánico por sistema
+
+Cada sistema define ejemplos concretos de su notación en `rules/<game_id>/formato_mecanico.md`. Carga este archivo al inicio de la sesión para aplicar el formato correcto. Los emojis de la tabla 9.3 son estándar para todos los sistemas.
+
+### 9.5 Acciones sin tirada (ritos, decisiones narrativas)
+
+Cuando una acción no requiera tirada de dados pero tenga consecuencias mecánicas relevantes, incluye un **bloque mecánico mínimo**:
+
+```
+🎭 [ACCIÓN NARRATIVA] — Sin tirada requerida.
+Efecto: [descripción concisa del resultado mecánico]
+```
+
+Ejemplo: `🎭 RITO DE SELLADO — Sin tirada. Efecto: Yunque Primigenio sellado. Forja Eterna apagada permanentemente. Fragmentos y Corazón consumidos.`
+
+Esto garantiza que el bloque mecánico exista siempre, incluso cuando no hay dados de por medio.
