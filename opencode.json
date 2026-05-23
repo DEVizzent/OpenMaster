@@ -7,6 +7,11 @@
       "type": "local",
       "command": ["python", "tools/dice/mcp_dice_server.py"],
       "enabled": true
+    },
+    "conjuros": {
+      "type": "local",
+      "command": ["python", "tools/conjuros/server.py"],
+      "enabled": true
     }
   }
 }

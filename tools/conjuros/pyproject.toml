@@ -1,0 +1,16 @@
+[project]
+name = "conjuros-mcp"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.0.0",
+    "beautifulsoup4>=4.12",
+    "thefuzz>=0.22",
+    "python-Levenshtein>=0.25",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-asyncio>=0.24"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

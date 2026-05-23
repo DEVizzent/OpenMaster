@@ -1,0 +1,133 @@
+*	{margin:0; padding:0; box-sizing:border-box; -moz-box-sizing:border-box}
+html	{font-size:62.5%}
+body	{background-color:black; font-family:Georgia, "Times New Roman", serif; font-size:1.2rem; line-height:1.5; overflow-y:scroll}
+.col, .colL, .colM	{margin-left:auto; margin-right:auto; margin-top:40px; margin-bottom:40px; width:1000px}
+  .col1	{display:inline-block; width:500px; padding:40px 20px 40px 40px; vertical-align:top}
+  .col2	{display:inline-block; width:500px; padding:40px 40px 40px 20px; vertical-align:top}
+.colL	{column-count:2; padding:40px 40px; column-gap:40px; vertical-align:top}
+.colM	{padding:40px 40px; vertical-align:top}
+  .colM1 {column-count:1; margin-bottom:10px}					/* stat block large sur 2 colonnes */
+  .colM2 {column-count:2; margin-bottom:10px; column-gap:30px}	/* stat block normal sur 1 colonne */
+.colC	{background-color:white}
+
+.bloc	{break-inside:avoid; padding:10px 0}
+.bloc:not(:last-child) {border-bottom:1px #909090 solid; margin-bottom:10px}
+
+a	 	{color:#B80000; text-decoration:none}
+a:hover	{color:#D80000; border-bottom-style:dashed; border-bottom-width:1px}
+
+h2		{font-variant:small-caps; letter-spacing:1px; color:#6D0000; font-size:2.6rem; line-height:1.1; font-weight:bold; margin-bottom:20px}	/* titre */
+h3		{font-size:1.2rem; text-align:center; font-weight:normal; margin-bottom:20px}						/* aidedd.org */
+.niveau	{font-size:1.8rem; font-weight:bold; text-align:center; background-color:#444; color:white; padding:2px; margin:0 0 20px 0}				/* niveau des sorts */
+h1		{font-variant:small-caps; letter-spacing:1px; color:#6D0000; font-size:1.6rem; line-height:1; break-after:avoid}
+
+.ecole	{padding:2px 0 6px 0; text-align:left; font-style:italic}
+.type	{padding:2px 0 0px 0; font-size:1.2rem; font-style:italic}
+.description	{padding:6px 0 6px 0; text-align:justify}
+.prerequis		{padding:2px 0 2px 0; text-align:left; font-style:italic}
+.resume			{font-size:1.1rem; text-align:center; padding:5px 0 0 0; font-style:italic; color:#909090}
+.habitat		{display:inline-block; margin: 6px 4px 6px 0; padding:0 4px; background-color:#f1eee7; font-family:arial, sans-serif; font-size:1.1rem}
+
+.picture		{text-align:center; margin-bottom:8px; font-family:arial, sans-serif; font-size:1rem; font-style:italic}
+.picture img	{border:6px solid #e6c897; border-radius:10px; max-width:100%; max-height:600px; height:auto; width:auto}
+
+p	{font-size:1.2rem; line-height:1.5}
+ul	{list-style:square outside; margin-left:17px}
+li	{margin-top:3px}
+.description table	{margin-top:6px; border-spacing:0; font-family:arial, sans-serif; font-size:1.1rem}
+.description table th	{font-weight:bold; vertical-align:bottom}
+.description table td	{vertical-align:top}
+.description table th, .description table td {min-width:45px; padding:2px 4px 2px 4px; text-align:left}
+.description table th.center, .description table td.center {text-align:center}
+.description table td.center {text-align:center}
+.description table tr:nth-child(even) {background-color:#D6d0e0}
+
+.jaune		{background-color:#f1eee7; padding:10px 8px 5px 8px; margin:0 2px 0 2px; border:3px #bebdb8 solid; border-radius:10px}
+.jaune h1 	{border-bottom-style:solid; border-bottom-width:1px; font-size:1.8rem; font-family:"Open Sans", arial, sans-serif}
+.sansSerif	{font-family:"Open Sans", arial, sans-serif}
+.red		{color:#6D0000}
+.type		{color:#666666}
+.init		{float:right; margin-right:100px}
+.car		{display:inline-block; margin:0 1px; padding:0px 2px; font-size:0.8rem; color:#666666; width:8%; max-width:31px; text-align:center; vertical-align:bottom}
+.car1, .car4 {display:inline-block; margin:1px;  padding:2px 4px; width:8%; max-width:31px; text-align:left;   vertical-align:top; font-weight:bold; font-variant:small-caps}
+.car2, .car5 {display:inline-block; margin:1px;  padding:2px 4px; width:8%; max-width:31px; text-align:center; vertical-align:top; font-weight:bold}
+.car3, .car6 {display:inline-block; margin:1px;  padding:2px 4px; width:8%; max-width:31px; text-align:center; vertical-align:top}
+.car1, .car2 {background-color:#e8e6da}
+.car3 		 {background-color:#dad1ca}
+.car4, .car5 {background-color:#dddad5}
+.car6 		 {background-color:#cecac9; margin-bottom:8px}
+.rub		{color:#6D0000; margin:6px 0 4px 0; border-bottom:1px solid #6D0000; font-size:1.5rem; font-weight:normal; font-variant:small-caps}
+.legend		{color:#666666; font-style:italic; line-height:15px; margin-bottom:8px}
+
+.source	{display:inline-block; margin: 16px 4px 4px 0; padding:1px 8px; background-color:white;                               font-family:arial, sans-serif; font-size:1.1rem}
+.trad	{display:inline-block; margin:  4px 4px 4px 0; padding:2px 8px; background-color:grey; color:white; font-weight:bold; font-family:arial, sans-serif; font-size:1.1rem}
+.trad a	{color:white}
+
+ol	{padding:20px 0 0 0; font-family:arial, sans-serif; font-size:1.1rem; list-style:none}
+span[itemprop="name"]	{font-weight:bold}
+.warning	{font-size:1.2rem; text-align:center; padding:5px 0 0 0; font-style:italic}
+
+.blocCarte		{display:inline-block; position:relative; width:6.35cm; height:8.89cm; margin:1px 0 0 1px; padding:3px; vertical-align:top; border:4px solid black;
+				 background:white url("../images/fond-ph.jpg") repeat; overflow:hidden;
+				 font-family: Georgia, "Times New Roman", serif; font-size:1.2rem; line-height:1.3; text-align:left; color:black} 
+.blocCarte h1	{font-size:1.2rem; padding:4px 4px 3px 4px}
+.blocCarte a	{text-decoration:none; color:black}
+.blocCarte .orange	{border:0px black solid; height:0px}
+.blocCarte .trad 	{display:none}
+.blocCarte .ecole	{padding:2px 0 4px 0}
+.blocCarte .type	{padding:2px 0 0px 0}
+.blocCarte .prerequis {padding:2px 0 5px 0}
+.blocCarte .carac	{padding-left:4px}
+.blocCarte .description	{padding:2px}
+.blocCarte .classe	{display:none}
+
+.blocCarte .type		{font-size:10px}
+.blocCarte .init		{margin-right:100px}
+.blocCarte .car			{margin:0 1px; padding:0px 2px; font-size:0.7rem; width:7%; max-width:31px}
+.blocCarte .car1, .blocCarte .car4 {margin:1px; padding:2px 2px; width:7%; max-width:31px}
+.blocCarte .car2, .blocCarte .car5 {margin:1px; padding:2px 2px; width:7%; max-width:31px}
+.blocCarte .car3, .blocCarte .car6 {margin:1px; padding:2px 2px; width:7%; max-width:31px}
+.blocCarte .car1, .blocCarte .car2 {background-color:#e8e6da}
+.blocCarte .car3		{background-color:#dad1ca}
+.blocCarte .car4, .blocCarte .car5 {background-color:#dddad5}
+.blocCarte .car6 		{background-color:#cecac9; margin-bottom:8px}
+.blocCarte .rub			{margin:2px 0 2px 0; font-size:1.2rem}
+.blocCarte p 			{font-size:9px; line-height:1.2}
+.blocCarte .legend		{line-height:1.2; margin-bottom:3px}
+
+.blocCarte .picture img	{display:none}
+.blocCarte .source	{position:absolute; bottom:-1px; left:0px; width:100%; margin:4px 4px 0 0; padding:4px 0 0 0; background:black; color:white; font-size:0.9rem; line-height:1.3; letter-spacing:0px}
+
+.conf			{position:sticky; top:0; width:100%; z-index:999; background-color:#CCC; text-align:center; padding:4px; font-family:Arial}
+.conf input[type=text]	{width:50px; text-align:center}
+.arrondi		{border-radius:10px}
+h1.arrondi		{border-radius:5px}
+
+.r89-desktop-hpa-atf	{min-height:600px}
+.ads		{text-align:center; margin-bottom:8px}
+.ads img	{border-radius:10px}
+
+@media only screen and (max-width:999px) {
+	html 	{font-size:75%}
+	.col	{width:100%; margin:0; padding-bottom:30px}
+	.col1, .col2	{width:100%; padding:9px}
+	.nocel	{display:none}
+
+	.col1	{padding:6px}
+	.jaune	{padding:10px 5px 5px 5px; margin:0}
+	.car, .car1, .car2, .car3, .car4, .car5, .car6 {max-width:24px; padding:1px}
+	.car		{font-size:0.7rem}
+	.car1, .car2, .car3, .car4, .car5, .car6 {font-size:1.0rem}
+	.init		{margin-right:2px}
+}
+
+@media print {
+	html 	{font-size:55%}
+	body	{background-color:white; line-height:1.4}
+	.col, .colL, .colM	{margin:0; padding:25px; width:100%}
+	.colM1	{break-inside:avoid}
+	.car, .car1, .car4, .car2, .car5, .car3, .car6 {width:7%}
+
+	.nocel	{display:none}
+	.noprint {display:none}
+}
