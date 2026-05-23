@@ -35,7 +35,7 @@ rules/
     │   ├── ...
     ├── reglas_basicas.md
     ├── combate.md
-    ├── magia.md
+    ├── magia.md                        ← Reglas del sistema de magia (no catálogo de conjuros — eso va en MCP)
     ├── personajes.md
     └── direccion.md
 ```
@@ -92,7 +92,7 @@ Para cada categoría, crea o actualiza `rules/<game_id>/<categoria>.md`.
 2. Por cada regla, escribe una entrada siguiendo la plantilla de formato.
 3. **Extracción exhaustiva y verbatim**:
    - No omitas subsecciones, variantes ni excepciones. Si una especie tiene 3 rasgos, extrae los 3. Si un rasgo tiene sub-opciones (ej. Linaje gigante con 6 variantes), extrae TODAS con sus valores mecánicos completos.
-   - Si un conjuro escala con nivel, documenta el escalado completo (ej: "cura 2d8, +2d8 por nivel").
+    - Si un conjuro escala con nivel, documenta el escalado completo (ej: "cura 2d8, +2d8 por nivel"). **Nota**: las fichas individuales de conjuros ya no se almacenan en `magia.md`; se consultan vía MCP. Este paso aplica solo si se documenta el sistema de escalado como regla general.
    - Los valores numéricos deben coincidir exactamente con el `.txt` fuente.
 4. Para `personajes.md`, incluye el checklist de creación completo al final del archivo.
 
@@ -137,7 +137,7 @@ Si el sistema es nuevo, añádelo a `rules/index.md`.
 - **No consultes el PDF ni los `.txt` durante sesiones** si la extracción está completa y validada. Responde siempre desde los archivos `.md`.
 - **No cambies, resumas ni omitas contenido al convertir PDF→TXT.** El volcado debe ser verbatim: cada página, palabra, tabla y valor numérico debe conservarse exactamente como está en el PDF.
 - Sigue la convención anti-improvisación de AGENTS.md sección 10.9: no inventes mecánicas ni opciones que estén en el SRD.
-- **Delegar extracciones masivas al Asistente**: Para categorías con >100 entradas (conjuros, monstruos, objetos mágicos) o archivos raw de >5,000 líneas, la extracción manual es inviable. Delega al Asistente para que cree y ejecute scripts de automatización (AGENTS.md sección 8.3b). Tú te encargas de la validación posterior (paso 6 del protocolo) y de categorías pequeñas (armas, armaduras, herramientas).
+- **Delegar extracciones masivas al Asistente**: Para categorías con >100 entradas (conjuros, monstruos, objetos mágicos) o archivos raw de >5,000 líneas, la extracción manual es inviable. Delega al Asistente para que cree y ejecute scripts de automatización (AGENTS.md sección 8.3b). Tú te encargas de la validación posterior (paso 6 del protocolo) y de categorías pequeñas (armas, armaduras, herramientas). **Nota**: la extracción de conjuros ya no alimenta `magia.md` sino el MCP de conjuros.
 
 ## Cómo responder consultas
 

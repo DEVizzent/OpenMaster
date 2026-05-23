@@ -2,7 +2,7 @@
 type: rules_index
 game: dnd_5e
 created: 2026-05-15
-updated: 2026-05-16
+updated: 2026-05-23
 tags: [rules, dnd_5e, index]
 ---
 
@@ -20,7 +20,7 @@ tags: [rules, dnd_5e, index]
 |---|---|---|
 | Reglas Básicas | [reglas_basicas.md](reglas_basicas.md) | [██████████] 100% ✅ |
 | Combate | [combate.md](combate.md) | [██████████] 100% ✅ |
-| Magia | [magia.md](magia.md) | [██████████] 100% ✅ ~334 conjuros |
+| Magia | [magia.md](magia.md) | [██████████] 100% ✅ sistema de magia |
 | Personajes | [personajes.md](personajes.md) | [██████████] 100% ✅ |
 | Dirección de Juego | [direccion.md](direccion.md) | [██████████] 100% ✅ |
 | Objetos Mágicos | [objetos_magicos.md](objetos_magicos.md) | [██████████] 100% ✅ 258 objetos |
@@ -72,8 +72,7 @@ tags: [rules, dnd_5e, index]
 - [x] Reglas generales completas (nivel, espacios, componentes V/S/M, concentración, rituales, tiempos de lanzamiento, alcance, objetivos, escuelas, CD, ataque de conjuros)
 - [x] Escuelas de magia (8 escuelas con efectos)
 - [x] Tabla de preparación de conjuros por clase
-- [x] Listas de conjuros por clase
-- [x] ~334 conjuros extraídos con descripciones completas
+- [x] Catálogo de conjuros: ahora se consulta vía MCP (`conjuros_buscar_conjuro`, `conjuros_listar_conjuros`)
 
 ### Personajes (págs. 21-112)
 
@@ -115,6 +114,6 @@ tags: [rules, dnd_5e, index]
 - Extracción completa y validación del SRD 5.2.1 finalizada el 2026-05-16.
 - Todos los archivos han sido auditados por Memory Keeper con correcciones aplicadas.
 - `personajes.md` — Bucle de auditoría completado (2026-05-15).
-- `magia.md` — 75 correcciones aplicadas (niveles y tags).
+- `magia.md` — Reglas del sistema de magia extraídas y validadas (2026-05-23). Catálogo de conjuros migrado a MCP.
 - `direccion.md` — Tablas reescritas con datos correctos del SRD (terrenos, umbrales, venenos, enfermedades, trampas).
 - Archivos generados: `objetos_magicos.md` (258 items), `bestiario.md` (330 criaturas).

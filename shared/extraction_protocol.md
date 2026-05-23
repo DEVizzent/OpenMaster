@@ -1,7 +1,7 @@
 ---
 type: protocol
 created: 2026-05-19
-updated: 2026-05-19
+updated: 2026-05-23
 tags: [extraction, rules, campaigns, protocol]
 ---
 
@@ -58,7 +58,7 @@ rules/
     │   └── ...
     ├── reglas_basicas.md       ← Reglas extraídas por categoría
     ├── combate.md
-    ├── magia.md
+    ├── magia.md                      ← Reglas del sistema de magia (no catálogo — vía MCP)
     ├── personajes.md
     ├── direccion.md
     ├── objetos_magicos.md
@@ -293,8 +293,8 @@ La relación entre fuente extraída y memoria viva es:
 
 ## 4. Extracción Masiva por Scripts
 
-Cuando una categoría contiene más de 100 entradas individuales (conjuros,
-monstruos, objetos mágicos, PNJs) o el archivo raw supera las 5,000 líneas,
+Cuando una categoría contiene más de 100 entradas individuales (conjuros —
+ahora extraídos directamente al MCP, monstruos, objetos mágicos, PNJs) o el archivo raw supera las 5,000 líneas,
 la extracción manual entrada por entrada es inviable. Se debe usar un
 **script de automatización** (PowerShell o bash).
 

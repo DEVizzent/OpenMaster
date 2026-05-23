@@ -78,7 +78,7 @@ Cuando el Rules Keeper te solicite auditar archivos extraídos, verifica **cada 
 
 1. Lee el archivo `.txt` correspondiente de `sistema_raw/` que contiene la sección que vas a auditar
 2. Si auditas `personajes.md`, lee los `.txt` de clases, orígenes y creación de personajes
-3. Si auditas `magia.md`, lee el `.txt` de conjuros
+3. Si auditas `magia.md`, lee el `.txt` de la sección de reglas de magia (no el catálogo de conjuros — eso se consulta vía MCP)
 4. Enfrenta cada entrada del `.md` contra el texto fuente del `.txt`: ¿está todo? ¿los valores coinciden?
 5. **Muestreo mínimo**: verifica al menos 10 entradas por archivo (5 de la primera mitad + 5 de la segunda) contra el `.txt` fuente. Para cada una, coteja todos los valores numéricos.
 6. **Tablas completas**: para cada tabla en el `.md`, verifica al menos 2 columnas completas contra el `.txt` fuente. Si hay discrepancias, verifica TODAS las celdas.
@@ -107,15 +107,15 @@ Cuando el Rules Keeper te solicite auditar archivos extraídos, verifica **cada 
 | B3 | **Valores numéricos** | ¿Cada rasgo incluye dados, alcances, usos/día, etc.? |
 | B4 | **Versión correcta** | ¿Los rasgos coinciden con la versión del SRD declarada? (ej: un Goliat de SRD 2024 no debe tener Complexión atlética ni Tirada de piedra) |
 
-**C. Conjuros (en magia.md)**
+**C. Sistema de magia (en magia.md)**
 
 | # | Ítem | Verificación |
 |---|---|---|
-| C1 | **Valores de curación/daño** | ¿Los dados de curación/daño coinciden con el `.txt` fuente? (ej: Curar heridas debe ser 2d8 en SRD 2024, no 1d8) |
-| C2 | **Escalado** | ¿Está documentado cómo escala el conjuro al lanzarse a niveles superiores? |
-| C3 | **Tiempo de lanzamiento** | ¿Es correcto? (ej: Palabra de curación es Acción adicional, no Acción) |
-| C4 | **Nomenclatura oficial** | ¿El nombre del conjuro coincide con la traducción oficial del SRD? (ej: "Orden imperiosa", no "Comando") |
-| C5 | **Existencia en SRD** | ¿El conjuro existe realmente en el SRD base? No deben aparecer conjuros de suplementos (Xanathar, Tasha) |
+| C1 | **Reglas generales** | ¿Están documentadas las reglas de lanzamiento: espacios de conjuro, preparación, componentes, concentración, rituales? |
+| C2 | **Tablas del sistema** | ¿La tabla de preparación de conjuros por clase está completa y correcta? ¿La tabla de escuelas mágicas está completa? |
+| C3 | **Valores del sistema** | ¿Los valores de reglas del sistema de magia (CD base, reglas de concentración, tiempos) coinciden con el `.txt`? |
+| C4 | **Sin catálogo** | ¿El archivo NO contiene fichas de conjuros individuales? (eso se consulta vía MCP) |
+| C5 | **Versión correcta** | ¿Las reglas del sistema coinciden con la versión del SRD declarada? |
 
 **D. Dotes y trasfondos (en personajes.md)**
 
@@ -130,7 +130,7 @@ Cuando el Rules Keeper te solicite auditar archivos extraídos, verifica **cada 
 | # | Ítem | Verificación |
 |---|---|---|
 | E1 | **Sin omisiones** | Comparando el `.md` contra el `.txt`: ¿hay alguna entrada del SRD que no tenga su correspondiente en el `.md`? |
-| E2 | **Sin adiciones** | ¿Hay algo en el `.md` que no aparezca en el `.txt` fuente? (conjuros de suplementos, reglas inventadas) |
+| E2 | **Sin adiciones** | ¿Hay algo en el `.md` que no aparezca en el `.txt` fuente? (reglas inventadas, contenido de suplementos no incluidos en el SRD) |
 | E3 | **Versión consistente** | ¿El campo `Versión` es el mismo en todas las entradas y coincide con la versión real del documento? |
 
 ## Protocolo de objeción
