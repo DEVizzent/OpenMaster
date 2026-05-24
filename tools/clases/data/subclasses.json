@@ -1,0 +1,290 @@
+[
+  {
+    "id": "arbol-del-mundo",
+    "name": "Senda del Árbol del Mundo",
+    "class_id": "bárbaro",
+    "description": ""
+  },
+  {
+    "id": "berserker",
+    "name": "Senda del Berserker",
+    "class_id": "bárbaro",
+    "description": ""
+  },
+  {
+    "id": "corazón-salvaje",
+    "name": "Senda del Corazón Salvaje",
+    "class_id": "bárbaro",
+    "description": ""
+  },
+  {
+    "id": "fanatico",
+    "name": "Senda del Fanático",
+    "class_id": "bárbaro",
+    "description": ""
+  },
+  {
+    "id": "colegio-de-la-danza",
+    "name": "Colegio de la Danza",
+    "class_id": "bardo",
+    "description": ""
+  },
+  {
+    "id": "colegio-del-conocimiento",
+    "name": "Colegio del Conocimiento",
+    "class_id": "bardo",
+    "description": ""
+  },
+  {
+    "id": "colegio-del-glamour",
+    "name": "Colegio del Glamour",
+    "class_id": "bardo",
+    "description": ""
+  },
+  {
+    "id": "colegio-del-valor",
+    "name": "Colegio del Valor",
+    "class_id": "bardo",
+    "description": ""
+  },
+  {
+    "id": "patrón-celestial",
+    "name": "Patrón Celestial",
+    "class_id": "brujo",
+    "description": ""
+  },
+  {
+    "id": "patrón-feerico",
+    "name": "Patrón Feérico",
+    "class_id": "brujo",
+    "description": ""
+  },
+  {
+    "id": "patrón-infernal",
+    "name": "Patrón Infernal",
+    "class_id": "brujo",
+    "description": ""
+  },
+  {
+    "id": "patrón-primigenio",
+    "name": "Patrón Primigenio",
+    "class_id": "brujo",
+    "description": ""
+  },
+  {
+    "id": "dominio-de-la-guerra",
+    "name": "Dominio de la Guerra",
+    "class_id": "clérigo",
+    "description": ""
+  },
+  {
+    "id": "dominio-de-la-luz",
+    "name": "Dominio de la Luz",
+    "class_id": "clérigo",
+    "description": ""
+  },
+  {
+    "id": "dominio-de-la-vida",
+    "name": "Dominio de la Vida",
+    "class_id": "clérigo",
+    "description": ""
+  },
+  {
+    "id": "dominio-del-engano",
+    "name": "Dominio del Engaño",
+    "class_id": "clérigo",
+    "description": ""
+  },
+  {
+    "id": "circulo-de-la-luna",
+    "name": "Círculo de la Luna",
+    "class_id": "druida",
+    "description": ""
+  },
+  {
+    "id": "circulo-de-la-tierra",
+    "name": "Círculo de la Tierra",
+    "class_id": "druida",
+    "description": ""
+  },
+  {
+    "id": "circulo-de-las-estrellas",
+    "name": "Círculo de las Estrellas",
+    "class_id": "druida",
+    "description": ""
+  },
+  {
+    "id": "circulo-del-mar",
+    "name": "Círculo del Mar",
+    "class_id": "druida",
+    "description": ""
+  },
+  {
+    "id": "acechador-en-la-penumbra",
+    "name": "Acechador en la Penumbra",
+    "class_id": "explorador",
+    "description": ""
+  },
+  {
+    "id": "cazador",
+    "name": "Cazador",
+    "class_id": "explorador",
+    "description": ""
+  },
+  {
+    "id": "errante-feerico",
+    "name": "Errante Feérico",
+    "class_id": "explorador",
+    "description": ""
+  },
+  {
+    "id": "senor-de-las-bestias",
+    "name": "Señor de las Bestias",
+    "class_id": "explorador",
+    "description": ""
+  },
+  {
+    "id": "caballero-arcano",
+    "name": "Caballero Arcano",
+    "class_id": "guerrero",
+    "description": ""
+  },
+  {
+    "id": "campeón",
+    "name": "Campeón",
+    "class_id": "guerrero",
+    "description": ""
+  },
+  {
+    "id": "guerrero-psionico",
+    "name": "Guerrero Psiónico",
+    "class_id": "guerrero",
+    "description": ""
+  },
+  {
+    "id": "maestro-del-combate",
+    "name": "Maestro del Combate",
+    "class_id": "guerrero",
+    "description": ""
+  },
+  {
+    "id": "hechicería-aberrante",
+    "name": "Hechicería Aberrante",
+    "class_id": "hechicero",
+    "description": ""
+  },
+  {
+    "id": "hechicería-de-magia-salvaje",
+    "name": "Hechicería de Magia Salvaje",
+    "class_id": "hechicero",
+    "description": ""
+  },
+  {
+    "id": "hechicería-draconica",
+    "name": "Hechicería Dracónica",
+    "class_id": "hechicero",
+    "description": ""
+  },
+  {
+    "id": "hechicería-mecánica",
+    "name": "Hechicería Mecánica",
+    "class_id": "hechicero",
+    "description": ""
+  },
+  {
+    "id": "abjurador",
+    "name": "Abjurador",
+    "class_id": "mago",
+    "description": ""
+  },
+  {
+    "id": "adivino",
+    "name": "Adivino",
+    "class_id": "mago",
+    "description": ""
+  },
+  {
+    "id": "evocador",
+    "name": "Evocador",
+    "class_id": "mago",
+    "description": ""
+  },
+  {
+    "id": "ilusiónista",
+    "name": "Ilusiónista",
+    "class_id": "mago",
+    "description": ""
+  },
+  {
+    "id": "guerrero-de-la-mano-abierta",
+    "name": "Guerrero de la Mano Abierta",
+    "class_id": "monje",
+    "description": ""
+  },
+  {
+    "id": "guerrero-de-la-misericordia",
+    "name": "Guerrero de la Misericordia",
+    "class_id": "monje",
+    "description": ""
+  },
+  {
+    "id": "guerrero-de-la-sombra",
+    "name": "Guerrero de la Sombra",
+    "class_id": "monje",
+    "description": ""
+  },
+  {
+    "id": "guerrero-de-los-elementos",
+    "name": "Guerrero de los Elementos",
+    "class_id": "monje",
+    "description": ""
+  },
+  {
+    "id": "juramento-de-entrega",
+    "name": "Juramento de Entrega",
+    "class_id": "paladín",
+    "description": ""
+  },
+  {
+    "id": "juramento-de-gloria",
+    "name": "Juramento de Gloria",
+    "class_id": "paladín",
+    "description": ""
+  },
+  {
+    "id": "juramento-de-los-antiguos",
+    "name": "Juramento de los Antiguos",
+    "class_id": "paladín",
+    "description": ""
+  },
+  {
+    "id": "juramento-de-venganza",
+    "name": "Juramento de Venganza",
+    "class_id": "paladín",
+    "description": ""
+  },
+  {
+    "id": "asesino",
+    "name": "Asesino",
+    "class_id": "pícaro",
+    "description": ""
+  },
+  {
+    "id": "embaucador-arcano",
+    "name": "Embaucador Arcano",
+    "class_id": "pícaro",
+    "description": ""
+  },
+  {
+    "id": "ladrón",
+    "name": "Ladrón",
+    "class_id": "pícaro",
+    "description": ""
+  },
+  {
+    "id": "rebanaalmas",
+    "name": "Rebanaalmas",
+    "class_id": "pícaro",
+    "description": ""
+  }
+]

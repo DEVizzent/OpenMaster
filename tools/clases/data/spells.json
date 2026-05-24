@@ -1,0 +1,5568 @@
+[
+  {
+    "name": "A Nube de dagas",
+    "level": 0,
+    "school": "Conjuración",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0000"
+  },
+  {
+    "name": "Agarre electrizante",
+    "level": 0,
+    "school": "Evocación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0001"
+  },
+  {
+    "name": "Agarre electrizante",
+    "level": 0,
+    "school": "Evocación",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0002"
+  },
+  {
+    "name": "Amistad",
+    "level": 0,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0003"
+  },
+  {
+    "name": "Buenas bayas",
+    "level": 0,
+    "school": "Conjuración",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0004"
+  },
+  {
+    "name": "Burla dañina",
+    "level": 0,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0005"
+  },
+  {
+    "name": "Corona de la locura",
+    "level": 0,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0006"
+  },
+  {
+    "name": "Corona de la locura",
+    "level": 0,
+    "school": "Encantamiento",
+    "classes": [
+      "brujo",
+      "hechicero",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0007"
+  },
+  {
+    "name": "Crear llama",
+    "level": 0,
+    "school": "Conjuración",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0008"
+  },
+  {
+    "name": "Cuchillo de hielo",
+    "level": 0,
+    "school": "Conjuración",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0009"
+  },
+  {
+    "name": "Cuchillo de hielo",
+    "level": 0,
+    "school": "Conjuración",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0010"
+  },
+  {
+    "name": "Curar heridas",
+    "level": 0,
+    "school": "Abjuración",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0011"
+  },
+  {
+    "name": "Descarga de fuego",
+    "level": 0,
+    "school": "Evocación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0012"
+  },
+  {
+    "name": "Descarga de fuego",
+    "level": 0,
+    "school": "Evocación",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0013"
+  },
+  {
+    "name": "Detectar pensamientos",
+    "level": 0,
+    "school": "Adivinación",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0014"
+  },
+  {
+    "name": "Detectar pensamientos",
+    "level": 0,
+    "school": "Adivinación",
+    "classes": [
+      "hechicero",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0015"
+  },
+  {
+    "name": "Ed Mensajero animal",
+    "level": 0,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": true,
+    "material": false,
+    "id": "spell-0016"
+  },
+  {
+    "name": "Elementalismo",
+    "level": 0,
+    "school": "Transmutación",
+    "classes": [
+      "druida",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0017"
+  },
+  {
+    "name": "Elementalismo",
+    "level": 0,
+    "school": "Transmutación",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0018"
+  },
+  {
+    "name": "Embelesar",
+    "level": 0,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0019"
+  },
+  {
+    "name": "Embelesar",
+    "level": 0,
+    "school": "Encantamiento",
+    "classes": [
+      "brujo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0020"
+  },
+  {
+    "name": "Es Imagen múltiple",
+    "level": 0,
+    "school": "Ilusiónismo",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0021"
+  },
+  {
+    "name": "Fragmento mental",
+    "level": 0,
+    "school": "Encantamiento",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0022"
+  },
+  {
+    "name": "Fragmento mental",
+    "level": 0,
+    "school": "Encantamiento",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0023"
+  },
+  {
+    "name": "Guardia de cuchillas",
+    "level": 0,
+    "school": "Abjuración",
+    "classes": [
+      "bardo",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0024"
+  },
+  {
+    "name": "Guardia de cuchillas",
+    "level": 0,
+    "school": "Abjuración",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0025"
+  },
+  {
+    "name": "Guía",
+    "level": 0,
+    "school": "Adivinación",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0026"
+  },
+  {
+    "name": "Hablar con los animales",
+    "level": 0,
+    "school": "Adivinación",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0027"
+  },
+  {
+    "name": "Hablar con los animales",
+    "level": 0,
+    "school": "Adivinación",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": true,
+    "material": false,
+    "id": "spell-0028"
+  },
+  {
+    "name": "Hablar con los animales",
+    "level": 0,
+    "school": "Adivinación",
+    "classes": [
+      "explorador"
+    ],
+    "concentration": false,
+    "ritual": true,
+    "material": false,
+    "id": "spell-0029"
+  },
+  {
+    "name": "Ilusión menor",
+    "level": 0,
+    "school": "Ilusiónismo",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0030"
+  },
+  {
+    "name": "Ilusión menor",
+    "level": 0,
+    "school": "Ilusiónismo",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0031"
+  },
+  {
+    "name": "Impacto certero",
+    "level": 0,
+    "school": "Adivinación",
+    "classes": [
+      "bardo",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0032"
+  },
+  {
+    "name": "Impacto certero",
+    "level": 0,
+    "school": "Adivinación",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0033"
+  },
+  {
+    "name": "Io Hacer añicos",
+    "level": 0,
+    "school": "Evocación",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0034"
+  },
+  {
+    "name": "Luces danzantes",
+    "level": 0,
+    "school": "Ilusiónismo",
+    "classes": [
+      "bardo",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0035"
+  },
+  {
+    "name": "Luces danzantes",
+    "level": 0,
+    "school": "Ilusiónismo",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0036"
+  },
+  {
+    "name": "Luz",
+    "level": 0,
+    "school": "Evocación",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0037"
+  },
+  {
+    "name": "Látigo de espinas",
+    "level": 0,
+    "school": "Transmutación",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0038"
+  },
+  {
+    "name": "Mano de mago",
+    "level": 0,
+    "school": "Conjuración",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0039"
+  },
+  {
+    "name": "Mano de mago",
+    "level": 0,
+    "school": "Conjuración",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0040"
+  },
+  {
+    "name": "Mensaje",
+    "level": 0,
+    "school": "Transmutación",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0041"
+  },
+  {
+    "name": "Nube de oscurecimiento",
+    "level": 0,
+    "school": "Conjuración",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0042"
+  },
+  {
+    "name": "Nube de oscurecimiento",
+    "level": 0,
+    "school": "Conjuración",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0043"
+  },
+  {
+    "name": "Prestidigitación",
+    "level": 0,
+    "school": "Transmutación",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0044"
+  },
+  {
+    "name": "Prestidigitación",
+    "level": 0,
+    "school": "Transmutación",
+    "classes": [
+      "hechicero",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0045"
+  },
+  {
+    "name": "Protección contra el bien y el mal",
+    "level": 0,
+    "school": "Abjuración",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0046"
+  },
+  {
+    "name": "Protección contra el bien y el mal",
+    "level": 0,
+    "school": "Abjuración",
+    "classes": [
+      "brujo"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0047"
+  },
+  {
+    "name": "Purificar comida y bebida",
+    "level": 0,
+    "school": "Transmutación",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0048"
+  },
+  {
+    "name": "Rayo de hechicería",
+    "level": 0,
+    "school": "Evocación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0049"
+  },
+  {
+    "name": "Rayo de hechicería",
+    "level": 0,
+    "school": "Evocación",
+    "classes": [
+      "brujo"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0050"
+  },
+  {
+    "name": "Rayo nauseabundo",
+    "level": 0,
+    "school": "Nigromancia",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0051"
+  },
+  {
+    "name": "Reparar",
+    "level": 0,
+    "school": "Transmutación",
+    "classes": [
+      "bardo",
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0052"
+  },
+  {
+    "name": "Resistencia",
+    "level": 0,
+    "school": "Abjuración",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0053"
+  },
+  {
+    "name": "Restablecimiento menor",
+    "level": 0,
+    "school": "Abjuración",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0054"
+  },
+  {
+    "name": "Restablecimiento menor",
+    "level": 0,
+    "school": "Abjuración",
+    "classes": [
+      "clérigo",
+      "druida",
+      "explorador"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0055"
+  },
+  {
+    "name": "Restablecimiento menor",
+    "level": 0,
+    "school": "Abjuración",
+    "classes": [
+      "paladín"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0056"
+  },
+  {
+    "name": "Retirada expeditiva",
+    "level": 0,
+    "school": "Transmutación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0057"
+  },
+  {
+    "name": "Retirada expeditiva",
+    "level": 0,
+    "school": "Transmutación",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0058"
+  },
+  {
+    "name": "Retirada expeditiva",
+    "level": 0,
+    "school": "Transmutación",
+    "classes": [
+      "brujo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0059"
+  },
+  {
+    "name": "Risa horrible de Tasha",
+    "level": 0,
+    "school": "Encantamiento",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0060"
+  },
+  {
+    "name": "Risa horrible de Tasha",
+    "level": 0,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0061"
+  },
+  {
+    "name": "Risa horrible de Tasha",
+    "level": 0,
+    "school": "Encantamiento",
+    "classes": [
+      "brujo"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0062"
+  },
+  {
+    "name": "Rociada de color",
+    "level": 0,
+    "school": "Ilusiónismo",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0063"
+  },
+  {
+    "name": "Rociada de color",
+    "level": 0,
+    "school": "Ilusiónismo",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0064"
+  },
+  {
+    "name": "Rociada de color",
+    "level": 0,
+    "school": "Ilusiónismo",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0065"
+  },
+  {
+    "name": "Rociada venenosa",
+    "level": 0,
+    "school": "Nigromancia",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0066"
+  },
+  {
+    "name": "Rociada venenosa",
+    "level": 0,
+    "school": "Nigromancia",
+    "classes": [
+      "hechicero",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0067"
+  },
+  {
+    "name": "Saber druídico",
+    "level": 0,
+    "school": "Transmutación",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0068"
+  },
+  {
+    "name": "Salto",
+    "level": 0,
+    "school": "Transmutación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0069"
+  },
+  {
+    "name": "Shillelagh",
+    "level": 0,
+    "school": "Transmutación",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0070"
+  },
+  {
+    "name": "Sirviente invisible",
+    "level": 0,
+    "school": "Conjuración",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0071"
+  },
+  {
+    "name": "Sirviente invisible",
+    "level": 0,
+    "school": "Conjuración",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": true,
+    "material": false,
+    "id": "spell-0072"
+  },
+  {
+    "name": "Sirviente invisible",
+    "level": 0,
+    "school": "Conjuración",
+    "classes": [
+      "brujo"
+    ],
+    "concentration": false,
+    "ritual": true,
+    "material": false,
+    "id": "spell-0073"
+  },
+  {
+    "name": "Texto ¡ilusorio",
+    "level": 0,
+    "school": "Ilusiónismo",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0074"
+  },
+  {
+    "name": "Tronar",
+    "level": 0,
+    "school": "Evocación",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0075"
+  },
+  {
+    "name": "Voluta estelar",
+    "level": 0,
+    "school": "Evocación",
+    "classes": [
+      "bardo",
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0076"
+  },
+  {
+    "name": "Zancada prodigiosa",
+    "level": 0,
+    "school": "Transmutación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0077"
+  },
+  {
+    "name": "Zancada prodigiosa",
+    "level": 0,
+    "school": "Transmutación",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0078"
+  },
+  {
+    "name": "a Calmar emociones",
+    "level": 0,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0079"
+  },
+  {
+    "name": "e Localizar animales o plantas",
+    "level": 0,
+    "school": "Adivinación",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": true,
+    "material": false,
+    "id": "spell-0080"
+  },
+  {
+    "name": "e Localizar objeto",
+    "level": 0,
+    "school": "Adivinación",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0081"
+  },
+  {
+    "name": "eg Fuerza fantasmal",
+    "level": 0,
+    "school": "Ilusiónismo",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0082"
+  },
+  {
+    "name": "m0 Inmovilizar persona",
+    "level": 0,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0083"
+  },
+  {
+    "name": "z Potenciar característica",
+    "level": 0,
+    "school": "Transmutación",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0084"
+  },
+  {
+    "name": "z a Invisibilidad da",
+    "level": 0,
+    "school": "Ilusiónismo",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0085"
+  },
+  {
+    "name": "A CEA Disipar magia",
+    "level": 1,
+    "school": "Abjuración",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0086"
+  },
+  {
+    "name": "A Imagen mayor",
+    "level": 1,
+    "school": "Ilusiónismo",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0087"
+  },
+  {
+    "name": "Abjuración sE Ver invisibilidad",
+    "level": 1,
+    "school": "Adivinación",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0088"
+  },
+  {
+    "name": "Adivinación C,R Zona de la verdad",
+    "level": 1,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0089"
+  },
+  {
+    "name": "CUATE Clarividencia",
+    "level": 1,
+    "school": "Adivinación",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0090"
+  },
+  {
+    "name": "Caída de pluma",
+    "level": 1,
+    "school": "Transmutación",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0091"
+  },
+  {
+    "name": "Caída de pluma",
+    "level": 1,
+    "school": "Transmutación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0092"
+  },
+  {
+    "name": "Crecimiento vegetal",
+    "level": 1,
+    "school": "Transmutación",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0093"
+  },
+  {
+    "name": "Crecimiento vegetal",
+    "level": 1,
+    "school": "Transmutación",
+    "classes": [
+      "druida",
+      "explorador"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0094"
+  },
+  {
+    "name": "Disfrazarse",
+    "level": 1,
+    "school": "Ilusiónismo",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0095"
+  },
+  {
+    "name": "Dormir",
+    "level": 1,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0096"
+  },
+  {
+    "name": "ENVIE Glifo custodio",
+    "level": 1,
+    "school": "Abjuración",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0097"
+  },
+  {
+    "name": "Encantamiento Vigor arcano",
+    "level": 1,
+    "school": "Abjuración",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0098"
+  },
+  {
+    "name": "Encantar animal",
+    "level": 1,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0099"
+  },
+  {
+    "name": "Entender idiomas",
+    "level": 1,
+    "school": "Adivinación",
+    "classes": [
+      "bardo",
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": true,
+    "material": false,
+    "id": "spell-0100"
+  },
+  {
+    "name": "Entender idiomas",
+    "level": 1,
+    "school": "Adivinación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0101"
+  },
+  {
+    "name": "Escuela Especial Sordera/ceguera",
+    "level": 1,
+    "school": "Transmutación",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0102"
+  },
+  {
+    "name": "Fingir muerte",
+    "level": 1,
+    "school": "Nigromancia",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": true,
+    "material": false,
+    "id": "spell-0103"
+  },
+  {
+    "name": "Fingir muerte",
+    "level": 1,
+    "school": "Nigromancia",
+    "classes": [
+      "druida",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0104"
+  },
+  {
+    "name": "Hablar con las plantas",
+    "level": 1,
+    "school": "Transmutación",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0105"
+  },
+  {
+    "name": "Hablar con las plantas",
+    "level": 1,
+    "school": "Transmutación",
+    "classes": [
+      "druida",
+      "explorador"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0106"
+  },
+  {
+    "name": "Hechizar persona",
+    "level": 1,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0107"
+  },
+  {
+    "name": "Hechizar persona",
+    "level": 1,
+    "school": "Encantamiento",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0108"
+  },
+  {
+    "name": "Identificar",
+    "level": 1,
+    "school": "Adivinación",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": true,
+    "material": true,
+    "id": "spell-0109"
+  },
+  {
+    "name": "Imagen silenciosa",
+    "level": 1,
+    "school": "Ilusiónismo",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0110"
+  },
+  {
+    "name": "Imagen silenciosa",
+    "level": 1,
+    "school": "Ilusiónismo",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0111"
+  },
+  {
+    "name": "Indetectable",
+    "level": 1,
+    "school": "Abjuración",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0112"
+  },
+  {
+    "name": "Indetectable",
+    "level": 1,
+    "school": "Abjuración",
+    "classes": [
+      "explorador"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0113"
+  },
+  {
+    "name": "Le Hablar con los muertos",
+    "level": 1,
+    "school": "Nigromancia",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0114"
+  },
+  {
+    "name": "Nube apestosa",
+    "level": 1,
+    "school": "Conjuración",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0115"
+  },
+  {
+    "name": "Nube apestosa",
+    "level": 1,
+    "school": "Conjuración",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0116"
+  },
+  {
+    "name": "Orden imperiosa",
+    "level": 1,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0117"
+  },
+  {
+    "name": "Palabra de curación",
+    "level": 1,
+    "school": "Abjuración",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0118"
+  },
+  {
+    "name": "Palabra de curación en masa",
+    "level": 1,
+    "school": "Abjuración",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0119"
+  },
+  {
+    "name": "Palabra de curación en masa",
+    "level": 1,
+    "school": "Abjuración",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0120"
+  },
+  {
+    "name": "Perdición",
+    "level": 1,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0121"
+  },
+  {
+    "name": "Ralentizar",
+    "level": 1,
+    "school": "Transmutación",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0122"
+  },
+  {
+    "name": "Rayo abrasador",
+    "level": 1,
+    "school": "Evocación",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0123"
+  },
+  {
+    "name": "Ráfaga de viento",
+    "level": 1,
+    "school": "Evocación",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0124"
+  },
+  {
+    "name": "Ráfaga de viento",
+    "level": 1,
+    "school": "Evocación",
+    "classes": [
+      "explorador",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0125"
+  },
+  {
+    "name": "Sordera/ceguera",
+    "level": 1,
+    "school": "Transmutación",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0126"
+  },
+  {
+    "name": "Sordera/ceguera",
+    "level": 1,
+    "school": "Transmutación",
+    "classes": [
+      "clérigo",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0127"
+  },
+  {
+    "name": "Sugestión",
+    "level": 1,
+    "school": "Encantamiento",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0128"
+  },
+  {
+    "name": "Sugestión",
+    "level": 1,
+    "school": "Encantamiento",
+    "classes": [
+      "mago"
+    ],
+    "concentration": true,
+    "ritual": true,
+    "material": false,
+    "id": "spell-0129"
+  },
+  {
+    "name": "Susurros discordantes",
+    "level": 1,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0130"
+  },
+  {
+    "name": "Telaraña",
+    "level": 1,
+    "school": "Conjuración",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0131"
+  },
+  {
+    "name": "Terror",
+    "level": 1,
+    "school": "Ilusiónismo",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0132"
+  },
+  {
+    "name": "Texto ilusorio",
+    "level": 1,
+    "school": "Ilusiónismo",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": true,
+    "material": true,
+    "id": "spell-0133"
+  },
+  {
+    "name": "Trepar cual arácnido",
+    "level": 1,
+    "school": "Transmutación",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0134"
+  },
+  {
+    "name": "Trepar cual arácnido",
+    "level": 1,
+    "school": "Transmutación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": true,
+    "ritual": true,
+    "material": false,
+    "id": "spell-0135"
+  },
+  {
+    "name": "Ver invisibilidad",
+    "level": 1,
+    "school": "Adivinación",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0136"
+  },
+  {
+    "name": "Ver invisibilidad",
+    "level": 1,
+    "school": "Adivinación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0137"
+  },
+  {
+    "name": "Visión en la oscuridad",
+    "level": 1,
+    "school": "Transmutación",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0138"
+  },
+  {
+    "name": "Visión en la oscuridad",
+    "level": 1,
+    "school": "Transmutación",
+    "classes": [
+      "druida",
+      "explorador",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0139"
+  },
+  {
+    "name": "o Pequeña choza de Leomund",
+    "level": 1,
+    "school": "Evocación",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": true,
+    "material": false,
+    "id": "spell-0140"
+  },
+  {
+    "name": "se Recado",
+    "level": 1,
+    "school": "Adivinación",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0141"
+  },
+  {
+    "name": "ys CORE Imponer maldición",
+    "level": 1,
+    "school": "Nigromancia",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0142"
+  },
+  {
+    "name": "z Don de lenguas",
+    "level": 1,
+    "school": "Adivinación",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0143"
+  },
+  {
+    "name": "Abrir",
+    "level": 2,
+    "school": "Transmutación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0144"
+  },
+  {
+    "name": "Adivinación R,M Aura de pureza",
+    "level": 2,
+    "school": "Abjuración",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0145"
+  },
+  {
+    "name": "Agrandar/reducir",
+    "level": 2,
+    "school": "Transmutación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0146"
+  },
+  {
+    "name": "Aliento de dragón",
+    "level": 2,
+    "school": "Transmutación",
+    "classes": [
+      "hechicero",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0147"
+  },
+  {
+    "name": "Alterar el propio aspecto",
+    "level": 2,
+    "school": "Transmutación",
+    "classes": [
+      "hechicero",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0148"
+  },
+  {
+    "name": "Alzar a los muertos",
+    "level": 2,
+    "school": "Nigromancia",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0149"
+  },
+  {
+    "name": "Alzar a los muertos",
+    "level": 2,
+    "school": "Nigromancia",
+    "classes": [
+      "paladín"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0150"
+  },
+  {
+    "name": "Arma espiritual Evocación",
+    "level": 2,
+    "school": "Adivinación",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0151"
+  },
+  {
+    "name": "Arma mágica",
+    "level": 2,
+    "school": "Transmutación",
+    "classes": [
+      "explorador",
+      "hechicero",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0152"
+  },
+  {
+    "name": "Armadura de mago",
+    "level": 2,
+    "school": "Abjuración",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0153"
+  },
+  {
+    "name": "Atadura planar",
+    "level": 2,
+    "school": "Abjuración",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0154"
+  },
+  {
+    "name": "Atadura planar",
+    "level": 2,
+    "school": "Abjuración",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0155"
+  },
+  {
+    "name": "Atadura planar",
+    "level": 2,
+    "school": "Abjuración",
+    "classes": [
+      "mago"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0156"
+  },
+  {
+    "name": "Augurio",
+    "level": 2,
+    "school": "Adivinación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0157"
+  },
+  {
+    "name": "Aura mágica de Nystul",
+    "level": 2,
+    "school": "Ilusiónismo",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0158"
+  },
+  {
+    "name": "Boca mágica",
+    "level": 2,
+    "school": "Ilusiónismo",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0159"
+  },
+  {
+    "name": "Calentar metal",
+    "level": 2,
+    "school": "Transmutación",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0160"
+  },
+  {
+    "name": "Calmar emociones",
+    "level": 2,
+    "school": "Encantamiento",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0161"
+  },
+  {
+    "name": "Cerradura arcana",
+    "level": 2,
+    "school": "Abjuración",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0162"
+  },
+  {
+    "name": "Clavo mental",
+    "level": 2,
+    "school": "Adivinación",
+    "classes": [
+      "hechicero",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0163"
+  },
+  {
+    "name": "Comunión",
+    "level": 2,
+    "school": "Adivinación",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0164"
+  },
+  {
+    "name": "Conjuración (e Tormenta resplandeciente",
+    "level": 2,
+    "school": "Evocación",
+    "classes": [
+      "brujo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0165"
+  },
+  {
+    "name": "Conjuración E Relámpago",
+    "level": 2,
+    "school": "Evocación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0166"
+  },
+  {
+    "name": "Conocer las leyendas",
+    "level": 2,
+    "school": "Adivinación",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0167"
+  },
+  {
+    "name": "Conocer las leyendas",
+    "level": 2,
+    "school": "Adivinación",
+    "classes": [
+      "bardo",
+      "mago"
+    ],
+    "concentration": true,
+    "ritual": true,
+    "material": true,
+    "id": "spell-0168"
+  },
+  {
+    "name": "Contorno borroso",
+    "level": 2,
+    "school": "Ilusiónismo",
+    "classes": [
+      "hechicero",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0169"
+  },
+  {
+    "name": "Cordón de flechas",
+    "level": 2,
+    "school": "Transmutación",
+    "classes": [
+      "explorador"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0170"
+  },
+  {
+    "name": "Crecimiento espinoso",
+    "level": 2,
+    "school": "Transmutación",
+    "classes": [
+      "druida",
+      "explorador"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0171"
+  },
+  {
+    "name": "Círculo de muerte",
+    "level": 2,
+    "school": "Nigromancia",
+    "classes": [
+      "brujo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0172"
+  },
+  {
+    "name": "Círculo de muerte",
+    "level": 2,
+    "school": "Nigromancia",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0173"
+  },
+  {
+    "name": "Círculo de poder",
+    "level": 2,
+    "school": "Abjuración",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0174"
+  },
+  {
+    "name": "Círculo de poder",
+    "level": 2,
+    "school": "Abjuración",
+    "classes": [
+      "mago"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0175"
+  },
+  {
+    "name": "Destierro",
+    "level": 2,
+    "school": "Abjuración",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0176"
+  },
+  {
+    "name": "Detectar magia",
+    "level": 2,
+    "school": "Adivinación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": true,
+    "ritual": true,
+    "material": false,
+    "id": "spell-0177"
+  },
+  {
+    "name": "Detectar trampas",
+    "level": 2,
+    "school": "Adivinación",
+    "classes": [
+      "clérigo",
+      "explorador"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0178"
+  },
+  {
+    "name": "Disco flotante de Tenser",
+    "level": 2,
+    "school": "Conjuración",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0179"
+  },
+  {
+    "name": "Dulce descanso",
+    "level": 2,
+    "school": "Nigromancia",
+    "classes": [
+      "clérigo",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0180"
+  },
+  {
+    "name": "E Caldero burbujeante de Tasha",
+    "level": 2,
+    "school": "Conjuración",
+    "classes": [
+      "brujo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0181"
+  },
+  {
+    "name": "Encontrar familiar",
+    "level": 2,
+    "school": "Conjuración",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0182"
+  },
+  {
+    "name": "Esfera de llamas",
+    "level": 2,
+    "school": "Evocación",
+    "classes": [
+      "hechicero",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0183"
+  },
+  {
+    "name": "Estallido mágico",
+    "level": 2,
+    "school": "Evocación",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0184"
+  },
+  {
+    "name": "Evocación Fuerza fantasmal",
+    "level": 2,
+    "school": "Ilusiónismo",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0185"
+  },
+  {
+    "name": "Evocación Paso brumoso",
+    "level": 2,
+    "school": "Conjuración",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0186"
+  },
+  {
+    "name": "Flecha ácida de Melf",
+    "level": 2,
+    "school": "Evocación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0187"
+  },
+  {
+    "name": "Fuerza fantasmal",
+    "level": 2,
+    "school": "Ilusiónismo",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0188"
+  },
+  {
+    "name": "Guarda contra la muerte",
+    "level": 2,
+    "school": "Abjuración",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0189"
+  },
+  {
+    "name": "Guardián de la fe",
+    "level": 2,
+    "school": "Conjuración",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0190"
+  },
+  {
+    "name": "Hacer añicos",
+    "level": 2,
+    "school": "Evocación",
+    "classes": [
+      "hechicero",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0191"
+  },
+  {
+    "name": "Imagen múltiple",
+    "level": 2,
+    "school": "Ilusiónismo",
+    "classes": [
+      "brujo",
+      "hechicero",
+      "mago"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0192"
+  },
+  {
+    "name": "Inmovilizar persona",
+    "level": 2,
+    "school": "Encantamiento",
+    "classes": [
+      "brujo",
+      "clérigo",
+      "hechicero",
+      "mago"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0193"
+  },
+  {
+    "name": "Invisibilidad",
+    "level": 2,
+    "school": "Ilusiónismo",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0194"
+  },
+  {
+    "name": "Invocar bestia",
+    "level": 2,
+    "school": "Conjuración",
+    "classes": [
+      "explorador"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0195"
+  },
+  {
+    "name": "Levitar",
+    "level": 2,
+    "school": "Transmutación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0196"
+  },
+  {
+    "name": "Libertad de movimiento",
+    "level": 2,
+    "school": "Abjuración",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0197"
+  },
+  {
+    "name": "Libertad de movimiento",
+    "level": 2,
+    "school": "Abjuración",
+    "classes": [
+      "bardo",
+      "druida",
+      "explorador"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0198"
+  },
+  {
+    "name": "Llama permanente",
+    "level": 2,
+    "school": "Evocación",
+    "classes": [
+      "clérigo",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0199"
+  },
+  {
+    "name": "Localizar animales o plantas",
+    "level": 2,
+    "school": "Adivinación",
+    "classes": [
+      "druida",
+      "explorador"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0200"
+  },
+  {
+    "name": "Localizar criatura",
+    "level": 2,
+    "school": "Adivinación",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0201"
+  },
+  {
+    "name": "Localizar criatura",
+    "level": 2,
+    "school": "Adivinación",
+    "classes": [
+      "bardo",
+      "druida",
+      "explorador"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0202"
+  },
+  {
+    "name": "Localizar objeto",
+    "level": 2,
+    "school": "Adivinación",
+    "classes": [
+      "clérigo",
+      "explorador",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0203"
+  },
+  {
+    "name": "Localizar objeto",
+    "level": 2,
+    "school": "Adivinación",
+    "classes": [
+      "paladín"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0204"
+  },
+  {
+    "name": "Mensajero animal",
+    "level": 2,
+    "school": "Encantamiento",
+    "classes": [
+      "explorador"
+    ],
+    "concentration": false,
+    "ritual": true,
+    "material": false,
+    "id": "spell-0205"
+  },
+  {
+    "name": "Moldear la piedra",
+    "level": 2,
+    "school": "Transmutación",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0206"
+  },
+  {
+    "name": "Moldear la piedra",
+    "level": 2,
+    "school": "Transmutación",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0207"
+  },
+  {
+    "name": "Nube de dagas",
+    "level": 2,
+    "school": "Conjuración",
+    "classes": [
+      "hechicero",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0208"
+  },
+  {
+    "name": "Oscuridad",
+    "level": 2,
+    "school": "Evocación",
+    "classes": [
+      "hechicero",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0209"
+  },
+  {
+    "name": "Paso brumoso",
+    "level": 2,
+    "school": "Conjuración",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0210"
+  },
+  {
+    "name": "Piel robliza",
+    "level": 2,
+    "school": "Transmutación",
+    "classes": [
+      "explorador"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0211"
+  },
+  {
+    "name": "Plegaria de curación",
+    "level": 2,
+    "school": "Abjuración",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0212"
+  },
+  {
+    "name": "Plegaria de curación",
+    "level": 2,
+    "school": "Abjuración",
+    "classes": [
+      "paladín"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0213"
+  },
+  {
+    "name": "Potenciar característica",
+    "level": 2,
+    "school": "Transmutación",
+    "classes": [
+      "clérigo",
+      "druida",
+      "explorador",
+      "hechicero",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0214"
+  },
+  {
+    "name": "Protección contra veneno",
+    "level": 2,
+    "school": "Abjuración",
+    "classes": [
+      "clérigo",
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0215"
+  },
+  {
+    "name": "Protección contra veneno",
+    "level": 2,
+    "school": "Abjuración",
+    "classes": [
+      "paladín"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0216"
+  },
+  {
+    "name": "Rayo de escarcha",
+    "level": 2,
+    "school": "Evocación",
+    "classes": [
+      "hechicero",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0217"
+  },
+  {
+    "name": "Rayo debilitador",
+    "level": 2,
+    "school": "Nigromancia",
+    "classes": [
+      "brujo",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0218"
+  },
+  {
+    "name": "Revivir",
+    "level": 2,
+    "school": "Nigromancia",
+    "classes": [
+      "paladín"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0219"
+  },
+  {
+    "name": "Revivir",
+    "level": 2,
+    "school": "Nigromancia",
+    "classes": [
+      "druida",
+      "explorador"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0220"
+  },
+  {
+    "name": "Salpicadura ácida",
+    "level": 2,
+    "school": "Evocación",
+    "classes": [
+      "hechicero",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0221"
+  },
+  {
+    "name": "Sentidos de la bestia",
+    "level": 2,
+    "school": "Adivinación",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0222"
+  },
+  {
+    "name": "Silencio",
+    "level": 2,
+    "school": "Ilusiónismo",
+    "classes": [
+      "explorador"
+    ],
+    "concentration": true,
+    "ritual": true,
+    "material": false,
+    "id": "spell-0223"
+  },
+  {
+    "name": "Tañido por los muertos",
+    "level": 2,
+    "school": "Nigromancia",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0224"
+  },
+  {
+    "name": "Toque helado",
+    "level": 2,
+    "school": "Nigromancia",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0225"
+  },
+  {
+    "name": "Transmutación Hoja de fuego",
+    "level": 2,
+    "school": "Evocación",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0226"
+  },
+  {
+    "name": "Transmutación Invisibilidad",
+    "level": 2,
+    "school": "Ilusiónismo",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0227"
+  },
+  {
+    "name": "Truco de la cuerda",
+    "level": 2,
+    "school": "Transmutación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0228"
+  },
+  {
+    "name": "Vínculo protector",
+    "level": 2,
+    "school": "Abjuración",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0229"
+  },
+  {
+    "name": "Vínculo protector",
+    "level": 2,
+    "school": "Abjuración",
+    "classes": [
+      "paladín"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0230"
+  },
+  {
+    "name": "Zona de la verdad",
+    "level": 2,
+    "school": "Encantamiento",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0231"
+  },
+  {
+    "name": "Zona de la verdad",
+    "level": 2,
+    "school": "Encantamiento",
+    "classes": [
+      "paladín"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0232"
+  },
+  {
+    "name": "Abjuración E Puerta arcana",
+    "level": 3,
+    "school": "Conjuración",
+    "classes": [
+      "brujo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0233"
+  },
+  {
+    "name": "Abjuración M Invisibilidad mejorada",
+    "level": 3,
+    "school": "Ilusiónismo",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0234"
+  },
+  {
+    "name": "Abjuración M Localizar criatura",
+    "level": 3,
+    "school": "Adivinación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0235"
+  },
+  {
+    "name": "Abjuración —- Controlar agua",
+    "level": 3,
+    "school": "Transmutación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0236"
+  },
+  {
+    "name": "Acelerar",
+    "level": 3,
+    "school": "Transmutación",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0237"
+  },
+  {
+    "name": "Adivinación C,M Conjurar elementales menores",
+    "level": 3,
+    "school": "Conjuración",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0238"
+  },
+  {
+    "name": "Adivinación C,M Golpe flamígero",
+    "level": 3,
+    "school": "Evocación",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0239"
+  },
+  {
+    "name": "Animar a los muertos",
+    "level": 3,
+    "school": "Nigromancia",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0240"
+  },
+  {
+    "name": "Animara los muertos",
+    "level": 3,
+    "school": "Nigromancia",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0241"
+  },
+  {
+    "name": "Arma elemental",
+    "level": 3,
+    "school": "Transmutación",
+    "classes": [
+      "druida",
+      "explorador",
+      "paladín"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0242"
+  },
+  {
+    "name": "Aura de vitalidad",
+    "level": 3,
+    "school": "Abjuración",
+    "classes": [
+      "clérigo",
+      "druida",
+      "paladín"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0243"
+  },
+  {
+    "name": "Bola de fuego",
+    "level": 3,
+    "school": "Evocación",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0244"
+  },
+  {
+    "name": "Caminar sobre el agua",
+    "level": 3,
+    "school": "Transmutación",
+    "classes": [
+      "clérigo",
+      "druida",
+      "explorador",
+      "hechicero"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0245"
+  },
+  {
+    "name": "Castigo cegador Evocación — Invocar celestial",
+    "level": 3,
+    "school": "Conjuración",
+    "classes": [
+      "paladín"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0246"
+  },
+  {
+    "name": "Castigo desterrador",
+    "level": 3,
+    "school": "Conjuración",
+    "classes": [
+      "paladín"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0247"
+  },
+  {
+    "name": "Clarividencia",
+    "level": 3,
+    "school": "Adivinación",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0248"
+  },
+  {
+    "name": "Conjuración E Muro de fuego",
+    "level": 3,
+    "school": "Evocación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0249"
+  },
+  {
+    "name": "Conjurar animales",
+    "level": 3,
+    "school": "Conjuración",
+    "classes": [
+      "druida",
+      "explorador"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0250"
+  },
+  {
+    "name": "Contrahechizo",
+    "level": 3,
+    "school": "Abjuración",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0251"
+  },
+  {
+    "name": "Corcel fantasma",
+    "level": 3,
+    "school": "Ilusiónismo",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": true,
+    "material": false,
+    "id": "spell-0252"
+  },
+  {
+    "name": "Crear comida y agua",
+    "level": 3,
+    "school": "Conjuración",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0253"
+  },
+  {
+    "name": "Curar heridas en masa",
+    "level": 3,
+    "school": "Abjuración",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0254"
+  },
+  {
+    "name": "Curar heridas en masa",
+    "level": 3,
+    "school": "Abjuración",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0255"
+  },
+  {
+    "name": "Curar heridas en masa",
+    "level": 3,
+    "school": "Abjuración",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": true,
+    "ritual": true,
+    "material": false,
+    "id": "spell-0256"
+  },
+  {
+    "name": "Círculo mágico",
+    "level": 3,
+    "school": "Abjuración",
+    "classes": [
+      "brujo",
+      "clérigo",
+      "mago",
+      "paladín"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0257"
+  },
+  {
+    "name": "Desplazamiento",
+    "level": 3,
+    "school": "Transmutación",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0258"
+  },
+  {
+    "name": "Disipar magia",
+    "level": 3,
+    "school": "Abjuración",
+    "classes": [
+      "brujo",
+      "clérigo",
+      "druida",
+      "explorador",
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0259"
+  },
+  {
+    "name": "Don de lenguas",
+    "level": 3,
+    "school": "Adivinación",
+    "classes": [
+      "clérigo",
+      "hechicero",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0260"
+  },
+  {
+    "name": "Escuela Especial Contagio",
+    "level": 3,
+    "school": "Nigromancia",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0261"
+  },
+  {
+    "name": "Escuela Especial Círculo de poder",
+    "level": 3,
+    "school": "Abjuración",
+    "classes": [
+      "paladín"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0262"
+  },
+  {
+    "name": "Escuela Especial Invocar infernal",
+    "level": 3,
+    "school": "Conjuración",
+    "classes": [
+      "brujo"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0263"
+  },
+  {
+    "name": "Espíritus guardianes",
+    "level": 3,
+    "school": "Conjuración",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0264"
+  },
+  {
+    "name": "Flecha de relámpago",
+    "level": 3,
+    "school": "Transmutación",
+    "classes": [
+      "explorador"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0265"
+  },
+  {
+    "name": "Forma gaseosa",
+    "level": 3,
+    "school": "Transmutación",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0266"
+  },
+  {
+    "name": "Fundirse con la piedra",
+    "level": 3,
+    "school": "Transmutación",
+    "classes": [
+      "druida",
+      "explorador"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0267"
+  },
+  {
+    "name": "Fundirse con la piedra",
+    "level": 3,
+    "school": "Transmutación",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0268"
+  },
+  {
+    "name": "Hablar con los muertos",
+    "level": 3,
+    "school": "Nigromancia",
+    "classes": [
+      "mago"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0269"
+  },
+  {
+    "name": "Hablar con los muertos",
+    "level": 3,
+    "school": "Nigromancia",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0270"
+  },
+  {
+    "name": "Ilusiónismo E Invocar autómata",
+    "level": 3,
+    "school": "Conjuración",
+    "classes": [
+      "mago"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0271"
+  },
+  {
+    "name": "Imagen mayor",
+    "level": 3,
+    "school": "Ilusiónismo",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0272"
+  },
+  {
+    "name": "Imponer maldición",
+    "level": 3,
+    "school": "Nigromancia",
+    "classes": [
+      "mago"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0273"
+  },
+  {
+    "name": "Imponer maldición",
+    "level": 3,
+    "school": "Nigromancia",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0274"
+  },
+  {
+    "name": "Invocar celestial",
+    "level": 3,
+    "school": "Conjuración",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0275"
+  },
+  {
+    "name": "Invocar feérico",
+    "level": 3,
+    "school": "Conjuración",
+    "classes": [
+      "druida",
+      "explorador",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0276"
+  },
+  {
+    "name": "Invocar muerto viviente",
+    "level": 3,
+    "school": "Nigromancia",
+    "classes": [
+      "brujo",
+      "mago"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0277"
+  },
+  {
+    "name": "Levantar maldición",
+    "level": 3,
+    "school": "Abjuración",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0278"
+  },
+  {
+    "name": "Levantar maldición",
+    "level": 3,
+    "school": "Abjuración",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0279"
+  },
+  {
+    "name": "Llamar al relámpago",
+    "level": 3,
+    "school": "Conjuración",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0280"
+  },
+  {
+    "name": "Luz del día",
+    "level": 3,
+    "school": "Evocación",
+    "classes": [
+      "druida",
+      "explorador",
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0281"
+  },
+  {
+    "name": "Muro de viento",
+    "level": 3,
+    "school": "Evocación",
+    "classes": [
+      "druida",
+      "explorador"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0282"
+  },
+  {
+    "name": "Patrón hipnótico",
+    "level": 3,
+    "school": "Ilusiónismo",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0283"
+  },
+  {
+    "name": "Plaga de insectos",
+    "level": 3,
+    "school": "Conjuración",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0284"
+  },
+  {
+    "name": "Plaga de insectos",
+    "level": 3,
+    "school": "Conjuración",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0285"
+  },
+  {
+    "name": "Plaga de insectos",
+    "level": 3,
+    "school": "Conjuración",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0286"
+  },
+  {
+    "name": "Protección contra energía",
+    "level": 3,
+    "school": "Abjuración",
+    "classes": [
+      "druida",
+      "explorador",
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0287"
+  },
+  {
+    "name": "Protección contra energía",
+    "level": 3,
+    "school": "Abjuración",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0288"
+  },
+  {
+    "name": "Respirar bajo el agua",
+    "level": 3,
+    "school": "Transmutación",
+    "classes": [
+      "druida",
+      "explorador",
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0289"
+  },
+  {
+    "name": "Restablecimiento mayor",
+    "level": 3,
+    "school": "Abjuración",
+    "classes": [
+      "clérigo",
+      "paladín"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0290"
+  },
+  {
+    "name": "Restablecimiento mayor",
+    "level": 3,
+    "school": "Abjuración",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0291"
+  },
+  {
+    "name": "Restablecimiento mayor",
+    "level": 3,
+    "school": "Abjuración",
+    "classes": [
+      "bardo",
+      "explorador"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0292"
+  },
+  {
+    "name": "Toque vampírico",
+    "level": 3,
+    "school": "Nigromancia",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0293"
+  },
+  {
+    "name": "Tormenta de aguanieve",
+    "level": 3,
+    "school": "Conjuración",
+    "classes": [
+      "druida",
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0294"
+  },
+  {
+    "name": "Auxilio",
+    "level": 4,
+    "school": "Abjuración",
+    "classes": [
+      "paladín"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0295"
+  },
+  {
+    "name": "Caparazón antivida",
+    "level": 4,
+    "school": "Abjuración",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0296"
+  },
+  {
+    "name": "Castigo brillante",
+    "level": 4,
+    "school": "Transmutación",
+    "classes": [
+      "paladín"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0297"
+  },
+  {
+    "name": "Comunión con la naturaleza",
+    "level": 4,
+    "school": "Adivinación",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0298"
+  },
+  {
+    "name": "Comunión con la naturaleza",
+    "level": 4,
+    "school": "Adivinación",
+    "classes": [
+      "explorador"
+    ],
+    "concentration": false,
+    "ritual": true,
+    "material": false,
+    "id": "spell-0299"
+  },
+  {
+    "name": "Confusión",
+    "level": 4,
+    "school": "Encantamiento",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0300"
+  },
+  {
+    "name": "Conjurar elemental",
+    "level": 4,
+    "school": "Conjuración",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0301"
+  },
+  {
+    "name": "Conjurar elemental",
+    "level": 4,
+    "school": "Conjuración",
+    "classes": [
+      "mago"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0302"
+  },
+  {
+    "name": "Conjurar elementales menores",
+    "level": 4,
+    "school": "Conjuración",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0303"
+  },
+  {
+    "name": "Conjurar seres del bosque",
+    "level": 4,
+    "school": "Conjuración",
+    "classes": [
+      "druida",
+      "explorador"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0304"
+  },
+  {
+    "name": "Controlar agua",
+    "level": 4,
+    "school": "Transmutación",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0305"
+  },
+  {
+    "name": "Dominar bestia",
+    "level": 4,
+    "school": "Encantamiento",
+    "classes": [
+      "druida",
+      "explorador",
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0306"
+  },
+  {
+    "name": "Dulce descanso Nigromancia R,M Aura de vida",
+    "level": 4,
+    "school": "Abjuración",
+    "classes": [
+      "paladín"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0307"
+  },
+  {
+    "name": "Encantamiento (E Encontrar el camino",
+    "level": 4,
+    "school": "Adivinación",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0308"
+  },
+  {
+    "name": "Encantamiento C Festín de héroes",
+    "level": 4,
+    "school": "Conjuración",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0309"
+  },
+  {
+    "name": "Encantamiento — Ilusión programada",
+    "level": 4,
+    "school": "Ilusiónismo",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0310"
+  },
+  {
+    "name": "Enredadera",
+    "level": 4,
+    "school": "Conjuración",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0311"
+  },
+  {
+    "name": "Escudo de fuego",
+    "level": 4,
+    "school": "Evocación",
+    "classes": [
+      "druida",
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0312"
+  },
+  {
+    "name": "Esfera vitriólica",
+    "level": 4,
+    "school": "Evocación",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0313"
+  },
+  {
+    "name": "Fuente de luz lunar",
+    "level": 4,
+    "school": "Evocación",
+    "classes": [
+      "bardo",
+      "druida"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0314"
+  },
+  {
+    "name": "Hallar corcel",
+    "level": 4,
+    "school": "Conjuración",
+    "classes": [
+      "paladín"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0315"
+  },
+  {
+    "name": "Hechizar monstruo",
+    "level": 4,
+    "school": "Encantamiento",
+    "classes": [
+      "druida",
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0316"
+  },
+  {
+    "name": "Ilusiónismo Cc Baile irresistible de Otto",
+    "level": 4,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0317"
+  },
+  {
+    "name": "Insecto gigante",
+    "level": 4,
+    "school": "Conjuración",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0318"
+  },
+  {
+    "name": "Invisibilidad mejorada",
+    "level": 4,
+    "school": "Ilusiónismo",
+    "classes": [
+      "bardo",
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0319"
+  },
+  {
+    "name": "Invocar elemental",
+    "level": 4,
+    "school": "Conjuración",
+    "classes": [
+      "druida",
+      "explorador"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0320"
+  },
+  {
+    "name": "Maleficio",
+    "level": 4,
+    "school": "Encantamiento",
+    "classes": [
+      "brujo"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0321"
+  },
+  {
+    "name": "Marchitar",
+    "level": 4,
+    "school": "Nigromancia",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0322"
+  },
+  {
+    "name": "Muro de fuego",
+    "level": 4,
+    "school": "Evocación",
+    "classes": [
+      "druida",
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0323"
+  },
+  {
+    "name": "Muro de piedra",
+    "level": 4,
+    "school": "Evocación",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0324"
+  },
+  {
+    "name": "Muro de piedra",
+    "level": 4,
+    "school": "Evocación",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0325"
+  },
+  {
+    "name": "Muro de piedra",
+    "level": 4,
+    "school": "Evocación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0326"
+  },
+  {
+    "name": "Piel pétrea",
+    "level": 4,
+    "school": "Transmutación",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0327"
+  },
+  {
+    "name": "Polimorfar",
+    "level": 4,
+    "school": "Transmutación",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0328"
+  },
+  {
+    "name": "Puerta dimensional",
+    "level": 4,
+    "school": "Conjuración",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0329"
+  },
+  {
+    "name": "Puerta dimensional",
+    "level": 4,
+    "school": "Conjuración",
+    "classes": [
+      "mago"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0330"
+  },
+  {
+    "name": "Reprensión infernal",
+    "level": 4,
+    "school": "Evocación",
+    "classes": [
+      "brujo"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0331"
+  },
+  {
+    "name": "Terreno alucinatorio",
+    "level": 4,
+    "school": "Ilusiónismo",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0332"
+  },
+  {
+    "name": "Terreno alucinatorio",
+    "level": 4,
+    "school": "Ilusiónismo",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0333"
+  },
+  {
+    "name": "Terreno alucinatorio",
+    "level": 4,
+    "school": "Ilusiónismo",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0334"
+  },
+  {
+    "name": "Tormenta de hielo",
+    "level": 4,
+    "school": "Evocación",
+    "classes": [
+      "druida",
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0335"
+  },
+  {
+    "name": "Tormenta de hielo",
+    "level": 4,
+    "school": "Evocación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0336"
+  },
+  {
+    "name": "Abjuración M Proyectar imagen",
+    "level": 5,
+    "school": "Ilusiónismo",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0337"
+  },
+  {
+    "name": "Alterar los recuerdos",
+    "level": 5,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0338"
+  },
+  {
+    "name": "Alzara los muertos",
+    "level": 5,
+    "school": "Nigromancia",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0339"
+  },
+  {
+    "name": "Animar objetos",
+    "level": 5,
+    "school": "Transmutación",
+    "classes": [
+      "hechicero",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0340"
+  },
+  {
+    "name": "Conjurar lluvia de flechas",
+    "level": 5,
+    "school": "Conjuración",
+    "classes": [
+      "explorador"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0341"
+  },
+  {
+    "name": "Cono de frío",
+    "level": 5,
+    "school": "Evocación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": true,
+    "material": false,
+    "id": "spell-0342"
+  },
+  {
+    "name": "Contactar con otro plano",
+    "level": 5,
+    "school": "Adivinación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": true,
+    "ritual": true,
+    "material": false,
+    "id": "spell-0343"
+  },
+  {
+    "name": "Círculo de teletransportación",
+    "level": 5,
+    "school": "Conjuración",
+    "classes": [
+      "bardo",
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": true,
+    "material": true,
+    "id": "spell-0344"
+  },
+  {
+    "name": "Despertar",
+    "level": 5,
+    "school": "Transmutación",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0345"
+  },
+  {
+    "name": "Dominar persona",
+    "level": 5,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo",
+      "hechicero",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0346"
+  },
+  {
+    "name": "Enlace telepático de Rary",
+    "level": 5,
+    "school": "Adivinación",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": true,
+    "material": false,
+    "id": "spell-0347"
+  },
+  {
+    "name": "Ensueño",
+    "level": 5,
+    "school": "Ilusiónismo",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0348"
+  },
+  {
+    "name": "Escuela Especial Excursión etérea",
+    "level": 5,
+    "school": "Conjuración",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0349"
+  },
+  {
+    "name": "Escuela Especial Ilusión programada",
+    "level": 5,
+    "school": "Ilusiónismo",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0350"
+  },
+  {
+    "name": "Estática sináptica",
+    "level": 5,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo",
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0351"
+  },
+  {
+    "name": "Estática sináptica",
+    "level": 5,
+    "school": "Encantamiento",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0352"
+  },
+  {
+    "name": "FUERE: Antipatía/simpatía",
+    "level": 5,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0353"
+  },
+  {
+    "name": "Geas",
+    "level": 5,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0354"
+  },
+  {
+    "name": "Golpe de viento acerado",
+    "level": 5,
+    "school": "Conjuración",
+    "classes": [
+      "explorador"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0355"
+  },
+  {
+    "name": "Golpe de viento acerado",
+    "level": 5,
+    "school": "Conjuración",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0356"
+  },
+  {
+    "name": "Ilusiónismo 7 Invocar infernal",
+    "level": 5,
+    "school": "Conjuración",
+    "classes": [
+      "mago"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0357"
+  },
+  {
+    "name": "Ilusiónismo ade Palabra de poder: fortalecer",
+    "level": 5,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0358"
+  },
+  {
+    "name": "Inmovilizar monstruo",
+    "level": 5,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo",
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0359"
+  },
+  {
+    "name": "Inmovilizar monstruo",
+    "level": 5,
+    "school": "Encantamiento",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0360"
+  },
+  {
+    "name": "Mano de Bigby",
+    "level": 5,
+    "school": "Evocación",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0361"
+  },
+  {
+    "name": "Nube aniquiladora",
+    "level": 5,
+    "school": "Conjuración",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0362"
+  },
+  {
+    "name": "Nube aniquiladora",
+    "level": 5,
+    "school": "Conjuración",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0363"
+  },
+  {
+    "name": "Ofuscación",
+    "level": 5,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0364"
+  },
+  {
+    "name": "Palabra de poder: aturdir",
+    "level": 5,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0365"
+  },
+  {
+    "name": "Palabra de poder: aturdir",
+    "level": 5,
+    "school": "Encantamiento",
+    "classes": [
+      "brujo",
+      "hechicero",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0366"
+  },
+  {
+    "name": "Presencia regia de Yolande",
+    "level": 5,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0367"
+  },
+  {
+    "name": "l Círculo de teletransportación",
+    "level": 5,
+    "school": "Conjuración",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0368"
+  },
+  {
+    "name": "z Dominar monstruo",
+    "level": 5,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0369"
+  },
+  {
+    "name": "z Mente en blanco",
+    "level": 5,
+    "school": "Abjuración",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0370"
+  },
+  {
+    "name": "Aliado planar",
+    "level": 6,
+    "school": "Conjuración",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0371"
+  },
+  {
+    "name": "Barrera de cuchillas",
+    "level": 6,
+    "school": "Evocación",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0372"
+  },
+  {
+    "name": "Conjurar feérico",
+    "level": 6,
+    "school": "Conjuración",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0373"
+  },
+  {
+    "name": "Crear muerto viviente",
+    "level": 6,
+    "school": "Nigromancia",
+    "classes": [
+      "clérigo",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0374"
+  },
+  {
+    "name": "Curar",
+    "level": 6,
+    "school": "Abjuración",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0375"
+  },
+  {
+    "name": "Dañar",
+    "level": 6,
+    "school": "Nigromancia",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0376"
+  },
+  {
+    "name": "De la carne a la piedra",
+    "level": 6,
+    "school": "Transmutación",
+    "classes": [
+      "druida",
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0377"
+  },
+  {
+    "name": "Desintegrar",
+    "level": 6,
+    "school": "Transmutación",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0378"
+  },
+  {
+    "name": "Encontrar el camino",
+    "level": 6,
+    "school": "Adivinación",
+    "classes": [
+      "clérigo",
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0379"
+  },
+  {
+    "name": "Esfera congelante de Otiluke",
+    "level": 6,
+    "school": "Evocación",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0380"
+  },
+  {
+    "name": "Festín de héroes",
+    "level": 6,
+    "school": "Conjuración",
+    "classes": [
+      "clérigo",
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0381"
+  },
+  {
+    "name": "Globo de invulnerabilidad",
+    "level": 6,
+    "school": "Abjuración",
+    "classes": [
+      "hechicero",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0382"
+  },
+  {
+    "name": "Mal de ojo",
+    "level": 6,
+    "school": "Nigromancia",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0383"
+  },
+  {
+    "name": "Mover la tierra",
+    "level": 6,
+    "school": "Transmutación",
+    "classes": [
+      "druida",
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0384"
+  },
+  {
+    "name": "Muro de espinas",
+    "level": 6,
+    "school": "Conjuración",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0385"
+  },
+  {
+    "name": "Palabra de regreso",
+    "level": 6,
+    "school": "Conjuración",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0386"
+  },
+  {
+    "name": "Prohibición",
+    "level": 6,
+    "school": "Abjuración",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0387"
+  },
+  {
+    "name": "Puerta arcana",
+    "level": 6,
+    "school": "Conjuración",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0388"
+  },
+  {
+    "name": "Rayo solar",
+    "level": 6,
+    "school": "Evocación",
+    "classes": [
+      "clérigo",
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0389"
+  },
+  {
+    "name": "Relámpago en cadena",
+    "level": 6,
+    "school": "Evocación",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0390"
+  },
+  {
+    "name": "Sanctasanctórum privado",
+    "level": 6,
+    "school": "Abjuración",
+    "classes": [
+      "mago"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0391"
+  },
+  {
+    "name": "Señal de esperanza",
+    "level": 6,
+    "school": "Abjuración",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0392"
+  },
+  {
+    "name": "Sugestión en masa",
+    "level": 6,
+    "school": "Encantamiento",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0393"
+  },
+  {
+    "name": "Tentáculos negros de Evard",
+    "level": 6,
+    "school": "Conjuración",
+    "classes": [
+      "mago"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0394"
+  },
+  {
+    "name": "UOC IN Baile irresistible de Otto",
+    "level": 6,
+    "school": "Encantamiento",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0395"
+  },
+  {
+    "name": "Viajar con el viento",
+    "level": 6,
+    "school": "Transmutación",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0396"
+  },
+  {
+    "name": "Viajar mediante plantas",
+    "level": 6,
+    "school": "Conjuración",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0397"
+  },
+  {
+    "name": "Visión veraz",
+    "level": 6,
+    "school": "Adivinación",
+    "classes": [
+      "clérigo",
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0398"
+  },
+  {
+    "name": "j Ojo arcano",
+    "level": 6,
+    "school": "Adivinación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0399"
+  },
+  {
+    "name": "marnsaneación Cc Caldero burbujeante de Tasha",
+    "level": 6,
+    "school": "Conjuración",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0400"
+  },
+  {
+    "name": "Bola de fuego de explosión",
+    "level": 7,
+    "school": "Evocación",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0401"
+  },
+  {
+    "name": "Dedo de la muerte",
+    "level": 7,
+    "school": "Nigromancia",
+    "classes": [
+      "brujo",
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0402"
+  },
+  {
+    "name": "Desplazamiento entre planos",
+    "level": 7,
+    "school": "Conjuración",
+    "classes": [
+      "brujo",
+      "clérigo",
+      "druida",
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0403"
+  },
+  {
+    "name": "E Invertir la gravedad",
+    "level": 7,
+    "school": "Transmutación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0404"
+  },
+  {
+    "name": "Espada de Mordenkainen",
+    "level": 7,
+    "school": "Evocación",
+    "classes": [
+      "bardo"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0405"
+  },
+  {
+    "name": "Espejismo arcano",
+    "level": 7,
+    "school": "Ilusiónismo",
+    "classes": [
+      "druida",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0406"
+  },
+  {
+    "name": "Excursión etérea",
+    "level": 7,
+    "school": "Conjuración",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0407"
+  },
+  {
+    "name": "Invertir la gravedad",
+    "level": 7,
+    "school": "Transmutación",
+    "classes": [
+      "druida",
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0408"
+  },
+  {
+    "name": "Jaula de fuerza",
+    "level": 7,
+    "school": "Evocación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0409"
+  },
+  {
+    "name": "Mansión magnífica",
+    "level": 7,
+    "school": "Conjuración",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0410"
+  },
+  {
+    "name": "Muro de fuerza",
+    "level": 7,
+    "school": "Evocación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0411"
+  },
+  {
+    "name": "P Espada de Mordenkainen",
+    "level": 7,
+    "school": "Evocación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0412"
+  },
+  {
+    "name": "Palabra de poder: fortalecer",
+    "level": 7,
+    "school": "Encantamiento",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0413"
+  },
+  {
+    "name": "Palabra divina",
+    "level": 7,
+    "school": "Evocación",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0414"
+  },
+  {
+    "name": "Pasamuros",
+    "level": 7,
+    "school": "Transmutación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0415"
+  },
+  {
+    "name": "Proyectar imagen",
+    "level": 7,
+    "school": "Ilusiónismo",
+    "classes": [
+      "mago"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0416"
+  },
+  {
+    "name": "Rociada prismática",
+    "level": 7,
+    "school": "Evocación",
+    "classes": [
+      "hechicero",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0417"
+  },
+  {
+    "name": "Simulacro",
+    "level": 7,
+    "school": "Ilusiónismo",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0418"
+  },
+  {
+    "name": "Telequinesis",
+    "level": 7,
+    "school": "Transmutación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0419"
+  },
+  {
+    "name": "Teletransporte",
+    "level": 7,
+    "school": "Conjuración",
+    "classes": [
+      "hechicero",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0420"
+  },
+  {
+    "name": "Tormenta de fuego",
+    "level": 7,
+    "school": "Evocación",
+    "classes": [
+      "clérigo",
+      "druida",
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0421"
+  },
+  {
+    "name": "eE Excursión etérea",
+    "level": 7,
+    "school": "Conjuración",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0422"
+  },
+  {
+    "name": "iia CM Bola de fuego de explosión",
+    "level": 7,
+    "school": "Evocación",
+    "classes": [
+      "mago"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0423"
+  },
+  {
+    "name": "s Dedo de la muerte",
+    "level": 7,
+    "school": "Nigromancia",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0424"
+  },
+  {
+    "name": "Antipatía/simpatía",
+    "level": 8,
+    "school": "Encantamiento",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0425"
+  },
+  {
+    "name": "Aspectos animales",
+    "level": 8,
+    "school": "Transmutación",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0426"
+  },
+  {
+    "name": "Campo antimagia",
+    "level": 8,
+    "school": "Abjuración",
+    "classes": [
+      "clérigo"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0427"
+  },
+  {
+    "name": "Controlar el clima",
+    "level": 8,
+    "school": "Transmutación",
+    "classes": [
+      "clérigo",
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0428"
+  },
+  {
+    "name": "Dominar monstruo",
+    "level": 8,
+    "school": "Encantamiento",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0429"
+  },
+  {
+    "name": "Explosión solar",
+    "level": 8,
+    "school": "Evocación",
+    "classes": [
+      "druida",
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0430"
+  },
+  {
+    "name": "Nube incendiaria",
+    "level": 8,
+    "school": "Conjuración",
+    "classes": [
+      "druida",
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0431"
+  },
+  {
+    "name": "Palabra de poder: matar",
+    "level": 8,
+    "school": "Encantamiento",
+    "classes": [
+      "brujo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0432"
+  },
+  {
+    "name": "Palabra de poder: matar",
+    "level": 8,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo",
+      "hechicero",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0433"
+  },
+  {
+    "name": "Polimorfar verdadero",
+    "level": 8,
+    "school": "Transmutación",
+    "classes": [
+      "brujo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0434"
+  },
+  {
+    "name": "Polimorfar verdadero",
+    "level": 8,
+    "school": "Transmutación",
+    "classes": [
+      "bardo",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0435"
+  },
+  {
+    "name": "Semiplano",
+    "level": 8,
+    "school": "Conjuración",
+    "classes": [
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0436"
+  },
+  {
+    "name": "Terremoto",
+    "level": 8,
+    "school": "Transmutación",
+    "classes": [
+      "druida",
+      "hechicero"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0437"
+  },
+  {
+    "name": "Tsunami",
+    "level": 8,
+    "school": "Conjuración",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0438"
+  },
+  {
+    "name": "Cambiar de forma",
+    "level": 9,
+    "school": "Transmutación",
+    "classes": [
+      "druida",
+      "mago"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0439"
+  },
+  {
+    "name": "Cautiverio",
+    "level": 9,
+    "school": "Abjuración",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0440"
+  },
+  {
+    "name": "Deseo",
+    "level": 9,
+    "school": "Conjuración",
+    "classes": [
+      "hechicero",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0441"
+  },
+  {
+    "name": "Muro prismático",
+    "level": 9,
+    "school": "Abjuración",
+    "classes": [
+      "bardo",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0442"
+  },
+  {
+    "name": "Palabra de poder: sanar",
+    "level": 9,
+    "school": "Encantamiento",
+    "classes": [
+      "bardo",
+      "clérigo"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0443"
+  },
+  {
+    "name": "Parar el tiempo",
+    "level": 9,
+    "school": "Transmutación",
+    "classes": [
+      "hechicero",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0444"
+  },
+  {
+    "name": "Portal",
+    "level": 9,
+    "school": "Conjuración",
+    "classes": [
+      "hechicero",
+      "mago"
+    ],
+    "concentration": true,
+    "ritual": false,
+    "material": true,
+    "id": "spell-0445"
+  },
+  {
+    "name": "Presciencia",
+    "level": 9,
+    "school": "Adivinación",
+    "classes": [
+      "bardo",
+      "druida",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0446"
+  },
+  {
+    "name": "Proyección astral",
+    "level": 9,
+    "school": "Nigromancia",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0447"
+  },
+  {
+    "name": "Resurrección verdadera",
+    "level": 9,
+    "school": "Nigromancia",
+    "classes": [
+      "clérigo",
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0448"
+  },
+  {
+    "name": "Terror abyecto",
+    "level": 9,
+    "school": "Ilusiónismo",
+    "classes": [
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0449"
+  },
+  {
+    "name": "Tormenta de la venganza",
+    "level": 9,
+    "school": "Conjuración",
+    "classes": [
+      "druida"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0450"
+  },
+  {
+    "name": "Tormenta de meteoritos",
+    "level": 9,
+    "school": "Evocación",
+    "classes": [
+      "hechicero",
+      "mago"
+    ],
+    "concentration": false,
+    "ritual": false,
+    "material": false,
+    "id": "spell-0451"
+  }
+]

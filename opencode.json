@@ -28,5 +28,10 @@
       "command": ["python", "tools/objetosMagicos/server.py"],
       "enabled": true
     },
+    "clases": {
+      "type": "local",
+      "command": ["python", "tools/clases/server.py"],
+      "enabled": true
+    }
   }
 }

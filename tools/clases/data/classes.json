@@ -1,0 +1,472 @@
+[
+  {
+    "id": "bárbaro",
+    "name": "Bárbaro",
+    "primary_ability": [
+      "Fuerza"
+    ],
+    "hit_die": "1d12",
+    "saving_throws": [
+      "Fuerza",
+      "Constitución"
+    ],
+    "skill_count": 2,
+    "skill_options": [
+      "Atletismo",
+      "Intimidación",
+      "Naturaleza",
+      "Percepción",
+      "Supervivencia",
+      "Trato con animales"
+    ],
+    "weapons": [
+      "Armas sencillas y marciales"
+    ],
+    "armor": [
+      "Armaduras ligeras",
+      "Armaduras medias",
+      "Escudos"
+    ],
+    "tools": [],
+    "starting_equipment": "Elige A o B: (A) hacha a dos manos, 4 hachas de mano, paquete de explorador y 15 po, o (B) 75 po",
+    "spellcasting_ability": "",
+    "spellcasting_type": "",
+    "subclasses": [
+      "arbol-del-mundo",
+      "berserker",
+      "corazón-salvaje",
+      "fanatico"
+    ]
+  },
+  {
+    "id": "bardo",
+    "name": "Bardo",
+    "primary_ability": [
+      "Carisma"
+    ],
+    "hit_die": "1d8",
+    "saving_throws": [
+      "Destreza",
+      "Carisma"
+    ],
+    "skill_count": 3,
+    "skill_options": [
+      "Cualquiera"
+    ],
+    "weapons": [
+      "Armas sencillas"
+    ],
+    "armor": [
+      "Armaduras ligeras"
+    ],
+    "tools": [
+      "Elige tres instrumentos musicales"
+    ],
+    "starting_equipment": "Elige A o B: (A) armadura de cuero, 2 dagas, instrumento musical de tu elección, paquete de artista y 19 po, o (B) 90 po",
+    "spellcasting_ability": "Carisma",
+    "spellcasting_type": "full",
+    "subclasses": [
+      "colegio-de-la-danza",
+      "colegio-del-conocimiento",
+      "colegio-del-glamour",
+      "colegio-del-valor"
+    ]
+  },
+  {
+    "id": "brujo",
+    "name": "Brujo",
+    "primary_ability": [
+      "Carisma"
+    ],
+    "hit_die": "1d8",
+    "saving_throws": [
+      "Sabiduría",
+      "Carisma"
+    ],
+    "skill_count": 2,
+    "skill_options": [
+      "Conocimiento arcano",
+      "Engaño",
+      "Historia",
+      "Intimidación",
+      "Investigación",
+      "Naturaleza",
+      "Religión"
+    ],
+    "weapons": [
+      "Armas sencillas"
+    ],
+    "armor": [
+      "Armaduras ligeras"
+    ],
+    "tools": [],
+    "starting_equipment": "Elige A o B: (A) armadura de cuero, hoz, 2 dagas, canalizador arcano (orbe), libro (de conocimiento oculto), paquete de erudito y 15 po, o (B) 100 po",
+    "spellcasting_ability": "Carisma",
+    "spellcasting_type": "pact",
+    "subclasses": [
+      "patrón-celestial",
+      "patrón-feerico",
+      "patrón-infernal",
+      "patrón-primigenio"
+    ]
+  },
+  {
+    "id": "clérigo",
+    "name": "Clérigo",
+    "primary_ability": [
+      "Sabiduría"
+    ],
+    "hit_die": "1d8",
+    "saving_throws": [
+      "Sabiduría",
+      "Carisma"
+    ],
+    "skill_count": 2,
+    "skill_options": [
+      "Historia",
+      "Medicina",
+      "Perspicacia",
+      "Persuasión",
+      "Religión"
+    ],
+    "weapons": [
+      "Armas sencillas"
+    ],
+    "armor": [
+      "Armaduras ligeras",
+      "Armaduras medias",
+      "Escudos"
+    ],
+    "tools": [],
+    "starting_equipment": "Elige A o B: (A) camisa de malla, escudo, maza, paquete de sacerdote, símbolo sagrado y 7 po, o (B) 110 po",
+    "spellcasting_ability": "Sabiduría",
+    "spellcasting_type": "full",
+    "subclasses": [
+      "dominio-de-la-guerra",
+      "dominio-de-la-luz",
+      "dominio-de-la-vida",
+      "dominio-del-engano"
+    ]
+  },
+  {
+    "id": "druida",
+    "name": "Druida",
+    "primary_ability": [
+      "Sabiduría"
+    ],
+    "hit_die": "1d8",
+    "saving_throws": [
+      "Inteligencia",
+      "Sabiduría"
+    ],
+    "skill_count": 2,
+    "skill_options": [
+      "Conocimiento arcano",
+      "Medicina",
+      "Naturaleza",
+      "Percepción",
+      "Perspicacia",
+      "Religión",
+      "Supervivencia",
+      "Trato con animales"
+    ],
+    "weapons": [
+      "Armas sencillas"
+    ],
+    "armor": [
+      "Armaduras ligeras",
+      "Escudos"
+    ],
+    "tools": [
+      "Útiles de herborista"
+    ],
+    "starting_equipment": "Elige A o B: (A) armadura de cuero, escudo, hoz, canalizador druídico (bastón), paquete de explorador, útiles de herborista y 9 po, o (B) 50 po",
+    "spellcasting_ability": "Sabiduría",
+    "spellcasting_type": "full",
+    "subclasses": [
+      "circulo-de-la-luna",
+      "circulo-de-la-tierra",
+      "circulo-de-las-estrellas",
+      "circulo-del-mar"
+    ]
+  },
+  {
+    "id": "explorador",
+    "name": "Explorador",
+    "primary_ability": [
+      "Destreza",
+      "Sabiduría"
+    ],
+    "hit_die": "1d10",
+    "saving_throws": [
+      "Fuerza",
+      "Destreza"
+    ],
+    "skill_count": 3,
+    "skill_options": [
+      "Atletismo",
+      "Investigación",
+      "Naturaleza",
+      "Percepción",
+      "Perspicacia",
+      "Sigilo",
+      "Supervivencia",
+      "Trato con animales"
+    ],
+    "weapons": [
+      "Armas sencillas y marciales"
+    ],
+    "armor": [
+      "Armaduras ligeras",
+      "Armaduras medias",
+      "Escudos"
+    ],
+    "tools": [],
+    "starting_equipment": "Elige A o B: (A) armadura de cuero tachonado, cimitarra, espada corta, arco largo, 20 flechas, aljaba, canalizador druídico (rama de muérdago), paquete de explorador y 7 po, o (B) 150 po",
+    "spellcasting_ability": "Sabiduría",
+    "spellcasting_type": "half",
+    "subclasses": [
+      "acechador-en-la-penumbra",
+      "cazador",
+      "errante-feerico",
+      "senor-de-las-bestias"
+    ]
+  },
+  {
+    "id": "guerrero",
+    "name": "Guerrero",
+    "primary_ability": [
+      "Fuerza",
+      "Destreza"
+    ],
+    "hit_die": "1d10",
+    "saving_throws": [
+      "Fuerza",
+      "Constitución"
+    ],
+    "skill_count": 2,
+    "skill_options": [
+      "Acrobacias",
+      "Atletismo",
+      "Historia",
+      "Intimidación",
+      "Percepción",
+      "Perspicacia",
+      "Persuasión",
+      "Supervivencia",
+      "Trato con animales"
+    ],
+    "weapons": [
+      "Armas sencillas y marciales"
+    ],
+    "armor": [
+      "Armaduras ligeras",
+      "Armaduras medias",
+      "Armaduras pesadas",
+      "Escudos"
+    ],
+    "tools": [],
+    "starting_equipment": "Elige A, B o C: (A) cota de malla, espadón, mangual, 3 jabalinas, paquete de explorador de mazmorras y 4 po; (B) armadura de cuero tachonado, cimitarra, espada corta, arco largo, 20 flechas, aljaba, paquete de explorador de mazmorras y 1 po, o (C) 155 po",
+    "spellcasting_ability": "",
+    "spellcasting_type": "",
+    "subclasses": [
+      "caballero-arcano",
+      "campeón",
+      "guerrero-psionico",
+      "maestro-del-combate"
+    ]
+  },
+  {
+    "id": "hechicero",
+    "name": "Hechicero",
+    "primary_ability": [
+      "Carisma"
+    ],
+    "hit_die": "1d6",
+    "saving_throws": [
+      "Constitución",
+      "Carisma"
+    ],
+    "skill_count": 2,
+    "skill_options": [
+      "Conocimiento arcano",
+      "Engaño",
+      "Intimidación",
+      "Perspicacia",
+      "Persuasión",
+      "Religión"
+    ],
+    "weapons": [
+      "Armas sencillas"
+    ],
+    "armor": [],
+    "tools": [],
+    "starting_equipment": "Elige A o B: (A) lanza, 2 dagas, canalizador arcano (cristal), paquete de explorador de mazmorras y 28 po, o (B) 50 po",
+    "spellcasting_ability": "Carisma",
+    "spellcasting_type": "full",
+    "subclasses": [
+      "hechicería-aberrante",
+      "hechicería-de-magia-salvaje",
+      "hechicería-draconica",
+      "hechicería-mecánica"
+    ]
+  },
+  {
+    "id": "mago",
+    "name": "Mago",
+    "primary_ability": [
+      "Inteligencia"
+    ],
+    "hit_die": "1d6",
+    "saving_throws": [
+      "Inteligencia",
+      "Sabiduría"
+    ],
+    "skill_count": 2,
+    "skill_options": [
+      "Conocimiento arcano",
+      "Historia",
+      "Investigación",
+      "Medicina",
+      "Naturaleza",
+      "Perspicacia",
+      "Religión"
+    ],
+    "weapons": [
+      "Armas sencillas"
+    ],
+    "armor": [],
+    "tools": [],
+    "starting_equipment": "Elige A o B: (A) 2 dagas, canalizador arcano (bastón), libro de conjuros, paquete de erudito, túnica y 5 po, o (B) 55 po",
+    "spellcasting_ability": "Inteligencia",
+    "spellcasting_type": "full",
+    "subclasses": [
+      "abjurador",
+      "adivino",
+      "evocador",
+      "ilusiónista"
+    ]
+  },
+  {
+    "id": "monje",
+    "name": "Monje",
+    "primary_ability": [
+      "Destreza",
+      "Sabiduría"
+    ],
+    "hit_die": "1d8",
+    "saving_throws": [
+      "Fuerza",
+      "Destreza"
+    ],
+    "skill_count": 2,
+    "skill_options": [
+      "Acrobacias",
+      "Atletismo",
+      "Historia",
+      "Perspicacia",
+      "Religión",
+      "Sigilo"
+    ],
+    "weapons": [
+      "Armas sencillas, además de marciales que tengan la propiedad “ligera”"
+    ],
+    "armor": [],
+    "tools": [
+      "Herramientas de artesano o instrumento musical (uno)"
+    ],
+    "starting_equipment": "Elige A o B: (A) lanza, 5 dagas, herramientas de artesano o instrumento musical que has elegido para la competencia con herramientas, paquete de explorador y 11 po, o (B) 50 po",
+    "spellcasting_ability": "",
+    "spellcasting_type": "",
+    "subclasses": [
+      "guerrero-de-la-mano-abierta",
+      "guerrero-de-la-misericordia",
+      "guerrero-de-la-sombra",
+      "guerrero-de-los-elementos"
+    ]
+  },
+  {
+    "id": "paladín",
+    "name": "Paladín",
+    "primary_ability": [
+      "Fuerza",
+      "Carisma"
+    ],
+    "hit_die": "1d10",
+    "saving_throws": [
+      "Sabiduría",
+      "Carisma"
+    ],
+    "skill_count": 2,
+    "skill_options": [
+      "Atletismo",
+      "Intimidación",
+      "Medicina",
+      "Perspicacia",
+      "Persuasión",
+      "Religión"
+    ],
+    "weapons": [
+      "Armas sencillas y marciales"
+    ],
+    "armor": [
+      "Armaduras ligeras",
+      "Armaduras medias",
+      "Armaduras pesadas",
+      "Escudos"
+    ],
+    "tools": [],
+    "starting_equipment": "Elige A o B: (A) cota de malla, escudo, espada larga, 6 jabalinas, símbolo sagrado, paquete de sacerdote y 9 po, o (B) 150 po",
+    "spellcasting_ability": "Carisma",
+    "spellcasting_type": "half",
+    "subclasses": [
+      "juramento-de-entrega",
+      "juramento-de-gloria",
+      "juramento-de-los-antiguos",
+      "juramento-de-venganza"
+    ]
+  },
+  {
+    "id": "pícaro",
+    "name": "Pícaro",
+    "primary_ability": [
+      "Destreza"
+    ],
+    "hit_die": "1d8",
+    "saving_throws": [
+      "Destreza",
+      "Inteligencia"
+    ],
+    "skill_count": 4,
+    "skill_options": [
+      "Acrobacias",
+      "Atletismo",
+      "Engaño",
+      "Intimidación",
+      "Investigación",
+      "Juego de manos",
+      "Percepción",
+      "Perspicacia",
+      "Persuasión",
+      "Sigilo"
+    ],
+    "weapons": [
+      "Armas sencillas, además de marciales que tengan las propiedades “ligera” o “sutil”"
+    ],
+    "armor": [
+      "Armaduras ligeras"
+    ],
+    "tools": [
+      "Herramientas de ladrón"
+    ],
+    "starting_equipment": "Elige A o B: (A) armadura de cuero, 2 dagas, espada corta, arco corto, 20 flechas, aljaba, herramientas de ladrón, paquete de ladrón y 3 po, o (B) 100 po",
+    "spellcasting_ability": "",
+    "spellcasting_type": "",
+    "subclasses": [
+      "asesino",
+      "embaucador-arcano",
+      "ladrón",
+      "rebanaalmas"
+    ]
+  }
+]
