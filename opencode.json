@@ -12,6 +12,11 @@
       "type": "local",
       "command": ["python", "tools/conjuros/server.py"],
       "enabled": true
+    },
+    "dotes": {
+      "type": "local",
+      "command": ["python", "tools/dotes/server.py"],
+      "enabled": true
     }
   }
 }

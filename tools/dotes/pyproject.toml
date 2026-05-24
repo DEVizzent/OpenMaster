@@ -1,0 +1,19 @@
+[project]
+name = "dotes-mcp"
+version = "0.1.0"
+description = "MCP server para consultar dotes de D&D 5.5"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp[cli]>=1.8.0",
+    "beautifulsoup4>=4.12",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+    "pytest-cov>=6",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

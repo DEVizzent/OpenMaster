@@ -1,0 +1,988 @@
+[
+  {
+    "nombre": "Acechador",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más, Destreza 13 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [
+      "Destreza"
+    ],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza en 1, hasta un máximo de 20. Visión ciega . Tienes visión ciega con un alcance de 3 metros. Niebla de guerra . Aprovechas las distracciones de la batalla, ganando Ventaja en cualquier chequeo de Destreza (Sigilo) que hagas como parte de la acción de esconderse durante el combate. En la sombra . Si haces una tirada de ataque mientras estás escondido y la tirada falla, realizar la tirada de ataque no revela tu ubicación.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza en 1, hasta un máximo de 20. Visión ciega . Tienes visión ciega con un alcance de 3 metros. Niebla de guerra . Aprovechas las distracciones de la batalla, ganando Ventaja en cualquier chequeo de Destreza (Sigilo) que hagas como parte de la acción de esconderse durante el combate. En la sombra . Si haces una tirada de ataque mientras estás escondido y la tirada falla, realizar la tirada de ataque no revela tu ubicación.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza en 1, hasta un máximo de 20. Visión ciega . Tienes visión ciega con un alcance de 3 metros. Niebla de guerra . Aprovechas las distracciones de la batalla, ganando Ventaja en cualquier chequeo de Destreza (Sigilo) que hagas como parte de la acción de esconderse durante el combate. En la sombra . Si haces una tirada de ataque mientras estás escondido y la tirada falla, realizar la tirada de ataque no revela tu ubicación.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza en 1, hasta un máximo de 20. Visión ciega . Tienes visión ciega con un alcance de 3 metros. Niebla de guerra . Aprovechas las distracciones de la batalla, ganando Ventaja en cualquier chequeo de Destreza (Sigilo) que hagas como parte de la acción de esconderse durante el combate. En la sombra . Si haces una tirada de ataque mientras estás escondido y la tirada falla, realizar la tirada de ataque no revela tu ubicación.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza en 1, hasta un máximo de 20. Visión ciega . Tienes visión ciega con un alcance de 3 metros. Niebla de guerra . Aprovechas las distracciones de la batalla, ganando Ventaja en cualquier chequeo de Destreza (Sigilo) que hagas como parte de la acción de esconderse durante el combate. En la sombra . Si haces una tirada de ataque mientras estás escondido y la tirada falla, realizar la tirada de ataque no revela tu ubicación."
+    ]
+  },
+  {
+    "nombre": "Actor",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más, Carisma 13 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [
+      "Carisma"
+    ],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Carisma en 1, hasta un máximo de 20. Suplantación . Mientras te disfrazas de una persona real o ficticia, tienes Ventaja en las pruebas de Carisma (Engaño o Interpretación) para convencer a los demás de que eres esa persona. Imitación . Puedes imitar los sonidos de otras criaturas, incluyendo el habla. Una criatura que oiga la imitación debe superar una prueba de Sabiduría (Perspicacia) para determinar que el efecto es fingido (CD 8 más tu modificador por Carisma y bonificador por competencia).",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Carisma en 1, hasta un máximo de 20. Suplantación . Mientras te disfrazas de una persona real o ficticia, tienes Ventaja en las pruebas de Carisma (Engaño o Interpretación) para convencer a los demás de que eres esa persona. Imitación . Puedes imitar los sonidos de otras criaturas, incluyendo el habla. Una criatura que oiga la imitación debe superar una prueba de Sabiduría (Perspicacia) para determinar que el efecto es fingido (CD 8 más tu modificador por Carisma y bonificador por competencia).",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Carisma en 1, hasta un máximo de 20. Suplantación . Mientras te disfrazas de una persona real o ficticia, tienes Ventaja en las pruebas de Carisma (Engaño o Interpretación) para convencer a los demás de que eres esa persona. Imitación . Puedes imitar los sonidos de otras criaturas, incluyendo el habla. Una criatura que oiga la imitación debe superar una prueba de Sabiduría (Perspicacia) para determinar que el efecto es fingido (CD 8 más tu modificador por Carisma y bonificador por competencia).",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Carisma en 1, hasta un máximo de 20. Suplantación . Mientras te disfrazas de una persona real o ficticia, tienes Ventaja en las pruebas de Carisma (Engaño o Interpretación) para convencer a los demás de que eres esa persona. Imitación . Puedes imitar los sonidos de otras criaturas, incluyendo el habla. Una criatura que oiga la imitación debe superar una prueba de Sabiduría (Perspicacia) para determinar que el efecto es fingido (CD 8 más tu modificador por Carisma y bonificador por competencia)."
+    ]
+  },
+  {
+    "nombre": "Afortunado",
+    "categoria": "origen",
+    "prerequisitos_raw": "Dote de origen",
+    "nivel_requerido": null,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Puntos de suerte . Tienes una cantidad de puntos de suerte igual a tu bonificador por competencia y puedes gastar estos puntos en los beneficios a continuación. Recuperas tus puntos de suerte gastados cuando terminas un descanso largo. Ventaja . Cuando tires un d20 para una prueba con d20, puedes gastar 1 punto de suerte para darte Ventaja en la tirada. Desventaja . Cuando una criatura tira un d20 para una tirada de ataque contra ti, puedes gastar 1 punto de suerte para imponer Desventaja en esa tirada.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Puntos de suerte . Tienes una cantidad de puntos de suerte igual a tu bonificador por competencia y puedes gastar estos puntos en los beneficios a continuación. Recuperas tus puntos de suerte gastados cuando terminas un descanso largo. Ventaja . Cuando tires un d20 para una prueba con d20, puedes gastar 1 punto de suerte para darte Ventaja en la tirada. Desventaja . Cuando una criatura tira un d20 para una tirada de ataque contra ti, puedes gastar 1 punto de suerte para imponer Desventaja en esa tirada.",
+      "Obtienes los siguientes beneficios. Puntos de suerte . Tienes una cantidad de puntos de suerte igual a tu bonificador por competencia y puedes gastar estos puntos en los beneficios a continuación. Recuperas tus puntos de suerte gastados cuando terminas un descanso largo. Ventaja . Cuando tires un d20 para una prueba con d20, puedes gastar 1 punto de suerte para darte Ventaja en la tirada. Desventaja . Cuando una criatura tira un d20 para una tirada de ataque contra ti, puedes gastar 1 punto de suerte para imponer Desventaja en esa tirada.",
+      "Obtienes los siguientes beneficios. Puntos de suerte . Tienes una cantidad de puntos de suerte igual a tu bonificador por competencia y puedes gastar estos puntos en los beneficios a continuación. Recuperas tus puntos de suerte gastados cuando terminas un descanso largo. Ventaja . Cuando tires un d20 para una prueba con d20, puedes gastar 1 punto de suerte para darte Ventaja en la tirada. Desventaja . Cuando una criatura tira un d20 para una tirada de ataque contra ti, puedes gastar 1 punto de suerte para imponer Desventaja en esa tirada."
+    ]
+  },
+  {
+    "nombre": "Alerta",
+    "categoria": "origen",
+    "prerequisitos_raw": "Dote de origen",
+    "nivel_requerido": null,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Competencia en iniciativa . Cuando lances la tirada de Iniciativa, puedes añadir tu bonificador por competencia a la tirada. Intercambio de iniciativa . Inmediatamente después de lanzar la tirada de Iniciativa, puedes intercambiar tu Iniciativa con la Iniciativa de un aliado dispuesto en el mismo combate. No puedes hacer este intercambio si tú o el aliado tienen el estado de Incapacitado.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Competencia en iniciativa . Cuando lances la tirada de Iniciativa, puedes añadir tu bonificador por competencia a la tirada. Intercambio de iniciativa . Inmediatamente después de lanzar la tirada de Iniciativa, puedes intercambiar tu Iniciativa con la Iniciativa de un aliado dispuesto en el mismo combate. No puedes hacer este intercambio si tú o el aliado tienen el estado de Incapacitado.",
+      "Obtienes los siguientes beneficios. Competencia en iniciativa . Cuando lances la tirada de Iniciativa, puedes añadir tu bonificador por competencia a la tirada. Intercambio de iniciativa . Inmediatamente después de lanzar la tirada de Iniciativa, puedes intercambiar tu Iniciativa con la Iniciativa de un aliado dispuesto en el mismo combate. No puedes hacer este intercambio si tú o el aliado tienen el estado de Incapacitado."
+    ]
+  },
+  {
+    "nombre": "Apresador",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más, Fuerza o Destreza 13 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [
+      "Fuerza",
+      "Destreza"
+    ],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Golpear y agarrar . Cuando aciertes a una criatura con un ataque sin armas como parte de la acción de atacar en tu turno, puedes usar tanto la opción de Daño como la de Agarre. Puedes usar este beneficio solo una vez por turno. Ventaja al atacar . Tienes Ventaja en las tiradas de ataque contra una criatura que hayas agarrado. Luchador rápido . Tu velocidad no se reduce a la mitad cuando mueves a una criatura que hayas agarrado si la criatura es de tu tamaño o más pequeña.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Golpear y agarrar . Cuando aciertes a una criatura con un ataque sin armas como parte de la acción de atacar en tu turno, puedes usar tanto la opción de Daño como la de Agarre. Puedes usar este beneficio solo una vez por turno. Ventaja al atacar . Tienes Ventaja en las tiradas de ataque contra una criatura que hayas agarrado. Luchador rápido . Tu velocidad no se reduce a la mitad cuando mueves a una criatura que hayas agarrado si la criatura es de tu tamaño o más pequeña.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Golpear y agarrar . Cuando aciertes a una criatura con un ataque sin armas como parte de la acción de atacar en tu turno, puedes usar tanto la opción de Daño como la de Agarre. Puedes usar este beneficio solo una vez por turno. Ventaja al atacar . Tienes Ventaja en las tiradas de ataque contra una criatura que hayas agarrado. Luchador rápido . Tu velocidad no se reduce a la mitad cuando mueves a una criatura que hayas agarrado si la criatura es de tu tamaño o más pequeña.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Golpear y agarrar . Cuando aciertes a una criatura con un ataque sin armas como parte de la acción de atacar en tu turno, puedes usar tanto la opción de Daño como la de Agarre. Puedes usar este beneficio solo una vez por turno. Ventaja al atacar . Tienes Ventaja en las tiradas de ataque contra una criatura que hayas agarrado. Luchador rápido . Tu velocidad no se reduce a la mitad cuando mueves a una criatura que hayas agarrado si la criatura es de tu tamaño o más pequeña.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Golpear y agarrar . Cuando aciertes a una criatura con un ataque sin armas como parte de la acción de atacar en tu turno, puedes usar tanto la opción de Daño como la de Agarre. Puedes usar este beneficio solo una vez por turno. Ventaja al atacar . Tienes Ventaja en las tiradas de ataque contra una criatura que hayas agarrado. Luchador rápido . Tu velocidad no se reduce a la mitad cuando mueves a una criatura que hayas agarrado si la criatura es de tu tamaño o más pequeña."
+    ]
+  },
+  {
+    "nombre": "Atacante a la carga",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más, Fuerza o Destreza 13 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [
+      "Fuerza",
+      "Destreza"
+    ],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Carrera mejorada . Cuando tomas la acción de correr, tu velocidad aumenta en 3 metros durante esa acción. Ataque con carga . Si te mueves al menos 3 metros en línea recta hacia un objetivo inmediatamente antes de acertarle con una tirada de ataque cuerpo a cuerpo como parte de la acción de atacar, elige uno de los siguientes efectos: ganar un bonificador de 1d8 a la tirada de daño del ataque, o empujar al objetivo hasta 3 metros si no es más de un tamaño mayor que tú. Solo puedes usar este beneficio una vez en cada uno de tus turnos.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Carrera mejorada . Cuando tomas la acción de correr, tu velocidad aumenta en 3 metros durante esa acción. Ataque con carga . Si te mueves al menos 3 metros en línea recta hacia un objetivo inmediatamente antes de acertarle con una tirada de ataque cuerpo a cuerpo como parte de la acción de atacar, elige uno de los siguientes efectos: ganar un bonificador de 1d8 a la tirada de daño del ataque, o empujar al objetivo hasta 3 metros si no es más de un tamaño mayor que tú. Solo puedes usar este beneficio una vez en cada uno de tus turnos.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Carrera mejorada . Cuando tomas la acción de correr, tu velocidad aumenta en 3 metros durante esa acción. Ataque con carga . Si te mueves al menos 3 metros en línea recta hacia un objetivo inmediatamente antes de acertarle con una tirada de ataque cuerpo a cuerpo como parte de la acción de atacar, elige uno de los siguientes efectos: ganar un bonificador de 1d8 a la tirada de daño del ataque, o empujar al objetivo hasta 3 metros si no es más de un tamaño mayor que tú. Solo puedes usar este beneficio una vez en cada uno de tus turnos.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Carrera mejorada . Cuando tomas la acción de correr, tu velocidad aumenta en 3 metros durante esa acción. Ataque con carga . Si te mueves al menos 3 metros en línea recta hacia un objetivo inmediatamente antes de acertarle con una tirada de ataque cuerpo a cuerpo como parte de la acción de atacar, elige uno de los siguientes efectos: ganar un bonificador de 1d8 a la tirada de daño del ataque, o empujar al objetivo hasta 3 metros si no es más de un tamaño mayor que tú. Solo puedes usar este beneficio una vez en cada uno de tus turnos."
+    ]
+  },
+  {
+    "nombre": "Atacante salvaje",
+    "categoria": "origen",
+    "prerequisitos_raw": "Dote de origen",
+    "nivel_requerido": null,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Te has entrenado para dar golpes particularmente dañinos. Una vez por turno, cuando aciertes a un objetivo con un arma, puedes lanzar los dados de daño del arma dos veces y usar cualquiera de las dos tiradas contra el objetivo.",
+    "beneficios": []
+  },
+  {
+    "nombre": "Atleta",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más, Fuerza o Destreza 13 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [
+      "Fuerza",
+      "Destreza"
+    ],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Velocidad trepando . Obtienes una velocidad de Escalada igual a tu velocidad. Levantarse de un salto . Cuando estás en estado de Derribado, puedes levantarte con solo 1,50 metros de movimiento. Saltar . Puedes realizar un Salto largo o alto después de moverte de solo 1,50 metros.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Velocidad trepando . Obtienes una velocidad de Escalada igual a tu velocidad. Levantarse de un salto . Cuando estás en estado de Derribado, puedes levantarte con solo 1,50 metros de movimiento. Saltar . Puedes realizar un Salto largo o alto después de moverte de solo 1,50 metros.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Velocidad trepando . Obtienes una velocidad de Escalada igual a tu velocidad. Levantarse de un salto . Cuando estás en estado de Derribado, puedes levantarte con solo 1,50 metros de movimiento. Saltar . Puedes realizar un Salto largo o alto después de moverte de solo 1,50 metros.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Velocidad trepando . Obtienes una velocidad de Escalada igual a tu velocidad. Levantarse de un salto . Cuando estás en estado de Derribado, puedes levantarte con solo 1,50 metros de movimiento. Saltar . Puedes realizar un Salto largo o alto después de moverte de solo 1,50 metros.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Velocidad trepando . Obtienes una velocidad de Escalada igual a tu velocidad. Levantarse de un salto . Cuando estás en estado de Derribado, puedes levantarte con solo 1,50 metros de movimiento. Saltar . Puedes realizar un Salto largo o alto después de moverte de solo 1,50 metros."
+    ]
+  },
+  {
+    "nombre": "Azote de magos",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Anticoncentración . Cuando dañas a una criatura que está concentrándose, tiene Desventaja en la tirada de salvación que realiza para mantener la Concentración. Mente robusta . Si fallas una tirada de salvación de Inteligencia, Sabiduría o Carisma, puedes provocar que tengas éxito en su lugar. Una vez que uses este beneficio, no podrás volver a usarlo hasta que termines un descanso corto o largo.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Anticoncentración . Cuando dañas a una criatura que está concentrándose, tiene Desventaja en la tirada de salvación que realiza para mantener la Concentración. Mente robusta . Si fallas una tirada de salvación de Inteligencia, Sabiduría o Carisma, puedes provocar que tengas éxito en su lugar. Una vez que uses este beneficio, no podrás volver a usarlo hasta que termines un descanso corto o largo.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Anticoncentración . Cuando dañas a una criatura que está concentrándose, tiene Desventaja en la tirada de salvación que realiza para mantener la Concentración. Mente robusta . Si fallas una tirada de salvación de Inteligencia, Sabiduría o Carisma, puedes provocar que tengas éxito en su lugar. Una vez que uses este beneficio, no podrás volver a usarlo hasta que termines un descanso corto o largo.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Anticoncentración . Cuando dañas a una criatura que está concentrándose, tiene Desventaja en la tirada de salvación que realiza para mantener la Concentración. Mente robusta . Si fallas una tirada de salvación de Inteligencia, Sabiduría o Carisma, puedes provocar que tengas éxito en su lugar. Una vez que uses este beneficio, no podrás volver a usarlo hasta que termines un descanso corto o largo."
+    ]
+  },
+  {
+    "nombre": "Centinela",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más, Fuerza o Destreza 13 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [
+      "Fuerza",
+      "Destreza"
+    ],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Guardián . Inmediatamente después de que una criatura a 1,50 metros o menos de ti tome la acción de destrabar o acierte a un objetivo diferente a ti con un ataque, puedes realizar un ataque de oportunidad contra esa criatura. Detener . Cuando aciertes a una criatura con un ataque de oportunidad, la velocidad de la criatura se convierte en 0 durante el resto del turno actual.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Guardián . Inmediatamente después de que una criatura a 1,50 metros o menos de ti tome la acción de destrabar o acierte a un objetivo diferente a ti con un ataque, puedes realizar un ataque de oportunidad contra esa criatura. Detener . Cuando aciertes a una criatura con un ataque de oportunidad, la velocidad de la criatura se convierte en 0 durante el resto del turno actual.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Guardián . Inmediatamente después de que una criatura a 1,50 metros o menos de ti tome la acción de destrabar o acierte a un objetivo diferente a ti con un ataque, puedes realizar un ataque de oportunidad contra esa criatura. Detener . Cuando aciertes a una criatura con un ataque de oportunidad, la velocidad de la criatura se convierte en 0 durante el resto del turno actual.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Guardián . Inmediatamente después de que una criatura a 1,50 metros o menos de ti tome la acción de destrabar o acierte a un objetivo diferente a ti con un ataque, puedes realizar un ataque de oportunidad contra esa criatura. Detener . Cuando aciertes a una criatura con un ataque de oportunidad, la velocidad de la criatura se convierte en 0 durante el resto del turno actual."
+    ]
+  },
+  {
+    "nombre": "Chef",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Constitución o Sabiduría en 1, hasta un máximo de 20. Útiles de cocinero . Obtienes competencia con los útiles de cocinero si aún no la tienes. Comida reconstituyente . Como parte de un descanso corto, puedes cocinar comida especial si tienes ingredientes y útiles de cocinero a mano. Puedes preparar suficiente de esta comida para un número de criaturas igual a 4, más tu bonificador por competencia. Al final del descanso corto, cualquier criatura que consuma la comida y gaste uno o más Dados de golpe para recuperar puntos de golpe recupera 1d8 puntos de golpe adicionales. Tentempiés tonificantes . Con 1 hora de trabajo o al terminar un descanso largo, puedes cocinar una cantidad de dulces igual a tu bonificador por competencia si tienes ingredientes y útiles de cocinero a mano. Estos dulces especiales duran 8 horas después de ser preparados. Una criatura puede usar una acción bonus para comer uno de ellos y obtener una cantidad de puntos de golpe temporales igual a tu bonificador por competencia.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Constitución o Sabiduría en 1, hasta un máximo de 20. Útiles de cocinero . Obtienes competencia con los útiles de cocinero si aún no la tienes. Comida reconstituyente . Como parte de un descanso corto, puedes cocinar comida especial si tienes ingredientes y útiles de cocinero a mano. Puedes preparar suficiente de esta comida para un número de criaturas igual a 4, más tu bonificador por competencia. Al final del descanso corto, cualquier criatura que consuma la comida y gaste uno o más Dados de golpe para recuperar puntos de golpe recupera 1d8 puntos de golpe adicionales. Tentempiés tonificantes . Con 1 hora de trabajo o al terminar un descanso largo, puedes cocinar una cantidad de dulces igual a tu bonificador por competencia si tienes ingredientes y útiles de cocinero a mano. Estos dulces especiales duran 8 horas después de ser preparados. Una criatura puede usar una acción bonus para comer uno de ellos y obtener una cantidad de puntos de golpe temporales igual a tu bonificador por competencia.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Constitución o Sabiduría en 1, hasta un máximo de 20. Útiles de cocinero . Obtienes competencia con los útiles de cocinero si aún no la tienes. Comida reconstituyente . Como parte de un descanso corto, puedes cocinar comida especial si tienes ingredientes y útiles de cocinero a mano. Puedes preparar suficiente de esta comida para un número de criaturas igual a 4, más tu bonificador por competencia. Al final del descanso corto, cualquier criatura que consuma la comida y gaste uno o más Dados de golpe para recuperar puntos de golpe recupera 1d8 puntos de golpe adicionales. Tentempiés tonificantes . Con 1 hora de trabajo o al terminar un descanso largo, puedes cocinar una cantidad de dulces igual a tu bonificador por competencia si tienes ingredientes y útiles de cocinero a mano. Estos dulces especiales duran 8 horas después de ser preparados. Una criatura puede usar una acción bonus para comer uno de ellos y obtener una cantidad de puntos de golpe temporales igual a tu bonificador por competencia.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Constitución o Sabiduría en 1, hasta un máximo de 20. Útiles de cocinero . Obtienes competencia con los útiles de cocinero si aún no la tienes. Comida reconstituyente . Como parte de un descanso corto, puedes cocinar comida especial si tienes ingredientes y útiles de cocinero a mano. Puedes preparar suficiente de esta comida para un número de criaturas igual a 4, más tu bonificador por competencia. Al final del descanso corto, cualquier criatura que consuma la comida y gaste uno o más Dados de golpe para recuperar puntos de golpe recupera 1d8 puntos de golpe adicionales. Tentempiés tonificantes . Con 1 hora de trabajo o al terminar un descanso largo, puedes cocinar una cantidad de dulces igual a tu bonificador por competencia si tienes ingredientes y útiles de cocinero a mano. Estos dulces especiales duran 8 horas después de ser preparados. Una criatura puede usar una acción bonus para comer uno de ellos y obtener una cantidad de puntos de golpe temporales igual a tu bonificador por competencia.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Constitución o Sabiduría en 1, hasta un máximo de 20. Útiles de cocinero . Obtienes competencia con los útiles de cocinero si aún no la tienes. Comida reconstituyente . Como parte de un descanso corto, puedes cocinar comida especial si tienes ingredientes y útiles de cocinero a mano. Puedes preparar suficiente de esta comida para un número de criaturas igual a 4, más tu bonificador por competencia. Al final del descanso corto, cualquier criatura que consuma la comida y gaste uno o más Dados de golpe para recuperar puntos de golpe recupera 1d8 puntos de golpe adicionales. Tentempiés tonificantes . Con 1 hora de trabajo o al terminar un descanso largo, puedes cocinar una cantidad de dulces igual a tu bonificador por competencia si tienes ingredientes y útiles de cocinero a mano. Estos dulces especiales duran 8 horas después de ser preparados. Una criatura puede usar una acción bonus para comer uno de ellos y obtener una cantidad de puntos de golpe temporales igual a tu bonificador por competencia."
+    ]
+  },
+  {
+    "nombre": "Combate con armas a dos manos",
+    "categoria": "estilo de combate",
+    "prerequisitos_raw": "Dote de estilo de combate (requisito: rasgo Estilo de combate)",
+    "nivel_requerido": null,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Cuando lanzas el daño para un ataque que haces con un arma cuerpo a cuerpo que estás sosteniendo con dos manos, puedes considerar cualquier 1 o 2 en un dado de daño como 3. El arma debe tener la propiedad \"a dos manos\" o \"versátil\" para obtener este beneficio.",
+    "beneficios": []
+  },
+  {
+    "nombre": "Combate con armas arrojadizas",
+    "categoria": "estilo de combate",
+    "prerequisitos_raw": "Dote de estilo de combate (requisito: rasgo Estilo de combate)",
+    "nivel_requerido": null,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Cuando aciertes con una tirada de ataque a distancia usando un arma que tenga la propiedad \"arrojadiza\", obtienes un bonificador de +2 a la tirada de daño.",
+    "beneficios": []
+  },
+  {
+    "nombre": "Combate con dos armas",
+    "categoria": "estilo de combate",
+    "prerequisitos_raw": "Dote de estilo de combate (requisito: rasgo Estilo de combate)",
+    "nivel_requerido": null,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Cuando haces un ataque adicional como resultado de usar un arma que tenga la propiedad \"ligera\", puedes agregar tu modificador por característica al daño de ese ataque si no lo estás agregando ya al daño.",
+    "beneficios": []
+  },
+  {
+    "nombre": "Combate sin armas",
+    "categoria": "estilo de combate",
+    "prerequisitos_raw": "Dote de estilo de combate (requisito: rasgo Estilo de combate)",
+    "nivel_requerido": null,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Cuando aciertes con tu ataque sin armas e infliges daños, puedes infligir daño contundente igual a 1d6 más tu modificador por Fuerza en lugar del daño normal de un ataque sin armas. Si no llevas armas ni escudo al realizar la tirada de ataque, el d6 se convierte en un d8. Al comienzo de cada turno, puedes infligir 1d4 de daño contundente a una criatura agarrada por ti.",
+    "beneficios": []
+  },
+  {
+    "nombre": "Combatiente con dos armas",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más, Fuerza o Destreza 13 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [
+      "Fuerza",
+      "Destreza"
+    ],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Manejo doble mejorado . Cuando tomas la acción de atacar en tu turno y atacas con un arma que tiene la propiedad \"ligera\", puedes hacer un ataque adicional como acción bonus más tarde en el mismo turno con un arma diferente, que debe ser un arma cuerpo a cuerpo que no tenga la propiedad \"a dos manos\". No añades tu modificador por característica al daño del ataque adicional a menos que ese modificador sea negativo. Desenvainar rápido . Puedes sacar o guardar dos armas que no tengan la propiedad \"a dos manos\" cuando normalmente solo podrías sacar o guardar una.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Manejo doble mejorado . Cuando tomas la acción de atacar en tu turno y atacas con un arma que tiene la propiedad \"ligera\", puedes hacer un ataque adicional como acción bonus más tarde en el mismo turno con un arma diferente, que debe ser un arma cuerpo a cuerpo que no tenga la propiedad \"a dos manos\". No añades tu modificador por característica al daño del ataque adicional a menos que ese modificador sea negativo. Desenvainar rápido . Puedes sacar o guardar dos armas que no tengan la propiedad \"a dos manos\" cuando normalmente solo podrías sacar o guardar una.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Manejo doble mejorado . Cuando tomas la acción de atacar en tu turno y atacas con un arma que tiene la propiedad \"ligera\", puedes hacer un ataque adicional como acción bonus más tarde en el mismo turno con un arma diferente, que debe ser un arma cuerpo a cuerpo que no tenga la propiedad \"a dos manos\". No añades tu modificador por característica al daño del ataque adicional a menos que ese modificador sea negativo. Desenvainar rápido . Puedes sacar o guardar dos armas que no tengan la propiedad \"a dos manos\" cuando normalmente solo podrías sacar o guardar una.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Manejo doble mejorado . Cuando tomas la acción de atacar en tu turno y atacas con un arma que tiene la propiedad \"ligera\", puedes hacer un ataque adicional como acción bonus más tarde en el mismo turno con un arma diferente, que debe ser un arma cuerpo a cuerpo que no tenga la propiedad \"a dos manos\". No añades tu modificador por característica al daño del ataque adicional a menos que ese modificador sea negativo. Desenvainar rápido . Puedes sacar o guardar dos armas que no tengan la propiedad \"a dos manos\" cuando normalmente solo podrías sacar o guardar una."
+    ]
+  },
+  {
+    "nombre": "Combatiente montado",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza, Destreza o Sabiduría en 1, hasta un máximo de 20. Golpe montado . Mientras estés montado, tienes Ventaja en las tiradas de ataque contra cualquier criatura no montada a 1,50 m o menos de tu montura que sea al menos un tamaño menor que la de esta. Esquivar de un salto . Si tu montura está sujeta a un efecto que le permite realizar una tirada de salvación de Destreza para recibir solo la mitad del daño, no recibe daño si tiene éxito en la tirada de salvación y solo la mitad si falla. Para que tu montura obtenga este beneficio, debes estar montándola y ninguno de los dos puede estar incapacitado. Girar bruscamente . Mientras estés montado, puedes forzar que un ataque que acierte a tu montura te acierte a ti si no estás incapacitado.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza, Destreza o Sabiduría en 1, hasta un máximo de 20. Golpe montado . Mientras estés montado, tienes Ventaja en las tiradas de ataque contra cualquier criatura no montada a 1,50 m o menos de tu montura que sea al menos un tamaño menor que la de esta. Esquivar de un salto . Si tu montura está sujeta a un efecto que le permite realizar una tirada de salvación de Destreza para recibir solo la mitad del daño, no recibe daño si tiene éxito en la tirada de salvación y solo la mitad si falla. Para que tu montura obtenga este beneficio, debes estar montándola y ninguno de los dos puede estar incapacitado. Girar bruscamente . Mientras estés montado, puedes forzar que un ataque que acierte a tu montura te acierte a ti si no estás incapacitado.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza, Destreza o Sabiduría en 1, hasta un máximo de 20. Golpe montado . Mientras estés montado, tienes Ventaja en las tiradas de ataque contra cualquier criatura no montada a 1,50 m o menos de tu montura que sea al menos un tamaño menor que la de esta. Esquivar de un salto . Si tu montura está sujeta a un efecto que le permite realizar una tirada de salvación de Destreza para recibir solo la mitad del daño, no recibe daño si tiene éxito en la tirada de salvación y solo la mitad si falla. Para que tu montura obtenga este beneficio, debes estar montándola y ninguno de los dos puede estar incapacitado. Girar bruscamente . Mientras estés montado, puedes forzar que un ataque que acierte a tu montura te acierte a ti si no estás incapacitado.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza, Destreza o Sabiduría en 1, hasta un máximo de 20. Golpe montado . Mientras estés montado, tienes Ventaja en las tiradas de ataque contra cualquier criatura no montada a 1,50 m o menos de tu montura que sea al menos un tamaño menor que la de esta. Esquivar de un salto . Si tu montura está sujeta a un efecto que le permite realizar una tirada de salvación de Destreza para recibir solo la mitad del daño, no recibe daño si tiene éxito en la tirada de salvación y solo la mitad si falla. Para que tu montura obtenga este beneficio, debes estar montándola y ninguno de los dos puede estar incapacitado. Girar bruscamente . Mientras estés montado, puedes forzar que un ataque que acierte a tu montura te acierte a ti si no estás incapacitado.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza, Destreza o Sabiduría en 1, hasta un máximo de 20. Golpe montado . Mientras estés montado, tienes Ventaja en las tiradas de ataque contra cualquier criatura no montada a 1,50 m o menos de tu montura que sea al menos un tamaño menor que la de esta. Esquivar de un salto . Si tu montura está sujeta a un efecto que le permite realizar una tirada de salvación de Destreza para recibir solo la mitad del daño, no recibe daño si tiene éxito en la tirada de salvación y solo la mitad si falla. Para que tu montura obtenga este beneficio, debes estar montándola y ninguno de los dos puede estar incapacitado. Girar bruscamente . Mientras estés montado, puedes forzar que un ataque que acierte a tu montura te acierte a ti si no estás incapacitado."
+    ]
+  },
+  {
+    "nombre": "Defensa",
+    "categoria": "estilo de combate",
+    "prerequisitos_raw": "Dote de estilo de combate (requisito: rasgo Estilo de combate)",
+    "nivel_requerido": null,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Mientras uses armadura ligera, media o pesada, obtienes un bonificador de +1 a la Clase de Armadura.",
+    "beneficios": []
+  },
+  {
+    "nombre": "Don de la fortaleza",
+    "categoria": "épico",
+    "prerequisitos_raw": "Dote de don épico (requisito: nivel 19 o más)",
+    "nivel_requerido": 19,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Description not available (not OGL).",
+    "beneficios": []
+  },
+  {
+    "nombre": "Don de la habilidad",
+    "categoria": "épico",
+    "prerequisitos_raw": "Dote de don épico (requisito: nivel 19 o más)",
+    "nivel_requerido": 19,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Description not available (not OGL).",
+    "beneficios": []
+  },
+  {
+    "nombre": "Don de la pericia en combate",
+    "categoria": "épico",
+    "prerequisitos_raw": "Dote de don épico (requisito: nivel 19 o más)",
+    "nivel_requerido": 19,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Description not available (not OGL).",
+    "beneficios": []
+  },
+  {
+    "nombre": "Don de la recuperación",
+    "categoria": "épico",
+    "prerequisitos_raw": "Dote de don épico (requisito: nivel 19 o más)",
+    "nivel_requerido": 19,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Description not available (not OGL).",
+    "beneficios": []
+  },
+  {
+    "nombre": "Don de la resistencia a energías",
+    "categoria": "épico",
+    "prerequisitos_raw": "Dote de don épico (requisito: nivel 19 o más)",
+    "nivel_requerido": 19,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Description not available (not OGL).",
+    "beneficios": []
+  },
+  {
+    "nombre": "Don de la velocidad",
+    "categoria": "épico",
+    "prerequisitos_raw": "Dote de don épico (requisito: nivel 19 o más)",
+    "nivel_requerido": 19,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Description not available (not OGL).",
+    "beneficios": []
+  },
+  {
+    "nombre": "Don de la visión verdadera",
+    "categoria": "épico",
+    "prerequisitos_raw": "Dote de don épico (requisito: nivel 19 o más)",
+    "nivel_requerido": 19,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Description not available (not OGL).",
+    "beneficios": []
+  },
+  {
+    "nombre": "Don del ataque imparable",
+    "categoria": "épico",
+    "prerequisitos_raw": "Dote de don épico (requisito: nivel 19 o más)",
+    "nivel_requerido": 19,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Description not available (not OGL).",
+    "beneficios": []
+  },
+  {
+    "nombre": "Don del destino",
+    "categoria": "épico",
+    "prerequisitos_raw": "Dote de don épico (requisito: nivel 19 o más)",
+    "nivel_requerido": 19,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Description not available (not OGL).",
+    "beneficios": []
+  },
+  {
+    "nombre": "Don del espíritu de la noche",
+    "categoria": "épico",
+    "prerequisitos_raw": "Dote de don épico (requisito: nivel 19 o más)",
+    "nivel_requerido": 19,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Description not available (not OGL).",
+    "beneficios": []
+  },
+  {
+    "nombre": "Don del recuerdo de conjuros",
+    "categoria": "épico",
+    "prerequisitos_raw": "Dote de don épico (requisito: nivel 19 o más, rasgo Lanzamiento de conjuros)",
+    "nivel_requerido": 19,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Description not available (not OGL).",
+    "beneficios": []
+  },
+  {
+    "nombre": "Don del viaje dimensional",
+    "categoria": "épico",
+    "prerequisitos_raw": "Dote de don épico (requisito: nivel 19 o más)",
+    "nivel_requerido": 19,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Description not available (not OGL).",
+    "beneficios": []
+  },
+  {
+    "nombre": "Duelista Defensivo",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más, Destreza 13 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [
+      "Destreza"
+    ],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza en 1, hasta un máximo de 20. Parada . Si estás sosteniendo un arma sutil y otra criatura te acierta con un ataque cuerpo a cuerpo, puedes tomar una reacción para añadir tu bonificador por competencia a tu Clase de Armadura, lo que potencialmente hace que el ataque te falle. Obtienes este bonificador a tu CA contra ataques cuerpo a cuerpo hasta el inicio de tu siguiente turno.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza en 1, hasta un máximo de 20. Parada . Si estás sosteniendo un arma sutil y otra criatura te acierta con un ataque cuerpo a cuerpo, puedes tomar una reacción para añadir tu bonificador por competencia a tu Clase de Armadura, lo que potencialmente hace que el ataque te falle. Obtienes este bonificador a tu CA contra ataques cuerpo a cuerpo hasta el inicio de tu siguiente turno.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza en 1, hasta un máximo de 20. Parada . Si estás sosteniendo un arma sutil y otra criatura te acierta con un ataque cuerpo a cuerpo, puedes tomar una reacción para añadir tu bonificador por competencia a tu Clase de Armadura, lo que potencialmente hace que el ataque te falle. Obtienes este bonificador a tu CA contra ataques cuerpo a cuerpo hasta el inicio de tu siguiente turno."
+    ]
+  },
+  {
+    "nombre": "Duelo",
+    "categoria": "estilo de combate",
+    "prerequisitos_raw": "Dote de estilo de combate (requisito: rasgo Estilo de combate)",
+    "nivel_requerido": null,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Cuando sostienes un arma cuerpo a cuerpo en una mano y no tienes otras armas, obtienes un bonificador de +2 a las tiradas de daño con esa arma.",
+    "beneficios": []
+  },
+  {
+    "nombre": "Duro",
+    "categoria": "origen",
+    "prerequisitos_raw": "Dote de origen",
+    "nivel_requerido": null,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Tu máximo de puntos de golpe aumenta en una cantidad igual al doble de tu nivel de personaje cuando obtienes este dote. Siempre que ganes un nivel de personaje después, tu máximo de puntos de golpe aumenta en 2 puntos de golpe adicionales.",
+    "beneficios": []
+  },
+  {
+    "nombre": "Entrenamiento con armas marciales",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Competencia con armas . Obtienes competencia con armas marciales.",
+    "beneficios": [
+      "Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Competencia con armas . Obtienes competencia con armas marciales.",
+      "Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Competencia con armas . Obtienes competencia con armas marciales."
+    ]
+  },
+  {
+    "nombre": "Envenenador",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza o Inteligencia en 1, hasta un máximo de 20. Veneno potente . Cuando realizas una tirada de daño que inflige daño de veneno, ignora la resistencia al daño de veneno. Preparar veneno . Obtienes competencia con el Kit del Envenenador. Con 1 hora de trabajo usando dicho kit y gastando 50 po en materiales, puedes crear una cantidad de dosis de veneno igual a tu bonificador por competencia. Como acción bonus, puedes aplicar una dosis de veneno a un arma o munición. Una vez aplicado, el veneno conserva su potencia durante 1 minuto o hasta que inflijas daño con el objeto envenenado, lo que ocurra primero. Cuando una criatura recibe daño del objeto envenenado, esa criatura debe tener éxito en una tirada de salvación de Constitución (CD 8 más el modificador de la característica que aumentaste con esta dote y tu bonificador por competencia) o recibir 2d8 puntos de daño de veneno y tener el estado de Envenenado hasta el final de tu siguiente turno.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza o Inteligencia en 1, hasta un máximo de 20. Veneno potente . Cuando realizas una tirada de daño que inflige daño de veneno, ignora la resistencia al daño de veneno. Preparar veneno . Obtienes competencia con el Kit del Envenenador. Con 1 hora de trabajo usando dicho kit y gastando 50 po en materiales, puedes crear una cantidad de dosis de veneno igual a tu bonificador por competencia. Como acción bonus, puedes aplicar una dosis de veneno a un arma o munición. Una vez aplicado, el veneno conserva su potencia durante 1 minuto o hasta que inflijas daño con el objeto envenenado, lo que ocurra primero. Cuando una criatura recibe daño del objeto envenenado, esa criatura debe tener éxito en una tirada de salvación de Constitución (CD 8 más el modificador de la característica que aumentaste con esta dote y tu bonificador por competencia) o recibir 2d8 puntos de daño de veneno y tener el estado de Envenenado hasta el final de tu siguiente turno.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza o Inteligencia en 1, hasta un máximo de 20. Veneno potente . Cuando realizas una tirada de daño que inflige daño de veneno, ignora la resistencia al daño de veneno. Preparar veneno . Obtienes competencia con el Kit del Envenenador. Con 1 hora de trabajo usando dicho kit y gastando 50 po en materiales, puedes crear una cantidad de dosis de veneno igual a tu bonificador por competencia. Como acción bonus, puedes aplicar una dosis de veneno a un arma o munición. Una vez aplicado, el veneno conserva su potencia durante 1 minuto o hasta que inflijas daño con el objeto envenenado, lo que ocurra primero. Cuando una criatura recibe daño del objeto envenenado, esa criatura debe tener éxito en una tirada de salvación de Constitución (CD 8 más el modificador de la característica que aumentaste con esta dote y tu bonificador por competencia) o recibir 2d8 puntos de daño de veneno y tener el estado de Envenenado hasta el final de tu siguiente turno.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza o Inteligencia en 1, hasta un máximo de 20. Veneno potente . Cuando realizas una tirada de daño que inflige daño de veneno, ignora la resistencia al daño de veneno. Preparar veneno . Obtienes competencia con el Kit del Envenenador. Con 1 hora de trabajo usando dicho kit y gastando 50 po en materiales, puedes crear una cantidad de dosis de veneno igual a tu bonificador por competencia. Como acción bonus, puedes aplicar una dosis de veneno a un arma o munición. Una vez aplicado, el veneno conserva su potencia durante 1 minuto o hasta que inflijas daño con el objeto envenenado, lo que ocurra primero. Cuando una criatura recibe daño del objeto envenenado, esa criatura debe tener éxito en una tirada de salvación de Constitución (CD 8 más el modificador de la característica que aumentaste con esta dote y tu bonificador por competencia) o recibir 2d8 puntos de daño de veneno y tener el estado de Envenenado hasta el final de tu siguiente turno."
+    ]
+  },
+  {
+    "nombre": "Experto en ballestas",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más, Destreza 13 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [
+      "Destreza"
+    ],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza en 1, hasta un máximo de 20. Ignorar la recarga . Ignoras la propiedad \"recarga\" de la ballesta ligera, la ballesta pesada y la ballesta de mano (todas llamadas ballestas en este dote). Si estás sosteniendo una de ellas, puedes cargar una munición en ella incluso si no tienes una mano libre. Disparar cuerpo a cuerpo . Estar a 1,50 metros o menos de un enemigo no impone Desventaja en tus tiradas de ataque con ballestas. Manejo doble . Cuando realizas el ataque adicional de la propiedad \"ligera\", puedes añadir tu modificador por característica al daño del ataque adicional si ese ataque es con una ballesta que tiene la propiedad \"ligera\" y no estás añadiendo ya ese modificador al daño.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza en 1, hasta un máximo de 20. Ignorar la recarga . Ignoras la propiedad \"recarga\" de la ballesta ligera, la ballesta pesada y la ballesta de mano (todas llamadas ballestas en este dote). Si estás sosteniendo una de ellas, puedes cargar una munición en ella incluso si no tienes una mano libre. Disparar cuerpo a cuerpo . Estar a 1,50 metros o menos de un enemigo no impone Desventaja en tus tiradas de ataque con ballestas. Manejo doble . Cuando realizas el ataque adicional de la propiedad \"ligera\", puedes añadir tu modificador por característica al daño del ataque adicional si ese ataque es con una ballesta que tiene la propiedad \"ligera\" y no estás añadiendo ya ese modificador al daño.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza en 1, hasta un máximo de 20. Ignorar la recarga . Ignoras la propiedad \"recarga\" de la ballesta ligera, la ballesta pesada y la ballesta de mano (todas llamadas ballestas en este dote). Si estás sosteniendo una de ellas, puedes cargar una munición en ella incluso si no tienes una mano libre. Disparar cuerpo a cuerpo . Estar a 1,50 metros o menos de un enemigo no impone Desventaja en tus tiradas de ataque con ballestas. Manejo doble . Cuando realizas el ataque adicional de la propiedad \"ligera\", puedes añadir tu modificador por característica al daño del ataque adicional si ese ataque es con una ballesta que tiene la propiedad \"ligera\" y no estás añadiendo ya ese modificador al daño.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza en 1, hasta un máximo de 20. Ignorar la recarga . Ignoras la propiedad \"recarga\" de la ballesta ligera, la ballesta pesada y la ballesta de mano (todas llamadas ballestas en este dote). Si estás sosteniendo una de ellas, puedes cargar una munición en ella incluso si no tienes una mano libre. Disparar cuerpo a cuerpo . Estar a 1,50 metros o menos de un enemigo no impone Desventaja en tus tiradas de ataque con ballestas. Manejo doble . Cuando realizas el ataque adicional de la propiedad \"ligera\", puedes añadir tu modificador por característica al daño del ataque adicional si ese ataque es con una ballesta que tiene la propiedad \"ligera\" y no estás añadiendo ya ese modificador al daño.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza en 1, hasta un máximo de 20. Ignorar la recarga . Ignoras la propiedad \"recarga\" de la ballesta ligera, la ballesta pesada y la ballesta de mano (todas llamadas ballestas en este dote). Si estás sosteniendo una de ellas, puedes cargar una munición en ella incluso si no tienes una mano libre. Disparar cuerpo a cuerpo . Estar a 1,50 metros o menos de un enemigo no impone Desventaja en tus tiradas de ataque con ballestas. Manejo doble . Cuando realizas el ataque adicional de la propiedad \"ligera\", puedes añadir tu modificador por característica al daño del ataque adicional si ese ataque es con una ballesta que tiene la propiedad \"ligera\" y no estás añadiendo ya ese modificador al daño."
+    ]
+  },
+  {
+    "nombre": "Experto en habilidades",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta una puntuación de habilidad de tu elección en 1, hasta un máximo de 20. Competencia en una habilidad . Obtienes competencia en una habilidad de tu elección. Pericia . Elige una habilidad en la que tengas competencia pero carezcas de Experiencia. Obtienes Experiencia con esa habilidad.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta una puntuación de habilidad de tu elección en 1, hasta un máximo de 20. Competencia en una habilidad . Obtienes competencia en una habilidad de tu elección. Pericia . Elige una habilidad en la que tengas competencia pero carezcas de Experiencia. Obtienes Experiencia con esa habilidad.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta una puntuación de habilidad de tu elección en 1, hasta un máximo de 20. Competencia en una habilidad . Obtienes competencia en una habilidad de tu elección. Pericia . Elige una habilidad en la que tengas competencia pero carezcas de Experiencia. Obtienes Experiencia con esa habilidad.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta una puntuación de habilidad de tu elección en 1, hasta un máximo de 20. Competencia en una habilidad . Obtienes competencia en una habilidad de tu elección. Pericia . Elige una habilidad en la que tengas competencia pero carezcas de Experiencia. Obtienes Experiencia con esa habilidad."
+    ]
+  },
+  {
+    "nombre": "Fabricante",
+    "categoria": "origen",
+    "prerequisitos_raw": "Dote de origen",
+    "nivel_requerido": null,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Competencia con herramientas . Eres competente con tres Herramientas de Artesano diferentes de tu elección de la tabla de Creación Rápida. Descuento . Siempre que compres un objeto no mágico, recibes un descuento del 20 % en él. Fabricación rápida . Cuando termines un descanso largo, puedes fabricar una pieza de equipo de la tabla de Creación Rápida, siempre que tengas las Herramientas de Artesano asociadas con ese objeto y estes competente con esas herramientas. El objeto dura hasta que termines otro descanso largo, momento en el cual el objeto se desmorona. Herramientas de artesano Equipo fabricado Herramientas de albañil Polipasto Herramientas de alfarero Jarro, lámpara Herramientas de carpintero Antorcha, escalera Herramientas de curtidor Bolsa, estuche Herramientas de ebanista Bastón, garrote, garrote grande Herramientas de herrero Abrojos, bolas de metal, cubo, garfio de escalada, olla de hierro Herramientas de manitas Campana, pala, yesca Herramientas de tejedor Cesta, cuerda, red, tienda",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Competencia con herramientas . Eres competente con tres Herramientas de Artesano diferentes de tu elección de la tabla de Creación Rápida. Descuento . Siempre que compres un objeto no mágico, recibes un descuento del 20 % en él. Fabricación rápida . Cuando termines un descanso largo, puedes fabricar una pieza de equipo de la tabla de Creación Rápida, siempre que tengas las Herramientas de Artesano asociadas con ese objeto y estes competente con esas herramientas. El objeto dura hasta que termines otro descanso largo, momento en el cual el objeto se desmorona. Herramientas de artesano Equipo fabricado Herramientas de albañil Polipasto Herramientas de alfarero Jarro, lámpara Herramientas de carpintero Antorcha, escalera Herramientas de curtidor Bolsa, estuche Herramientas de ebanista Bastón, garrote, garrote grande Herramientas de herrero Abrojos, bolas de metal, cubo, garfio de escalada, olla de hierro Herramientas de manitas Campana, pala, yesca Herramientas de tejedor Cesta, cuerda, red, tienda",
+      "Obtienes los siguientes beneficios. Competencia con herramientas . Eres competente con tres Herramientas de Artesano diferentes de tu elección de la tabla de Creación Rápida. Descuento . Siempre que compres un objeto no mágico, recibes un descuento del 20 % en él. Fabricación rápida . Cuando termines un descanso largo, puedes fabricar una pieza de equipo de la tabla de Creación Rápida, siempre que tengas las Herramientas de Artesano asociadas con ese objeto y estes competente con esas herramientas. El objeto dura hasta que termines otro descanso largo, momento en el cual el objeto se desmorona. Herramientas de artesano Equipo fabricado Herramientas de albañil Polipasto Herramientas de alfarero Jarro, lámpara Herramientas de carpintero Antorcha, escalera Herramientas de curtidor Bolsa, estuche Herramientas de ebanista Bastón, garrote, garrote grande Herramientas de herrero Abrojos, bolas de metal, cubo, garfio de escalada, olla de hierro Herramientas de manitas Campana, pala, yesca Herramientas de tejedor Cesta, cuerda, red, tienda",
+      "Obtienes los siguientes beneficios. Competencia con herramientas . Eres competente con tres Herramientas de Artesano diferentes de tu elección de la tabla de Creación Rápida. Descuento . Siempre que compres un objeto no mágico, recibes un descuento del 20 % en él. Fabricación rápida . Cuando termines un descanso largo, puedes fabricar una pieza de equipo de la tabla de Creación Rápida, siempre que tengas las Herramientas de Artesano asociadas con ese objeto y estes competente con esas herramientas. El objeto dura hasta que termines otro descanso largo, momento en el cual el objeto se desmorona. Herramientas de artesano Equipo fabricado Herramientas de albañil Polipasto Herramientas de alfarero Jarro, lámpara Herramientas de carpintero Antorcha, escalera Herramientas de curtidor Bolsa, estuche Herramientas de ebanista Bastón, garrote, garrote grande Herramientas de herrero Abrojos, bolas de metal, cubo, garfio de escalada, olla de hierro Herramientas de manitas Campana, pala, yesca Herramientas de tejedor Cesta, cuerda, red, tienda"
+    ]
+  },
+  {
+    "nombre": "Habilidoso",
+    "categoria": "origen",
+    "prerequisitos_raw": "Dote de origen",
+    "nivel_requerido": null,
+    "atributos_requeridos": [],
+    "repetible": true,
+    "descripcion": "Obtienes competencia en cualquier combinación de tres habilidades o herramientas de tu elección. Repetible . Puedes elegir este dote más de una vez.",
+    "beneficios": []
+  },
+  {
+    "nombre": "Influencia feérica",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Tu exposición a la magia de Feywild te otorga los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Magia feérica . Elige un conjuro de nivel 1 de la escuela mágica de Adivinación o Encantamiento. Siempre tienes ese conjuro y el conjuro paso brumoso preparados. Puedes lanzar cada uno de estos conjuros sin gastar un espacio de conjuro. Una vez que lances cualquiera de estos conjuros de esta manera, no lo podrás lanzar de esta manera nuevamente hasta que termines un descanso largo. También puedes lanzar estos conjuros usando espacios de conjuros que tengas del nivel apropiado. La aptitud mágica de los conjuros es la característica aumentada por esta dote.",
+    "beneficios": [
+      "Tu exposición a la magia de Feywild te otorga los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Magia feérica . Elige un conjuro de nivel 1 de la escuela mágica de Adivinación o Encantamiento. Siempre tienes ese conjuro y el conjuro paso brumoso preparados. Puedes lanzar cada uno de estos conjuros sin gastar un espacio de conjuro. Una vez que lances cualquiera de estos conjuros de esta manera, no lo podrás lanzar de esta manera nuevamente hasta que termines un descanso largo. También puedes lanzar estos conjuros usando espacios de conjuros que tengas del nivel apropiado. La aptitud mágica de los conjuros es la característica aumentada por esta dote.",
+      "Tu exposición a la magia de Feywild te otorga los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Magia feérica . Elige un conjuro de nivel 1 de la escuela mágica de Adivinación o Encantamiento. Siempre tienes ese conjuro y el conjuro paso brumoso preparados. Puedes lanzar cada uno de estos conjuros sin gastar un espacio de conjuro. Una vez que lances cualquiera de estos conjuros de esta manera, no lo podrás lanzar de esta manera nuevamente hasta que termines un descanso largo. También puedes lanzar estos conjuros usando espacios de conjuros que tengas del nivel apropiado. La aptitud mágica de los conjuros es la característica aumentada por esta dote."
+    ]
+  },
+  {
+    "nombre": "Influencia sombría",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Tu exposición a la magia de Shadowfell te otorga los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Magia de las sombras . Elige un conjuro de nivel 1 de la escuela mágica de Ilusión o Necromancia. Siempre tienes ese conjuro y el conjuro invisibilidad preparados. Puedes lanzar cada uno de estos conjuros sin gastar un espacio de conjuro. Una vez que lances cualquiera de estos conjuros de esta manera, no lo podrás lanzar de esta manera nuevamente hasta que termines un descanso largo. También puedes lanzar estos conjuros usando espacios de conjuros que tengas del nivel apropiado. La aptitud mágica de los conjuros es la característica aumentada por esta dote.",
+    "beneficios": [
+      "Tu exposición a la magia de Shadowfell te otorga los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Magia de las sombras . Elige un conjuro de nivel 1 de la escuela mágica de Ilusión o Necromancia. Siempre tienes ese conjuro y el conjuro invisibilidad preparados. Puedes lanzar cada uno de estos conjuros sin gastar un espacio de conjuro. Una vez que lances cualquiera de estos conjuros de esta manera, no lo podrás lanzar de esta manera nuevamente hasta que termines un descanso largo. También puedes lanzar estos conjuros usando espacios de conjuros que tengas del nivel apropiado. La aptitud mágica de los conjuros es la característica aumentada por esta dote.",
+      "Tu exposición a la magia de Shadowfell te otorga los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Magia de las sombras . Elige un conjuro de nivel 1 de la escuela mágica de Ilusión o Necromancia. Siempre tienes ese conjuro y el conjuro invisibilidad preparados. Puedes lanzar cada uno de estos conjuros sin gastar un espacio de conjuro. Una vez que lances cualquiera de estos conjuros de esta manera, no lo podrás lanzar de esta manera nuevamente hasta que termines un descanso largo. También puedes lanzar estos conjuros usando espacios de conjuros que tengas del nivel apropiado. La aptitud mágica de los conjuros es la característica aumentada por esta dote."
+    ]
+  },
+  {
+    "nombre": "Iniciado en la magia",
+    "categoria": "origen",
+    "prerequisitos_raw": "Dote de origen",
+    "nivel_requerido": null,
+    "atributos_requeridos": [],
+    "repetible": true,
+    "descripcion": "Obtienes los siguientes beneficios. Dos trucos . Aprendes dos trucos de tu elección de las listas de conjuros del Clérigo, Druida o Mago. Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los conjuros de este dote (elige cuando selecciones este dote). Conjuro de nivel 1 . Elige un conjuro de nivel 1 de la misma lista que seleccionaste para los trucos de este dote. Siempre tendrás ese conjuro preparado. Puedes lanzarlo una vez sin espacio de conjuro, y recuperas la capacidad de lanzarlo de esta manera cuando terminas un descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas. Cambiar conjuro . Siempre que ganes un nuevo nivel, puedes reemplazar uno de los conjuros que elegiste para este dote con un conjuro diferente del mismo nivel de la lista de conjuros elegida. Repetible . Puedes elegir este dote más de una vez, pero debes elegir una lista de conjuros diferente cada vez.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Dos trucos . Aprendes dos trucos de tu elección de las listas de conjuros del Clérigo, Druida o Mago. Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los conjuros de este dote (elige cuando selecciones este dote). Conjuro de nivel 1 . Elige un conjuro de nivel 1 de la misma lista que seleccionaste para los trucos de este dote. Siempre tendrás ese conjuro preparado. Puedes lanzarlo una vez sin espacio de conjuro, y recuperas la capacidad de lanzarlo de esta manera cuando terminas un descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas. Cambiar conjuro . Siempre que ganes un nuevo nivel, puedes reemplazar uno de los conjuros que elegiste para este dote con un conjuro diferente del mismo nivel de la lista de conjuros elegida. Repetible . Puedes elegir este dote más de una vez, pero debes elegir una lista de conjuros diferente cada vez.",
+      "Obtienes los siguientes beneficios. Dos trucos . Aprendes dos trucos de tu elección de las listas de conjuros del Clérigo, Druida o Mago. Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los conjuros de este dote (elige cuando selecciones este dote). Conjuro de nivel 1 . Elige un conjuro de nivel 1 de la misma lista que seleccionaste para los trucos de este dote. Siempre tendrás ese conjuro preparado. Puedes lanzarlo una vez sin espacio de conjuro, y recuperas la capacidad de lanzarlo de esta manera cuando terminas un descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas. Cambiar conjuro . Siempre que ganes un nuevo nivel, puedes reemplazar uno de los conjuros que elegiste para este dote con un conjuro diferente del mismo nivel de la lista de conjuros elegida. Repetible . Puedes elegir este dote más de una vez, pero debes elegir una lista de conjuros diferente cada vez.",
+      "Obtienes los siguientes beneficios. Dos trucos . Aprendes dos trucos de tu elección de las listas de conjuros del Clérigo, Druida o Mago. Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los conjuros de este dote (elige cuando selecciones este dote). Conjuro de nivel 1 . Elige un conjuro de nivel 1 de la misma lista que seleccionaste para los trucos de este dote. Siempre tendrás ese conjuro preparado. Puedes lanzarlo una vez sin espacio de conjuro, y recuperas la capacidad de lanzarlo de esta manera cuando terminas un descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas. Cambiar conjuro . Siempre que ganes un nuevo nivel, puedes reemplazar uno de los conjuros que elegiste para este dote con un conjuro diferente del mismo nivel de la lista de conjuros elegida. Repetible . Puedes elegir este dote más de una vez, pero debes elegir una lista de conjuros diferente cada vez."
+    ]
+  },
+  {
+    "nombre": "Intercepción",
+    "categoria": "estilo de combate",
+    "prerequisitos_raw": "Dote de estilo de combate (requisito: rasgo Estilo de combate)",
+    "nivel_requerido": null,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Cuando una criatura que puedes ver acierte a otra criatura a 1,50 m o menos de ti con una tirada de ataque, puedes usar una reacción para reducir el daño infligido al objetivo en 1d10 más tu bonificador por competencia. Debes portar un escudo o un arma sencilla o marcial para usar esta reacción.",
+    "beneficios": []
+  },
+  {
+    "nombre": "Lanzador en combate",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más, rasgo Lanzamiento de conjuros o Magia del Pacto)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Concentración . Tienes Ventaja en las tiradas de salvación de Constitución que hagas para mantener la Concentración. Conjuro reactivo . Cuando una criatura provoque un ataque de oportunidad de tu parte al salir de tu alcance, puedes tomar una reacción para lanzar un conjuro a la criatura en lugar de hacer un ataque de oportunidad. El conjuro debe tener un tiempo de lanzamiento de una acción y debe tener como objetivo solo a esa criatura. Componentes somáticos . Puedes realizar los componentes Somáticos de los conjuros incluso cuando tienes armas o un escudo en una o ambas manos.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Concentración . Tienes Ventaja en las tiradas de salvación de Constitución que hagas para mantener la Concentración. Conjuro reactivo . Cuando una criatura provoque un ataque de oportunidad de tu parte al salir de tu alcance, puedes tomar una reacción para lanzar un conjuro a la criatura en lugar de hacer un ataque de oportunidad. El conjuro debe tener un tiempo de lanzamiento de una acción y debe tener como objetivo solo a esa criatura. Componentes somáticos . Puedes realizar los componentes Somáticos de los conjuros incluso cuando tienes armas o un escudo en una o ambas manos.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Concentración . Tienes Ventaja en las tiradas de salvación de Constitución que hagas para mantener la Concentración. Conjuro reactivo . Cuando una criatura provoque un ataque de oportunidad de tu parte al salir de tu alcance, puedes tomar una reacción para lanzar un conjuro a la criatura en lugar de hacer un ataque de oportunidad. El conjuro debe tener un tiempo de lanzamiento de una acción y debe tener como objetivo solo a esa criatura. Componentes somáticos . Puedes realizar los componentes Somáticos de los conjuros incluso cuando tienes armas o un escudo en una o ambas manos.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Concentración . Tienes Ventaja en las tiradas de salvación de Constitución que hagas para mantener la Concentración. Conjuro reactivo . Cuando una criatura provoque un ataque de oportunidad de tu parte al salir de tu alcance, puedes tomar una reacción para lanzar un conjuro a la criatura en lugar de hacer un ataque de oportunidad. El conjuro debe tener un tiempo de lanzamiento de una acción y debe tener como objetivo solo a esa criatura. Componentes somáticos . Puedes realizar los componentes Somáticos de los conjuros incluso cuando tienes armas o un escudo en una o ambas manos.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Concentración . Tienes Ventaja en las tiradas de salvación de Constitución que hagas para mantener la Concentración. Conjuro reactivo . Cuando una criatura provoque un ataque de oportunidad de tu parte al salir de tu alcance, puedes tomar una reacción para lanzar un conjuro a la criatura en lugar de hacer un ataque de oportunidad. El conjuro debe tener un tiempo de lanzamiento de una acción y debe tener como objetivo solo a esa criatura. Componentes somáticos . Puedes realizar los componentes Somáticos de los conjuros incluso cuando tienes armas o un escudo en una o ambas manos."
+    ]
+  },
+  {
+    "nombre": "Lanzador preciso",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más, rasgo Lanzamiento de conjuros o Magia del Pacto)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Sortear las coberturas . Tus ataques a distancia con conjuros ignoran las coberturas media y tres cuartos. Lanzar conjuros cuerpo a cuerpo . Estar a 1,50 metros o menos de un enemigo no impone Desventaja en tus tiradas de ataque de conjuros. Alcance aumentado . Cuando lanzas un conjuro que tiene un alcance de al menos 3 metros y requiere que hagas una tirada de ataque, puedes aumentar el alcance del conjuro en 18 metros.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Sortear las coberturas . Tus ataques a distancia con conjuros ignoran las coberturas media y tres cuartos. Lanzar conjuros cuerpo a cuerpo . Estar a 1,50 metros o menos de un enemigo no impone Desventaja en tus tiradas de ataque de conjuros. Alcance aumentado . Cuando lanzas un conjuro que tiene un alcance de al menos 3 metros y requiere que hagas una tirada de ataque, puedes aumentar el alcance del conjuro en 18 metros.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Sortear las coberturas . Tus ataques a distancia con conjuros ignoran las coberturas media y tres cuartos. Lanzar conjuros cuerpo a cuerpo . Estar a 1,50 metros o menos de un enemigo no impone Desventaja en tus tiradas de ataque de conjuros. Alcance aumentado . Cuando lanzas un conjuro que tiene un alcance de al menos 3 metros y requiere que hagas una tirada de ataque, puedes aumentar el alcance del conjuro en 18 metros.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Sortear las coberturas . Tus ataques a distancia con conjuros ignoran las coberturas media y tres cuartos. Lanzar conjuros cuerpo a cuerpo . Estar a 1,50 metros o menos de un enemigo no impone Desventaja en tus tiradas de ataque de conjuros. Alcance aumentado . Cuando lanzas un conjuro que tiene un alcance de al menos 3 metros y requiere que hagas una tirada de ataque, puedes aumentar el alcance del conjuro en 18 metros.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Sortear las coberturas . Tus ataques a distancia con conjuros ignoran las coberturas media y tres cuartos. Lanzar conjuros cuerpo a cuerpo . Estar a 1,50 metros o menos de un enemigo no impone Desventaja en tus tiradas de ataque de conjuros. Alcance aumentado . Cuando lanzas un conjuro que tiene un alcance de al menos 3 metros y requiere que hagas una tirada de ataque, puedes aumentar el alcance del conjuro en 18 metros."
+    ]
+  },
+  {
+    "nombre": "Lanzador ritual",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más, Inteligencia, Sabiduría o Carisma 13 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [
+      "Inteligencia",
+      "Sabiduría",
+      "Carisma"
+    ],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Conjuros rituales . Elige una cantidad de conjuros de nivel 1 igual a tu bonificador por competencia que tengan la etiqueta Ritual. Siempre tendrás esos conjuros preparados y podrás lanzarlos con cualquier espacio de conjuro que tengas. La aptitud mágica de los conjuros es la característica aumentada por esta dote. Cada vez que tu bonificador por competencia aumenta a partir de entonces, puedes agregar un conjuro adicional de nivel 1 con la etiqueta \"ritual\" a los conjuros siempre preparados con este rasgo. Ritual rápido . Con este beneficio, puedes lanzar un conjuro ritual que hayas preparado usando su tiempo de lanzamiento normal en lugar del tiempo extendido para un ritual. Para hacerlo no es necesario tener un espacio de conjuro. Una vez que lances el conjuro de esta manera, no podrás volver a usar este beneficio hasta que termines un descanso largo.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Conjuros rituales . Elige una cantidad de conjuros de nivel 1 igual a tu bonificador por competencia que tengan la etiqueta Ritual. Siempre tendrás esos conjuros preparados y podrás lanzarlos con cualquier espacio de conjuro que tengas. La aptitud mágica de los conjuros es la característica aumentada por esta dote. Cada vez que tu bonificador por competencia aumenta a partir de entonces, puedes agregar un conjuro adicional de nivel 1 con la etiqueta \"ritual\" a los conjuros siempre preparados con este rasgo. Ritual rápido . Con este beneficio, puedes lanzar un conjuro ritual que hayas preparado usando su tiempo de lanzamiento normal en lugar del tiempo extendido para un ritual. Para hacerlo no es necesario tener un espacio de conjuro. Una vez que lances el conjuro de esta manera, no podrás volver a usar este beneficio hasta que termines un descanso largo.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Conjuros rituales . Elige una cantidad de conjuros de nivel 1 igual a tu bonificador por competencia que tengan la etiqueta Ritual. Siempre tendrás esos conjuros preparados y podrás lanzarlos con cualquier espacio de conjuro que tengas. La aptitud mágica de los conjuros es la característica aumentada por esta dote. Cada vez que tu bonificador por competencia aumenta a partir de entonces, puedes agregar un conjuro adicional de nivel 1 con la etiqueta \"ritual\" a los conjuros siempre preparados con este rasgo. Ritual rápido . Con este beneficio, puedes lanzar un conjuro ritual que hayas preparado usando su tiempo de lanzamiento normal en lugar del tiempo extendido para un ritual. Para hacerlo no es necesario tener un espacio de conjuro. Una vez que lances el conjuro de esta manera, no podrás volver a usar este beneficio hasta que termines un descanso largo.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Conjuros rituales . Elige una cantidad de conjuros de nivel 1 igual a tu bonificador por competencia que tengan la etiqueta Ritual. Siempre tendrás esos conjuros preparados y podrás lanzarlos con cualquier espacio de conjuro que tengas. La aptitud mágica de los conjuros es la característica aumentada por esta dote. Cada vez que tu bonificador por competencia aumenta a partir de entonces, puedes agregar un conjuro adicional de nivel 1 con la etiqueta \"ritual\" a los conjuros siempre preparados con este rasgo. Ritual rápido . Con este beneficio, puedes lanzar un conjuro ritual que hayas preparado usando su tiempo de lanzamiento normal en lugar del tiempo extendido para un ritual. Para hacerlo no es necesario tener un espacio de conjuro. Una vez que lances el conjuro de esta manera, no podrás volver a usar este beneficio hasta que termines un descanso largo."
+    ]
+  },
+  {
+    "nombre": "Líder inspirador",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más, Sabiduría o Carisma 13 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [
+      "Sabiduría",
+      "Carisma"
+    ],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Sabiduría o Carisma en 1, hasta un máximo de 20. Interpretación fortalecedora . Al finalizar un descanso corto o largo, puedes ofrecer una actuación inspiradora: un discurso, una canción o un baile. Al hacerlo, elige hasta seis aliados (incluido tú mismo) a 9 metros o menos de ti para que presencien la actuación. Las criaturas elegidas obtienen puntos de golpe temporales iguales a tu nivel de personaje más el modificador de la característica que aumentaste con esta dote.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Sabiduría o Carisma en 1, hasta un máximo de 20. Interpretación fortalecedora . Al finalizar un descanso corto o largo, puedes ofrecer una actuación inspiradora: un discurso, una canción o un baile. Al hacerlo, elige hasta seis aliados (incluido tú mismo) a 9 metros o menos de ti para que presencien la actuación. Las criaturas elegidas obtienen puntos de golpe temporales iguales a tu nivel de personaje más el modificador de la característica que aumentaste con esta dote.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Sabiduría o Carisma en 1, hasta un máximo de 20. Interpretación fortalecedora . Al finalizar un descanso corto o largo, puedes ofrecer una actuación inspiradora: un discurso, una canción o un baile. Al hacerlo, elige hasta seis aliados (incluido tú mismo) a 9 metros o menos de ti para que presencien la actuación. Las criaturas elegidas obtienen puntos de golpe temporales iguales a tu nivel de personaje más el modificador de la característica que aumentaste con esta dote."
+    ]
+  },
+  {
+    "nombre": "Ligeramente acorazado",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Entrenamiento con armaduras . Obtienes Entrenamiento con armaduras ligera y escudos.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Entrenamiento con armaduras . Obtienes Entrenamiento con armaduras ligera y escudos.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Entrenamiento con armaduras . Obtienes Entrenamiento con armaduras ligera y escudos."
+    ]
+  },
+  {
+    "nombre": "Lucha a ciegas",
+    "categoria": "estilo de combate",
+    "prerequisitos_raw": "Dote de estilo de combate (requisito: rasgo Estilo de combate)",
+    "nivel_requerido": null,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Tienes visión ciega con un alcance de 3 metros.",
+    "beneficios": []
+  },
+  {
+    "nombre": "Maestro de armas",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Propiedad de maestría . Tu entrenamiento con armas te permite usar la propiedad de maestría de un tipo de arma sencilla o marcial de tu elección, siempre que eres competente con ella. Siempre que termines un descanso largo, puedes cambiar el tipo de arma por otro tipo elegible.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Propiedad de maestría . Tu entrenamiento con armas te permite usar la propiedad de maestría de un tipo de arma sencilla o marcial de tu elección, siempre que eres competente con ella. Siempre que termines un descanso largo, puedes cambiar el tipo de arma por otro tipo elegible.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Propiedad de maestría . Tu entrenamiento con armas te permite usar la propiedad de maestría de un tipo de arma sencilla o marcial de tu elección, siempre que eres competente con ella. Siempre que termines un descanso largo, puedes cambiar el tipo de arma por otro tipo elegible."
+    ]
+  },
+  {
+    "nombre": "Maestro en armaduras medias",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más, entrenamiento con armaduras medias)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Portador diestro . Al llevar armadura media, puedes añadir 3 puntos, en lugar de 2, a tu CA si tienes una Destreza de 16 o superior.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Portador diestro . Al llevar armadura media, puedes añadir 3 puntos, en lugar de 2, a tu CA si tienes una Destreza de 16 o superior.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Portador diestro . Al llevar armadura media, puedes añadir 3 puntos, en lugar de 2, a tu CA si tienes una Destreza de 16 o superior."
+    ]
+  },
+  {
+    "nombre": "Maestro en armaduras pesadas",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más, entrenamiento con armaduras pesadas)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Constitución o Fuerza en 1, hasta un máximo de 20. Reducción de daño . Cuando te acierte un ataque y traes una armadura pesada, cualquier daño contundente, perforante o cortante que te inflija ese ataque se reduce en una cantidad igual a tu bonificador por competencia.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Constitución o Fuerza en 1, hasta un máximo de 20. Reducción de daño . Cuando te acierte un ataque y traes una armadura pesada, cualquier daño contundente, perforante o cortante que te inflija ese ataque se reduce en una cantidad igual a tu bonificador por competencia.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Constitución o Fuerza en 1, hasta un máximo de 20. Reducción de daño . Cuando te acierte un ataque y traes una armadura pesada, cualquier daño contundente, perforante o cortante que te inflija ese ataque se reduce en una cantidad igual a tu bonificador por competencia."
+    ]
+  },
+  {
+    "nombre": "Maestro en armas de asta",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más, Fuerza o Destreza 13 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [
+      "Fuerza",
+      "Destreza"
+    ],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza o Fuerza en 1, hasta un máximo de 20. Golpe con asta . Inmediatamente después de tomar la acción de atacar y atacar con un Bastón, una Lanza o un arma que tenga las propiedades \"pesada\" y \"gran alcance\", puedes usar una acción bonus para hacer un ataque cuerpo a cuerpo con el extremo opuesto del arma. El arma causa daño contundente y el dado de daño del arma para este ataque es un d4. Golpe reactivo . Mientras sostienes un Bastón, una Lanza o un arma que tenga las propiedades \"pesada\" y \"gran alcance\", puedes usar una reacción para hacer un ataque cuerpo a cuerpo contra una criatura que entre en el alcance que tienes con esa arma.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza o Fuerza en 1, hasta un máximo de 20. Golpe con asta . Inmediatamente después de tomar la acción de atacar y atacar con un Bastón, una Lanza o un arma que tenga las propiedades \"pesada\" y \"gran alcance\", puedes usar una acción bonus para hacer un ataque cuerpo a cuerpo con el extremo opuesto del arma. El arma causa daño contundente y el dado de daño del arma para este ataque es un d4. Golpe reactivo . Mientras sostienes un Bastón, una Lanza o un arma que tenga las propiedades \"pesada\" y \"gran alcance\", puedes usar una reacción para hacer un ataque cuerpo a cuerpo contra una criatura que entre en el alcance que tienes con esa arma.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza o Fuerza en 1, hasta un máximo de 20. Golpe con asta . Inmediatamente después de tomar la acción de atacar y atacar con un Bastón, una Lanza o un arma que tenga las propiedades \"pesada\" y \"gran alcance\", puedes usar una acción bonus para hacer un ataque cuerpo a cuerpo con el extremo opuesto del arma. El arma causa daño contundente y el dado de daño del arma para este ataque es un d4. Golpe reactivo . Mientras sostienes un Bastón, una Lanza o un arma que tenga las propiedades \"pesada\" y \"gran alcance\", puedes usar una reacción para hacer un ataque cuerpo a cuerpo contra una criatura que entre en el alcance que tienes con esa arma.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza o Fuerza en 1, hasta un máximo de 20. Golpe con asta . Inmediatamente después de tomar la acción de atacar y atacar con un Bastón, una Lanza o un arma que tenga las propiedades \"pesada\" y \"gran alcance\", puedes usar una acción bonus para hacer un ataque cuerpo a cuerpo con el extremo opuesto del arma. El arma causa daño contundente y el dado de daño del arma para este ataque es un d4. Golpe reactivo . Mientras sostienes un Bastón, una Lanza o un arma que tenga las propiedades \"pesada\" y \"gran alcance\", puedes usar una reacción para hacer un ataque cuerpo a cuerpo contra una criatura que entre en el alcance que tienes con esa arma."
+    ]
+  },
+  {
+    "nombre": "Maestro en armas pesadas",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más, Fuerza 13 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [
+      "Fuerza"
+    ],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza en 1, hasta un máximo de 20. Maestría con armas pesadas . Cuando aciertes a una criatura con un arma que tenga la propiedad \"pesada\" como parte de la acción de atacar en tu turno, puedes hacer que el arma cause daño extra al objetivo. El daño extra es igual a tu bonificador por competencia. Avasallar . Inmediatamente después de lograr un Crítico con un arma cuerpo a cuerpo o reducir a una criatura a O puntos de golpe con ella, puedes realizar un ataque con la misma arma como acción bonus.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza en 1, hasta un máximo de 20. Maestría con armas pesadas . Cuando aciertes a una criatura con un arma que tenga la propiedad \"pesada\" como parte de la acción de atacar en tu turno, puedes hacer que el arma cause daño extra al objetivo. El daño extra es igual a tu bonificador por competencia. Avasallar . Inmediatamente después de lograr un Crítico con un arma cuerpo a cuerpo o reducir a una criatura a O puntos de golpe con ella, puedes realizar un ataque con la misma arma como acción bonus.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza en 1, hasta un máximo de 20. Maestría con armas pesadas . Cuando aciertes a una criatura con un arma que tenga la propiedad \"pesada\" como parte de la acción de atacar en tu turno, puedes hacer que el arma cause daño extra al objetivo. El daño extra es igual a tu bonificador por competencia. Avasallar . Inmediatamente después de lograr un Crítico con un arma cuerpo a cuerpo o reducir a una criatura a O puntos de golpe con ella, puedes realizar un ataque con la misma arma como acción bonus.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza en 1, hasta un máximo de 20. Maestría con armas pesadas . Cuando aciertes a una criatura con un arma que tenga la propiedad \"pesada\" como parte de la acción de atacar en tu turno, puedes hacer que el arma cause daño extra al objetivo. El daño extra es igual a tu bonificador por competencia. Avasallar . Inmediatamente después de lograr un Crítico con un arma cuerpo a cuerpo o reducir a una criatura a O puntos de golpe con ella, puedes realizar un ataque con la misma arma como acción bonus."
+    ]
+  },
+  {
+    "nombre": "Maestro en escudos",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más, entrenamiento con escudos)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza en 1, hasta un máximo de 20. Golpe con escudo . Si atacas a una criatura a 1,50 metros o menos de ti como parte de la acción de atacar y aciertas con un arma cuerpo a cuerpo, puedes inmediatamente golpear al objetivo con tu escudo si está equipado, forzando al objetivo a hacer una tirada de salvación de Fuerza (CD 8 más tu modificador por Fuerza y bonificador por competencia). En caso de fallo, puedes empujar al objetivo 1,50 metros lejos de ti o infligirle el estado de Derribado (a tu elección). Solo puedes usar este beneficio una vez en cada uno de tus turnos. Interponer escudo . Si te ves sometido a un efecto que te permite hacer una tirada de salvación de Destreza para recibir solo la mitad del daño, puedes tomar una reacción para no recibir daño si tienes éxito en la tirada de salvación y estás sosteniendo un escudo.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza en 1, hasta un máximo de 20. Golpe con escudo . Si atacas a una criatura a 1,50 metros o menos de ti como parte de la acción de atacar y aciertas con un arma cuerpo a cuerpo, puedes inmediatamente golpear al objetivo con tu escudo si está equipado, forzando al objetivo a hacer una tirada de salvación de Fuerza (CD 8 más tu modificador por Fuerza y bonificador por competencia). En caso de fallo, puedes empujar al objetivo 1,50 metros lejos de ti o infligirle el estado de Derribado (a tu elección). Solo puedes usar este beneficio una vez en cada uno de tus turnos. Interponer escudo . Si te ves sometido a un efecto que te permite hacer una tirada de salvación de Destreza para recibir solo la mitad del daño, puedes tomar una reacción para no recibir daño si tienes éxito en la tirada de salvación y estás sosteniendo un escudo.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza en 1, hasta un máximo de 20. Golpe con escudo . Si atacas a una criatura a 1,50 metros o menos de ti como parte de la acción de atacar y aciertas con un arma cuerpo a cuerpo, puedes inmediatamente golpear al objetivo con tu escudo si está equipado, forzando al objetivo a hacer una tirada de salvación de Fuerza (CD 8 más tu modificador por Fuerza y bonificador por competencia). En caso de fallo, puedes empujar al objetivo 1,50 metros lejos de ti o infligirle el estado de Derribado (a tu elección). Solo puedes usar este beneficio una vez en cada uno de tus turnos. Interponer escudo . Si te ves sometido a un efecto que te permite hacer una tirada de salvación de Destreza para recibir solo la mitad del daño, puedes tomar una reacción para no recibir daño si tienes éxito en la tirada de salvación y estás sosteniendo un escudo.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza en 1, hasta un máximo de 20. Golpe con escudo . Si atacas a una criatura a 1,50 metros o menos de ti como parte de la acción de atacar y aciertas con un arma cuerpo a cuerpo, puedes inmediatamente golpear al objetivo con tu escudo si está equipado, forzando al objetivo a hacer una tirada de salvación de Fuerza (CD 8 más tu modificador por Fuerza y bonificador por competencia). En caso de fallo, puedes empujar al objetivo 1,50 metros lejos de ti o infligirle el estado de Derribado (a tu elección). Solo puedes usar este beneficio una vez en cada uno de tus turnos. Interponer escudo . Si te ves sometido a un efecto que te permite hacer una tirada de salvación de Destreza para recibir solo la mitad del daño, puedes tomar una reacción para no recibir daño si tienes éxito en la tirada de salvación y estás sosteniendo un escudo."
+    ]
+  },
+  {
+    "nombre": "Matón de taberna",
+    "categoria": "origen",
+    "prerequisitos_raw": "Dote de origen",
+    "nivel_requerido": null,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Ataque sin armas mejorado . Cuando aciertes con tu ataque sin armas y haces daño, puedes hacer daño contundente igual a 1d4 más tu modificador por Fuerza en lugar del daño normal de un ataque sin armas. Repetir tiradas de daño . Siempre que tires un dado de daño para tu ataque sin armas, puedes repetir la tirada si sale un 1, y debes usar la nueva tirada. Armas improvisadas . Eres competente con armas improvisadas. Empujar . Cuando aciertes a una criatura con un ataque sin armas como parte de la acción de atacar en tu turno, puedes hacer daño al objetivo y también empujarlo 1,50 metros alejándolo de ti. Solo puedes usar este beneficio una vez por turno.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Ataque sin armas mejorado . Cuando aciertes con tu ataque sin armas y haces daño, puedes hacer daño contundente igual a 1d4 más tu modificador por Fuerza en lugar del daño normal de un ataque sin armas. Repetir tiradas de daño . Siempre que tires un dado de daño para tu ataque sin armas, puedes repetir la tirada si sale un 1, y debes usar la nueva tirada. Armas improvisadas . Eres competente con armas improvisadas. Empujar . Cuando aciertes a una criatura con un ataque sin armas como parte de la acción de atacar en tu turno, puedes hacer daño al objetivo y también empujarlo 1,50 metros alejándolo de ti. Solo puedes usar este beneficio una vez por turno.",
+      "Obtienes los siguientes beneficios. Ataque sin armas mejorado . Cuando aciertes con tu ataque sin armas y haces daño, puedes hacer daño contundente igual a 1d4 más tu modificador por Fuerza en lugar del daño normal de un ataque sin armas. Repetir tiradas de daño . Siempre que tires un dado de daño para tu ataque sin armas, puedes repetir la tirada si sale un 1, y debes usar la nueva tirada. Armas improvisadas . Eres competente con armas improvisadas. Empujar . Cuando aciertes a una criatura con un ataque sin armas como parte de la acción de atacar en tu turno, puedes hacer daño al objetivo y también empujarlo 1,50 metros alejándolo de ti. Solo puedes usar este beneficio una vez por turno.",
+      "Obtienes los siguientes beneficios. Ataque sin armas mejorado . Cuando aciertes con tu ataque sin armas y haces daño, puedes hacer daño contundente igual a 1d4 más tu modificador por Fuerza en lugar del daño normal de un ataque sin armas. Repetir tiradas de daño . Siempre que tires un dado de daño para tu ataque sin armas, puedes repetir la tirada si sale un 1, y debes usar la nueva tirada. Armas improvisadas . Eres competente con armas improvisadas. Empujar . Cuando aciertes a una criatura con un ataque sin armas como parte de la acción de atacar en tu turno, puedes hacer daño al objetivo y también empujarlo 1,50 metros alejándolo de ti. Solo puedes usar este beneficio una vez por turno.",
+      "Obtienes los siguientes beneficios. Ataque sin armas mejorado . Cuando aciertes con tu ataque sin armas y haces daño, puedes hacer daño contundente igual a 1d4 más tu modificador por Fuerza en lugar del daño normal de un ataque sin armas. Repetir tiradas de daño . Siempre que tires un dado de daño para tu ataque sin armas, puedes repetir la tirada si sale un 1, y debes usar la nueva tirada. Armas improvisadas . Eres competente con armas improvisadas. Empujar . Cuando aciertes a una criatura con un ataque sin armas como parte de la acción de atacar en tu turno, puedes hacer daño al objetivo y también empujarlo 1,50 metros alejándolo de ti. Solo puedes usar este beneficio una vez por turno."
+    ]
+  },
+  {
+    "nombre": "Mejora de característica",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [],
+    "repetible": true,
+    "descripcion": "Aumenta una puntuación de característica de tu elección en 2, o aumenta dos puntuaciones de característica de tu elección en 1. Este dote no puede aumentar una puntuación de característica por encima de 20. Repetible . Puedes elegir este dote más de una vez.",
+    "beneficios": []
+  },
+  {
+    "nombre": "Mente aguda",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más, Inteligencia 13 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [
+      "Inteligencia"
+    ],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia en 1, hasta un máximo de 20. Sabiduría popular . Elige una de las siguientes habilidades: Arcanos, Historia, Investigación, Naturaleza o Religión. Si no tienes competencia en la habilidad elegida, obtienes competencia en ella, y si ya tienes competencia en ella, obtienes Experiencia en ella. Estudio rápido . Puedes tomar la acción de estudiar como acción bonus.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia en 1, hasta un máximo de 20. Sabiduría popular . Elige una de las siguientes habilidades: Arcanos, Historia, Investigación, Naturaleza o Religión. Si no tienes competencia en la habilidad elegida, obtienes competencia en ella, y si ya tienes competencia en ella, obtienes Experiencia en ella. Estudio rápido . Puedes tomar la acción de estudiar como acción bonus.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia en 1, hasta un máximo de 20. Sabiduría popular . Elige una de las siguientes habilidades: Arcanos, Historia, Investigación, Naturaleza o Religión. Si no tienes competencia en la habilidad elegida, obtienes competencia en ella, y si ya tienes competencia en ella, obtienes Experiencia en ella. Estudio rápido . Puedes tomar la acción de estudiar como acción bonus.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia en 1, hasta un máximo de 20. Sabiduría popular . Elige una de las siguientes habilidades: Arcanos, Historia, Investigación, Naturaleza o Religión. Si no tienes competencia en la habilidad elegida, obtienes competencia en ella, y si ya tienes competencia en ella, obtienes Experiencia en ella. Estudio rápido . Puedes tomar la acción de estudiar como acción bonus."
+    ]
+  },
+  {
+    "nombre": "Moderadamente acorazado",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más, entrenamiento con armaduras ligeras)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Entrenamiento con armaduras . Obtienes Entrenamiento con armaduras medias.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Entrenamiento con armaduras . Obtienes Entrenamiento con armaduras medias.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Entrenamiento con armaduras . Obtienes Entrenamiento con armaduras medias."
+    ]
+  },
+  {
+    "nombre": "Músico",
+    "categoria": "origen",
+    "prerequisitos_raw": "Dote de origen",
+    "nivel_requerido": null,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Formación instrumental . Eres competente con tres Instrumentos Musicales de tu elección. Canción alentadora . Al finalizar un descanso corto o largo, puedes tocar una canción en un Instrumento Musical con el que tengas competencia y dar Inspiración Heroica a los aliados que escuchen la canción. El número de aliados que puedes afectar de esta manera es igual a tu bonificador por competencia.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Formación instrumental . Eres competente con tres Instrumentos Musicales de tu elección. Canción alentadora . Al finalizar un descanso corto o largo, puedes tocar una canción en un Instrumento Musical con el que tengas competencia y dar Inspiración Heroica a los aliados que escuchen la canción. El número de aliados que puedes afectar de esta manera es igual a tu bonificador por competencia.",
+      "Obtienes los siguientes beneficios. Formación instrumental . Eres competente con tres Instrumentos Musicales de tu elección. Canción alentadora . Al finalizar un descanso corto o largo, puedes tocar una canción en un Instrumento Musical con el que tengas competencia y dar Inspiración Heroica a los aliados que escuchen la canción. El número de aliados que puedes afectar de esta manera es igual a tu bonificador por competencia."
+    ]
+  },
+  {
+    "nombre": "Muy acorazado",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más, entrenamiento con armaduras medias)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Constitución o Fuerza en 1, hasta un máximo de 20. Entrenamiento con armaduras . Obtienes Entrenamiento con armaduras pesadas.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Constitución o Fuerza en 1, hasta un máximo de 20. Entrenamiento con armaduras . Obtienes Entrenamiento con armaduras pesadas.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Constitución o Fuerza en 1, hasta un máximo de 20. Entrenamiento con armaduras . Obtienes Entrenamiento con armaduras pesadas."
+    ]
+  },
+  {
+    "nombre": "Observador",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más, Inteligencia o Sabiduría 13 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [
+      "Inteligencia",
+      "Sabiduría"
+    ],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia o Sabiduría en 1, hasta un máximo de 20. Observador perspicaz . Elija una de las siguientes habilidades: Percepción, Investigación o Perspicacia. Si no tienes competencia con la habilidad elegida, obtienes competencia en ella, y si ya tienes competencia en ella, obtienes Experiencia en ella. Búsqueda rápida . Puedes tomar la acción de buscar como acción bonus.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia o Sabiduría en 1, hasta un máximo de 20. Observador perspicaz . Elija una de las siguientes habilidades: Percepción, Investigación o Perspicacia. Si no tienes competencia con la habilidad elegida, obtienes competencia en ella, y si ya tienes competencia en ella, obtienes Experiencia en ella. Búsqueda rápida . Puedes tomar la acción de buscar como acción bonus.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia o Sabiduría en 1, hasta un máximo de 20. Observador perspicaz . Elija una de las siguientes habilidades: Percepción, Investigación o Perspicacia. Si no tienes competencia con la habilidad elegida, obtienes competencia en ella, y si ya tienes competencia en ella, obtienes Experiencia en ella. Búsqueda rápida . Puedes tomar la acción de buscar como acción bonus.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia o Sabiduría en 1, hasta un máximo de 20. Observador perspicaz . Elija una de las siguientes habilidades: Percepción, Investigación o Perspicacia. Si no tienes competencia con la habilidad elegida, obtienes competencia en ella, y si ya tienes competencia en ella, obtienes Experiencia en ella. Búsqueda rápida . Puedes tomar la acción de buscar como acción bonus."
+    ]
+  },
+  {
+    "nombre": "Perforador",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Horadar . Una vez por turno, cuando aciertes a una criatura con un ataque que cause daño Perforante, puedes volver a tirar uno de los dados de daño del ataque, y debes usar la nueva tirada. Crítico potenciado . Cuando logras un Crítico que causa daño perforante a una criatura, puedes lanzar un dado de daño adicional al determinar el daño perforante extra que recibe el objetivo.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Horadar . Una vez por turno, cuando aciertes a una criatura con un ataque que cause daño Perforante, puedes volver a tirar uno de los dados de daño del ataque, y debes usar la nueva tirada. Crítico potenciado . Cuando logras un Crítico que causa daño perforante a una criatura, puedes lanzar un dado de daño adicional al determinar el daño perforante extra que recibe el objetivo.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Horadar . Una vez por turno, cuando aciertes a una criatura con un ataque que cause daño Perforante, puedes volver a tirar uno de los dados de daño del ataque, y debes usar la nueva tirada. Crítico potenciado . Cuando logras un Crítico que causa daño perforante a una criatura, puedes lanzar un dado de daño adicional al determinar el daño perforante extra que recibe el objetivo.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Horadar . Una vez por turno, cuando aciertes a una criatura con un ataque que cause daño Perforante, puedes volver a tirar uno de los dados de daño del ataque, y debes usar la nueva tirada. Crítico potenciado . Cuando logras un Crítico que causa daño perforante a una criatura, puedes lanzar un dado de daño adicional al determinar el daño perforante extra que recibe el objetivo."
+    ]
+  },
+  {
+    "nombre": "Protección",
+    "categoria": "estilo de combate",
+    "prerequisitos_raw": "Dote de estilo de combate (requisito: rasgo Estilo de combate)",
+    "nivel_requerido": null,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Cuando una criatura que puedes ver ataca a un objetivo diferente a ti que está a 1,50 metros o menos de ti, puedes tomar una reacción para interponer tu escudo si estás sosteniendo uno. Impones Desventaja en la tirada de ataque que desencadenó la reacción y en todas las demás tiradas de ataque contra el objetivo hasta el comienzo de tu siguiente turno, si permaneces a 1,50 metros o menos del objetivo.",
+    "beneficios": []
+  },
+  {
+    "nombre": "Rebanador",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Lacerar . Una vez por turno, cuando aciertes a una criatura con un ataque que inflige daño cortante, puedes reducir la velocidad de esa criatura en 3 metros hasta el comienzo de tu próximo turno. Crítico potenciado . Cuando logras un Crítico que inflige daño cortante a una criatura, esta tiene Desventaja en las tiradas de ataque hasta el comienzo de tu siguiente turno.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Lacerar . Una vez por turno, cuando aciertes a una criatura con un ataque que inflige daño cortante, puedes reducir la velocidad de esa criatura en 3 metros hasta el comienzo de tu próximo turno. Crítico potenciado . Cuando logras un Crítico que inflige daño cortante a una criatura, esta tiene Desventaja en las tiradas de ataque hasta el comienzo de tu siguiente turno.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Lacerar . Una vez por turno, cuando aciertes a una criatura con un ataque que inflige daño cortante, puedes reducir la velocidad de esa criatura en 3 metros hasta el comienzo de tu próximo turno. Crítico potenciado . Cuando logras un Crítico que inflige daño cortante a una criatura, esta tiene Desventaja en las tiradas de ataque hasta el comienzo de tu siguiente turno.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. Lacerar . Una vez por turno, cuando aciertes a una criatura con un ataque que inflige daño cortante, puedes reducir la velocidad de esa criatura en 3 metros hasta el comienzo de tu próximo turno. Crítico potenciado . Cuando logras un Crítico que inflige daño cortante a una criatura, esta tiene Desventaja en las tiradas de ataque hasta el comienzo de tu siguiente turno."
+    ]
+  },
+  {
+    "nombre": "Resiliente",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Elige una característica en la que no tengas competencia en tiradas de salvación. Aumenta la puntuación de la característica elegida en 1, hasta un máximo de 20. Competencia en tiradas de salvación . Eres competente en tiradas de salvación con la característica elegida.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Elige una característica en la que no tengas competencia en tiradas de salvación. Aumenta la puntuación de la característica elegida en 1, hasta un máximo de 20. Competencia en tiradas de salvación . Eres competente en tiradas de salvación con la característica elegida.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Elige una característica en la que no tengas competencia en tiradas de salvación. Aumenta la puntuación de la característica elegida en 1, hasta un máximo de 20. Competencia en tiradas de salvación . Eres competente en tiradas de salvación con la característica elegida."
+    ]
+  },
+  {
+    "nombre": "Resistente",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Constitución en 1, hasta un máximo de 20. Desafiar a la muerte . Tienes Ventaja en las tiradas de salvación contra la Muerte. Recuperación rápida . Como acción bonus, puedes gastar uno de tus Dados de puntos de golpe, lanzar el dado y recuperar un número de puntos de golpe igual a la tirada.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Constitución en 1, hasta un máximo de 20. Desafiar a la muerte . Tienes Ventaja en las tiradas de salvación contra la Muerte. Recuperación rápida . Como acción bonus, puedes gastar uno de tus Dados de puntos de golpe, lanzar el dado y recuperar un número de puntos de golpe igual a la tirada.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Constitución en 1, hasta un máximo de 20. Desafiar a la muerte . Tienes Ventaja en las tiradas de salvación contra la Muerte. Recuperación rápida . Como acción bonus, puedes gastar uno de tus Dados de puntos de golpe, lanzar el dado y recuperar un número de puntos de golpe igual a la tirada.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Constitución en 1, hasta un máximo de 20. Desafiar a la muerte . Tienes Ventaja en las tiradas de salvación contra la Muerte. Recuperación rápida . Como acción bonus, puedes gastar uno de tus Dados de puntos de golpe, lanzar el dado y recuperar un número de puntos de golpe igual a la tirada."
+    ]
+  },
+  {
+    "nombre": "Sanador",
+    "categoria": "origen",
+    "prerequisitos_raw": "Dote de origen",
+    "nivel_requerido": null,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Médico de batalla . Si tienes un Kit de Sanador, puedes gastar un uso de este y atender a una criatura a 1,50 metros o menos de ti como acción de utilizar. Esa criatura puede gastar uno de sus Dados de puntos de golpe, y tú luego tiras ese dado. La criatura recupera una cantidad de puntos de golpe igual al resultado de la tirada más tu bonificador por competencia. Repetir tiradas de curación . Siempre que tires un dado para determinar la cantidad de puntos de golpe que restauras con un conjuro o con el beneficio Médico de batalla de este dote, puedes repetir la tirada si sale un 1, y debes usar la nueva tirada.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Médico de batalla . Si tienes un Kit de Sanador, puedes gastar un uso de este y atender a una criatura a 1,50 metros o menos de ti como acción de utilizar. Esa criatura puede gastar uno de sus Dados de puntos de golpe, y tú luego tiras ese dado. La criatura recupera una cantidad de puntos de golpe igual al resultado de la tirada más tu bonificador por competencia. Repetir tiradas de curación . Siempre que tires un dado para determinar la cantidad de puntos de golpe que restauras con un conjuro o con el beneficio Médico de batalla de este dote, puedes repetir la tirada si sale un 1, y debes usar la nueva tirada.",
+      "Obtienes los siguientes beneficios. Médico de batalla . Si tienes un Kit de Sanador, puedes gastar un uso de este y atender a una criatura a 1,50 metros o menos de ti como acción de utilizar. Esa criatura puede gastar uno de sus Dados de puntos de golpe, y tú luego tiras ese dado. La criatura recupera una cantidad de puntos de golpe igual al resultado de la tirada más tu bonificador por competencia. Repetir tiradas de curación . Siempre que tires un dado para determinar la cantidad de puntos de golpe que restauras con un conjuro o con el beneficio Médico de batalla de este dote, puedes repetir la tirada si sale un 1, y debes usar la nueva tirada."
+    ]
+  },
+  {
+    "nombre": "Telepático",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Habla telepática . Puedes hablar telepáticamente con cualquier criatura que veas en un radio de 18 metros. Tus expresiones telepáticas se realizan en un idioma que conoces, y la criatura solo te entiende si lo conoce. Tu comunicación no le otorga a la criatura la capacidad de responderte telepáticamente. Detectar pensamientos . Siempre tienes preparado el conjuro detectar pensamientos . Puedes lanzarlo sin gastar un espacio de conjuro ni componentes, y debes completar un Descanso largo antes de poder volver a lanzarlo de esta forma. También puedes lanzarlo usando espacios de conjuros que tengas del nivel apropiado. La aptitud mágica del conjuro es la característica aumentada por esta dote.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Habla telepática . Puedes hablar telepáticamente con cualquier criatura que veas en un radio de 18 metros. Tus expresiones telepáticas se realizan en un idioma que conoces, y la criatura solo te entiende si lo conoce. Tu comunicación no le otorga a la criatura la capacidad de responderte telepáticamente. Detectar pensamientos . Siempre tienes preparado el conjuro detectar pensamientos . Puedes lanzarlo sin gastar un espacio de conjuro ni componentes, y debes completar un Descanso largo antes de poder volver a lanzarlo de esta forma. También puedes lanzarlo usando espacios de conjuros que tengas del nivel apropiado. La aptitud mágica del conjuro es la característica aumentada por esta dote.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Habla telepática . Puedes hablar telepáticamente con cualquier criatura que veas en un radio de 18 metros. Tus expresiones telepáticas se realizan en un idioma que conoces, y la criatura solo te entiende si lo conoce. Tu comunicación no le otorga a la criatura la capacidad de responderte telepáticamente. Detectar pensamientos . Siempre tienes preparado el conjuro detectar pensamientos . Puedes lanzarlo sin gastar un espacio de conjuro ni componentes, y debes completar un Descanso largo antes de poder volver a lanzarlo de esta forma. También puedes lanzarlo usando espacios de conjuros que tengas del nivel apropiado. La aptitud mágica del conjuro es la característica aumentada por esta dote.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Habla telepática . Puedes hablar telepáticamente con cualquier criatura que veas en un radio de 18 metros. Tus expresiones telepáticas se realizan en un idioma que conoces, y la criatura solo te entiende si lo conoce. Tu comunicación no le otorga a la criatura la capacidad de responderte telepáticamente. Detectar pensamientos . Siempre tienes preparado el conjuro detectar pensamientos . Puedes lanzarlo sin gastar un espacio de conjuro ni componentes, y debes completar un Descanso largo antes de poder volver a lanzarlo de esta forma. También puedes lanzarlo usando espacios de conjuros que tengas del nivel apropiado. La aptitud mágica del conjuro es la característica aumentada por esta dote."
+    ]
+  },
+  {
+    "nombre": "Telequinético",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Telequinesis menor . Aprendes el conjuro mano de mago . Puedes lanzarlo sin componentes verbales ni somáticos, puedes hacer que la mano espectral sea invisible, y tanto su alcance como la distancia a la que puede alejarse de ti aumentan en 9 metros al lanzarlo. La aptitud mágica del conjuro es la característica aumentada por esta dote. Empellón telequinético . Como acción bonus, puedes empujar telequinéticamente a una criatura que puedas ver en un radio de 9 metros. Si lo haces, el objetivo debe superar una tirada de salvación de Fuerza (CD 8 más el modificador de característica de la puntuación incrementada por esta dote y tu bonificador por competencia) o será movido 1,50 metros hacia ti o lejos de ti.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Telequinesis menor . Aprendes el conjuro mano de mago . Puedes lanzarlo sin componentes verbales ni somáticos, puedes hacer que la mano espectral sea invisible, y tanto su alcance como la distancia a la que puede alejarse de ti aumentan en 9 metros al lanzarlo. La aptitud mágica del conjuro es la característica aumentada por esta dote. Empellón telequinético . Como acción bonus, puedes empujar telequinéticamente a una criatura que puedas ver en un radio de 9 metros. Si lo haces, el objetivo debe superar una tirada de salvación de Fuerza (CD 8 más el modificador de característica de la puntuación incrementada por esta dote y tu bonificador por competencia) o será movido 1,50 metros hacia ti o lejos de ti.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Telequinesis menor . Aprendes el conjuro mano de mago . Puedes lanzarlo sin componentes verbales ni somáticos, puedes hacer que la mano espectral sea invisible, y tanto su alcance como la distancia a la que puede alejarse de ti aumentan en 9 metros al lanzarlo. La aptitud mágica del conjuro es la característica aumentada por esta dote. Empellón telequinético . Como acción bonus, puedes empujar telequinéticamente a una criatura que puedas ver en un radio de 9 metros. Si lo haces, el objetivo debe superar una tirada de salvación de Fuerza (CD 8 más el modificador de característica de la puntuación incrementada por esta dote y tu bonificador por competencia) o será movido 1,50 metros hacia ti o lejos de ti.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Telequinesis menor . Aprendes el conjuro mano de mago . Puedes lanzarlo sin componentes verbales ni somáticos, puedes hacer que la mano espectral sea invisible, y tanto su alcance como la distancia a la que puede alejarse de ti aumentan en 9 metros al lanzarlo. La aptitud mágica del conjuro es la característica aumentada por esta dote. Empellón telequinético . Como acción bonus, puedes empujar telequinéticamente a una criatura que puedas ver en un radio de 9 metros. Si lo haces, el objetivo debe superar una tirada de salvación de Fuerza (CD 8 más el modificador de característica de la puntuación incrementada por esta dote y tu bonificador por competencia) o será movido 1,50 metros hacia ti o lejos de ti."
+    ]
+  },
+  {
+    "nombre": "Tirador de primera",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más, Destreza 13 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [
+      "Destreza"
+    ],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza en 1, hasta un máximo de 20. Sortear la cobertura . Tus ataques a distancia con armas ignoran las coberturas media y tres cuartos. Disparar cuerpo a cuerpo . Estar a 1,50 metros o menos de un enemigo no impone Desventaja en tus tiradas de ataque con armas a distancia. Tiros lejanos . Atacar a larga distancia no impone Desventaja en tus tiradas de ataque con armas a distancia.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza en 1, hasta un máximo de 20. Sortear la cobertura . Tus ataques a distancia con armas ignoran las coberturas media y tres cuartos. Disparar cuerpo a cuerpo . Estar a 1,50 metros o menos de un enemigo no impone Desventaja en tus tiradas de ataque con armas a distancia. Tiros lejanos . Atacar a larga distancia no impone Desventaja en tus tiradas de ataque con armas a distancia.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza en 1, hasta un máximo de 20. Sortear la cobertura . Tus ataques a distancia con armas ignoran las coberturas media y tres cuartos. Disparar cuerpo a cuerpo . Estar a 1,50 metros o menos de un enemigo no impone Desventaja en tus tiradas de ataque con armas a distancia. Tiros lejanos . Atacar a larga distancia no impone Desventaja en tus tiradas de ataque con armas a distancia.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza en 1, hasta un máximo de 20. Sortear la cobertura . Tus ataques a distancia con armas ignoran las coberturas media y tres cuartos. Disparar cuerpo a cuerpo . Estar a 1,50 metros o menos de un enemigo no impone Desventaja en tus tiradas de ataque con armas a distancia. Tiros lejanos . Atacar a larga distancia no impone Desventaja en tus tiradas de ataque con armas a distancia.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza en 1, hasta un máximo de 20. Sortear la cobertura . Tus ataques a distancia con armas ignoran las coberturas media y tres cuartos. Disparar cuerpo a cuerpo . Estar a 1,50 metros o menos de un enemigo no impone Desventaja en tus tiradas de ataque con armas a distancia. Tiros lejanos . Atacar a larga distancia no impone Desventaja en tus tiradas de ataque con armas a distancia."
+    ]
+  },
+  {
+    "nombre": "Tiro con arco",
+    "categoria": "estilo de combate",
+    "prerequisitos_raw": "Dote de estilo de combate (requisito: rasgo Estilo de combate)",
+    "nivel_requerido": null,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes un bonificador de +2 a las tiradas de ataque que hagas con armas a distancia.",
+    "beneficios": []
+  },
+  {
+    "nombre": "Triturador",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Constitución en 1, hasta un máximo de 20. Empujar . Una vez por turno, cuando aciertes a una criatura con un ataque que inflige daño contundente, puedes moverla de 1,50 metros a un espacio desocupado si no es más de un tamaño mayor que tú. Crítico mejorado . Cuando logras un Crítico que causa daño contundente a una criatura, las tiradas de ataque contra esa criatura tienen Ventaja hasta el comienzo de tu siguiente turno.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Constitución en 1, hasta un máximo de 20. Empujar . Una vez por turno, cuando aciertes a una criatura con un ataque que inflige daño contundente, puedes moverla de 1,50 metros a un espacio desocupado si no es más de un tamaño mayor que tú. Crítico mejorado . Cuando logras un Crítico que causa daño contundente a una criatura, las tiradas de ataque contra esa criatura tienen Ventaja hasta el comienzo de tu siguiente turno.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Constitución en 1, hasta un máximo de 20. Empujar . Una vez por turno, cuando aciertes a una criatura con un ataque que inflige daño contundente, puedes moverla de 1,50 metros a un espacio desocupado si no es más de un tamaño mayor que tú. Crítico mejorado . Cuando logras un Crítico que causa daño contundente a una criatura, las tiradas de ataque contra esa criatura tienen Ventaja hasta el comienzo de tu siguiente turno.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Fuerza o Constitución en 1, hasta un máximo de 20. Empujar . Una vez por turno, cuando aciertes a una criatura con un ataque que inflige daño contundente, puedes moverla de 1,50 metros a un espacio desocupado si no es más de un tamaño mayor que tú. Crítico mejorado . Cuando logras un Crítico que causa daño contundente a una criatura, las tiradas de ataque contra esa criatura tienen Ventaja hasta el comienzo de tu siguiente turno."
+    ]
+  },
+  {
+    "nombre": "Veloz",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más, Destreza o Constitución 13 o más)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [
+      "Destreza",
+      "Constitución"
+    ],
+    "repetible": false,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza o Constitución en 1, hasta un máximo de 20. Aumento de velocidad . Tu velocidad aumenta en 3 metros. Correr por terreno difícil . Cuando tomas la acción de correr en tu turno, el terreno difícil no te cuesta movimiento extra durante el resto de ese turno. Movimiento ágil . Los Ataques de Oportunidad tienen Desventaja contra ti.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza o Constitución en 1, hasta un máximo de 20. Aumento de velocidad . Tu velocidad aumenta en 3 metros. Correr por terreno difícil . Cuando tomas la acción de correr en tu turno, el terreno difícil no te cuesta movimiento extra durante el resto de ese turno. Movimiento ágil . Los Ataques de Oportunidad tienen Desventaja contra ti.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza o Constitución en 1, hasta un máximo de 20. Aumento de velocidad . Tu velocidad aumenta en 3 metros. Correr por terreno difícil . Cuando tomas la acción de correr en tu turno, el terreno difícil no te cuesta movimiento extra durante el resto de ese turno. Movimiento ágil . Los Ataques de Oportunidad tienen Desventaja contra ti.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza o Constitución en 1, hasta un máximo de 20. Aumento de velocidad . Tu velocidad aumenta en 3 metros. Correr por terreno difícil . Cuando tomas la acción de correr en tu turno, el terreno difícil no te cuesta movimiento extra durante el resto de ese turno. Movimiento ágil . Los Ataques de Oportunidad tienen Desventaja contra ti.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Destreza o Constitución en 1, hasta un máximo de 20. Aumento de velocidad . Tu velocidad aumenta en 3 metros. Correr por terreno difícil . Cuando tomas la acción de correr en tu turno, el terreno difícil no te cuesta movimiento extra durante el resto de ese turno. Movimiento ágil . Los Ataques de Oportunidad tienen Desventaja contra ti."
+    ]
+  },
+  {
+    "nombre": "Versado en un elemento",
+    "categoria": "general",
+    "prerequisitos_raw": "Dote general (requisito: nivel 4 o más, rasgo Lanzamiento de conjuros o Magia del pacto)",
+    "nivel_requerido": 4,
+    "atributos_requeridos": [],
+    "repetible": true,
+    "descripcion": "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Dominio de energía . Elige uno de los siguientes tipos de daño: ácido, frío, fuego, relámpago o trueno. Los conjuros que lances ignoran la resistencia al daño del tipo elegido. Además, cuando obtienes daño para un conjuro que lanzas que causa daño de ese tipo, puedes considerar cualquier 1 en un dado de daño como un 2. Repetible . Puedes elegir este dote más de una vez, pero debes elegir un tipo de daño diferente cada vez para Dominio de energía.",
+    "beneficios": [
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Dominio de energía . Elige uno de los siguientes tipos de daño: ácido, frío, fuego, relámpago o trueno. Los conjuros que lances ignoran la resistencia al daño del tipo elegido. Además, cuando obtienes daño para un conjuro que lanzas que causa daño de ese tipo, puedes considerar cualquier 1 en un dado de daño como un 2. Repetible . Puedes elegir este dote más de una vez, pero debes elegir un tipo de daño diferente cada vez para Dominio de energía.",
+      "Obtienes los siguientes beneficios. Mejora de característica . Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20. Dominio de energía . Elige uno de los siguientes tipos de daño: ácido, frío, fuego, relámpago o trueno. Los conjuros que lances ignoran la resistencia al daño del tipo elegido. Además, cuando obtienes daño para un conjuro que lanzas que causa daño de ese tipo, puedes considerar cualquier 1 en un dado de daño como un 2. Repetible . Puedes elegir este dote más de una vez, pero debes elegir un tipo de daño diferente cada vez para Dominio de energía."
+    ]
+  }
+]
