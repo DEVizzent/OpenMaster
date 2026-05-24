@@ -17,6 +17,11 @@
       "type": "local",
       "command": ["python", "tools/dotes/server.py"],
       "enabled": true
+    },
+    "montruos": {
+      "type": "local",
+      "command": ["python", "tools/monstruos/src/mcp_server.py"],
+      "enabled": true
     }
   }
 }

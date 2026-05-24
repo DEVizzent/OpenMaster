@@ -1,0 +1,3073 @@
+{
+  "Aarakocra aeromante": {
+    "name_en": "Aarakocra Aeromancer",
+    "habitat": [
+      "Mountain",
+      "Planar (Elemental Plane of Air)"
+    ]
+  },
+  "Aarakocra experto en escaramuzas": {
+    "name_en": "Aarakocra Skirmisher",
+    "habitat": [
+      "Mountain",
+      "Planar (Elemental Plane of Air)"
+    ]
+  },
+  "Aboleth": {
+    "name_en": "Aboleth",
+    "habitat": [
+      "Underdark",
+      "Underwater"
+    ]
+  },
+  "Acechador invisible": {
+    "name_en": "Invisible Stalker",
+    "habitat": [
+      "Urban"
+    ]
+  },
+  "Alce": {
+    "name_en": "Elk",
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  "Alce gigante": {
+    "name_en": "Giant Elk",
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  "Alfombra asfixiante animada": {
+    "name_en": "Animated Rug of Smothering",
+    "habitat": [
+      "Urban"
+    ]
+  },
+  "Alosaurio": {
+    "name_en": "Allosaurus",
+    "habitat": [
+      "Grassland"
+    ]
+  },
+  "Ankheg": {
+    "name_en": "Ankheg",
+    "habitat": [
+      "Forest",
+      "Grassland"
+    ]
+  },
+  "Anquilosaurio": {
+    "name_en": "Ankylosaurus",
+    "habitat": [
+      "Grassland"
+    ]
+  },
+  "Aparición": {
+    "name_en": "Wraith",
+    "habitat": [
+      "Planar (Shadowfell)",
+      "Underdark"
+    ]
+  },
+  "Araña": {
+    "name_en": "Spider",
+    "habitat": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Araña de fase": {
+    "name_en": "Phase Spider",
+    "habitat": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Planar (Ethereal Plane)",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Araña gigante": {
+    "name_en": "Giant Spider",
+    "habitat": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Arbusto despertado": {
+    "name_en": "Awakened Shrub",
+    "habitat": [
+      "Forest"
+    ]
+  },
+  "Arcanaloth": {
+    "name_en": "Arcanaloth",
+    "habitat": [
+      "Planar (Lower Planes)"
+    ]
+  },
+  "Archelon": {
+    "name_en": "Archelon",
+    "habitat": [
+      "Underwater"
+    ]
+  },
+  "Archimago": {
+    "name_en": "Archmage",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Archisaga": {
+    "name_en": "Arch-hag",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Arcipreste": {
+    "name_en": "Archpriest",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Armadura animada": {
+    "name_en": "Animated Armor",
+    "habitat": [
+      "Urban"
+    ]
+  },
+  "Arpía": {
+    "name_en": "Harpy",
+    "habitat": [
+      "Coastal",
+      "Forest",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  "Artista": {
+    "name_en": "Performer",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Artista legendario": {
+    "name_en": "Performer Legend",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Artista virtuoso": {
+    "name_en": "Performer Maestro",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Asesino": {
+    "name_en": "Assassin",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Avispa gigante": {
+    "name_en": "Giant Wasp",
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Urban"
+    ]
+  },
+  "Azer centinela": {
+    "name_en": "Azer Sentinel",
+    "habitat": [
+      "Mountain",
+      "Planar (Elemental Plane of Fire)"
+    ]
+  },
+  "Azotamentes": {
+    "name_en": "Mind Flayer",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Babuino": {
+    "name_en": "Baboon",
+    "habitat": [
+      "Forest",
+      "Hill"
+    ]
+  },
+  "Balor": {
+    "name_en": "Balor",
+    "habitat": [
+      "Planar (Abyss)"
+    ]
+  },
+  "Bandido": {
+    "name_en": "Bandit",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Bandido capitán": {
+    "name_en": "Bandit Captain",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Bandido señor del crimen": {
+    "name_en": "Bandit Crime Lord",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Banshee": {
+    "name_en": "Banshee",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Barlgura": {
+    "name_en": "Barlgura",
+    "habitat": [
+      "Planar (Abyss)"
+    ]
+  },
+  "Basilisco": {
+    "name_en": "Basilisk",
+    "habitat": [
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  "Batidor": {
+    "name_en": "Scout",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Batidor capitán": {
+    "name_en": "Scout Captain",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Beast of the Skyninguno BestiaPequeño134volar6 16138 1411NeutralPlayer´s Handbook 2024Bestia trémula": {
+    "name_en": "Displacer Beast",
+    "habitat": [
+      "Forest"
+    ]
+  },
+  "Behir": {
+    "name_en": "Behir",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Berserker": {
+    "name_en": "Berserker",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Berserker comandante": {
+    "name_en": "Berserker Commander",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Bocón barbotante": {
+    "name_en": "Gibbering Mouther",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Broza movediza": {
+    "name_en": "Shambling Mound",
+    "habitat": [
+      "Forest",
+      "Swamp"
+    ]
+  },
+  "Buitre": {
+    "name_en": "Vulture",
+    "habitat": [
+      "Desert",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  "Buitre gigante": {
+    "name_en": "Giant Vulture",
+    "habitat": [
+      "Desert",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  "Bulette": {
+    "name_en": "Bulette",
+    "habitat": [
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  "Bullywug erudito del pantano": {
+    "name_en": "Bullywug Bog Sage",
+    "habitat": [
+      "Swamp"
+    ]
+  },
+  "Bullywug guerrero": {
+    "name_en": "Bullywug Warrior",
+    "habitat": [
+      "Swamp"
+    ]
+  },
+  "Búho": {
+    "name_en": "Owl",
+    "habitat": [
+      "Arctic",
+      "Forest",
+      "Hill"
+    ]
+  },
+  "Búho gigante": {
+    "name_en": "Giant Owl",
+    "habitat": [
+      "Arctic",
+      "Forest",
+      "Hill"
+    ]
+  },
+  "Caballero": {
+    "name_en": "Knight",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Caballero andante": {
+    "name_en": "Questing Knight",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Caballero de la muerte": {
+    "name_en": "Death Knight",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Caballito de mar": {
+    "name_en": "Seahorse",
+    "habitat": [
+      "Underwater"
+    ]
+  },
+  "Caballito de mar gigante": {
+    "name_en": "Giant Seahorse",
+    "habitat": [
+      "Underwater"
+    ]
+  },
+  "Caballo de guerra": {
+    "name_en": "Warhorse",
+    "habitat": [
+      "Urban"
+    ]
+  },
+  "Caballo de guerra esqueleto": {
+    "name_en": "Warhorse Skeleton",
+    "habitat": [
+      "Planar (Shadowfell)",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Caballo de monta": {
+    "name_en": "Riding Horse",
+    "habitat": [
+      "Grassland",
+      "Urban"
+    ]
+  },
+  "Caballo de tiro": {
+    "name_en": "Draft Horse",
+    "habitat": [
+      "Urban"
+    ]
+  },
+  "Cabra": {
+    "name_en": "Goat",
+    "habitat": [
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Urban"
+    ]
+  },
+  "Cabra gigante": {
+    "name_en": "Giant Goat",
+    "habitat": [
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  "Calamar gigante": {
+    "name_en": "Giant Squid",
+    "habitat": [
+      "Underwater"
+    ]
+  },
+  "Calavera llameante": {
+    "name_en": "Flameskull",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Cambion": {
+    "name_en": "Cambion",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Camello": {
+    "name_en": "Camel",
+    "habitat": [
+      "Desert"
+    ]
+  },
+  "Cangrejo": {
+    "name_en": "Crab",
+    "habitat": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  "Cangrejo gigante": {
+    "name_en": "Giant Crab",
+    "habitat": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  "Carroñero reptante": {
+    "name_en": "Carrion Crawler",
+    "habitat": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Centauro guardián": {
+    "name_en": "Centaur Warden",
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Planar (Feywild)"
+    ]
+  },
+  "Centauro soldado": {
+    "name_en": "Centaur Trooper",
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Planar (Feywild)"
+    ]
+  },
+  "Chacal": {
+    "name_en": "Jackal",
+    "habitat": [
+      "Desert",
+      "Grassland"
+    ]
+  },
+  "Chasme": {
+    "name_en": "Chasme",
+    "habitat": [
+      "Planar (Abyss)"
+    ]
+  },
+  "Chuul": {
+    "name_en": "Chuul",
+    "habitat": [
+      "Coastal",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  "Ciempiés gigante": {
+    "name_en": "Giant Centipede",
+    "habitat": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Cieno gris": {
+    "name_en": "Gray Ooze",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Ciervo": {
+    "name_en": "Deer",
+    "habitat": [
+      "Forest",
+      "Grassland"
+    ]
+  },
+  "Cocatriz": {
+    "name_en": "Cockatrice",
+    "habitat": [
+      "Grassland"
+    ]
+  },
+  "Cocodrilo": {
+    "name_en": "Crocodile",
+    "habitat": [
+      "Coastal",
+      "Swamp",
+      "Urban"
+    ]
+  },
+  "Cocodrilo gigante": {
+    "name_en": "Giant Crocodile",
+    "habitat": [
+      "Coastal",
+      "Swamp"
+    ]
+  },
+  "Comadreja": {
+    "name_en": "Weasel",
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  "Comadreja gigante": {
+    "name_en": "Giant Weasel",
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  "Contemplador zombi": {
+    "name_en": "Beholder Zombie",
+    "habitat": [
+      "Planar (Shadowfell)",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Cubo gelatinoso": {
+    "name_en": "Gelatinous Cube",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Cuervo": {
+    "name_en": "Raven",
+    "habitat": [
+      "Hill",
+      "Swamp",
+      "Urban"
+    ]
+  },
+  "Cíclope centinela": {
+    "name_en": "Cyclops Sentry",
+    "habitat": [
+      "Coastal",
+      "Desert",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  "Demonio de las sombras": {
+    "name_en": "Shadow Demon",
+    "habitat": [
+      "Planar (Abyss)"
+    ]
+  },
+  "Deva": {
+    "name_en": "Deva",
+    "habitat": [
+      "Planar (Upper Planes)"
+    ]
+  },
+  "Devorador de intelectos": {
+    "name_en": "Intellect Devourer",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Diablillo": {
+    "name_en": "Imp",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Diablo astado": {
+    "name_en": "Horned Devil",
+    "habitat": [
+      "Planar (Nine Hells)"
+    ]
+  },
+  "Diablo barbado": {
+    "name_en": "Bearded Devil",
+    "habitat": [
+      "Planar (Nine Hells)"
+    ]
+  },
+  "Diablo de la sima": {
+    "name_en": "Pit Fiend",
+    "habitat": [
+      "Planar (Nine Hells)"
+    ]
+  },
+  "Diablo de las cadenas": {
+    "name_en": "Chain Devil",
+    "habitat": [
+      "Planar (Nine Hells)"
+    ]
+  },
+  "Diablo espinoso": {
+    "name_en": "Spined Devil",
+    "habitat": [
+      "Planar (Nine Hells)"
+    ]
+  },
+  "Diablo gélido": {
+    "name_en": "Ice Devil",
+    "habitat": [
+      "Planar (Nine Hells)"
+    ]
+  },
+  "Diablo punzante": {
+    "name_en": "Barbed Devil",
+    "habitat": [
+      "Planar (Nine Hells)"
+    ]
+  },
+  "Diablo óseo": {
+    "name_en": "Bone Devil",
+    "habitat": [
+      "Planar (Nine Hells)"
+    ]
+  },
+  "Djinn": {
+    "name_en": "Djinni",
+    "habitat": [
+      "Coastal",
+      "Planar (Elemental Plane of Air)"
+    ]
+  },
+  "Doppelganger": {
+    "name_en": "Doppelganger",
+    "habitat": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Dragón azul adulto": {
+    "name_en": "Adult Blue Dragon",
+    "habitat": [
+      "Coastal",
+      "Desert"
+    ]
+  },
+  "Dragón azul anciano": {
+    "name_en": "Ancient Blue Dragon",
+    "habitat": [
+      "Coastal",
+      "Desert"
+    ]
+  },
+  "Dragón azul cría": {
+    "name_en": "Blue Dragon Wyrmling",
+    "habitat": [
+      "Coastal",
+      "Desert"
+    ]
+  },
+  "Dragón azul joven": {
+    "name_en": "Young Blue Dragon",
+    "habitat": [
+      "Coastal",
+      "Desert"
+    ]
+  },
+  "Dragón blanco adulto": {
+    "name_en": "Adult White Dragon",
+    "habitat": [
+      "Arctic"
+    ]
+  },
+  "Dragón blanco anciano": {
+    "name_en": "Ancient White Dragon",
+    "habitat": [
+      "Arctic"
+    ]
+  },
+  "Dragón blanco cría": {
+    "name_en": "White Dragon Wyrmling",
+    "habitat": [
+      "Arctic"
+    ]
+  },
+  "Dragón blanco joven": {
+    "name_en": "Young White Dragon",
+    "habitat": [
+      "Arctic"
+    ]
+  },
+  "Dragón de bronce adulto": {
+    "name_en": "Adult Bronze Dragon",
+    "habitat": [
+      "Coastal"
+    ]
+  },
+  "Dragón de bronce anciano": {
+    "name_en": "Ancient Bronze Dragon",
+    "habitat": [
+      "Coastal"
+    ]
+  },
+  "Dragón de bronce cría": {
+    "name_en": "Bronze Dragon Wyrmling",
+    "habitat": [
+      "Coastal"
+    ]
+  },
+  "Dragón de bronce joven": {
+    "name_en": "Young Bronze Dragon",
+    "habitat": [
+      "Coastal"
+    ]
+  },
+  "Dragón de cobre adulto": {
+    "name_en": "Adult Copper Dragon",
+    "habitat": [
+      "Hill"
+    ]
+  },
+  "Dragón de cobre anciano": {
+    "name_en": "Ancient Copper Dragon",
+    "habitat": [
+      "Hill"
+    ]
+  },
+  "Dragón de cobre cría": {
+    "name_en": "Copper Dragon Wyrmling",
+    "habitat": [
+      "Hill"
+    ]
+  },
+  "Dragón de cobre joven": {
+    "name_en": "Young Copper Dragon",
+    "habitat": [
+      "Hill"
+    ]
+  },
+  "Dragón de oro adulto": {
+    "name_en": "Adult Gold Dragon",
+    "habitat": [
+      "Forest",
+      "Grassland"
+    ]
+  },
+  "Dragón de oro anciano": {
+    "name_en": "Ancient Gold Dragon",
+    "habitat": [
+      "Forest",
+      "Grassland"
+    ]
+  },
+  "Dragón de oro cría": {
+    "name_en": "Gold Dragon Wyrmling",
+    "habitat": [
+      "Forest",
+      "Grassland"
+    ]
+  },
+  "Dragón de oro joven": {
+    "name_en": "Young Gold Dragon",
+    "habitat": [
+      "Forest",
+      "Grassland"
+    ]
+  },
+  "Dragón de oropel adulto": {
+    "name_en": "Adult Brass Dragon",
+    "habitat": [
+      "Desert"
+    ]
+  },
+  "Dragón de oropel anciano": {
+    "name_en": "Ancient Brass Dragon",
+    "habitat": [
+      "Desert"
+    ]
+  },
+  "Dragón de oropel cría": {
+    "name_en": "Brass Dragon Wyrmling",
+    "habitat": [
+      "Desert"
+    ]
+  },
+  "Dragón de oropel joven": {
+    "name_en": "Young Brass Dragon",
+    "habitat": [
+      "Desert"
+    ]
+  },
+  "Dragón de plata adulto": {
+    "name_en": "Adult Silver Dragon",
+    "habitat": [
+      "Mountain",
+      "Urban"
+    ]
+  },
+  "Dragón de plata anciano": {
+    "name_en": "Ancient Silver Dragon",
+    "habitat": [
+      "Mountain",
+      "Urban"
+    ]
+  },
+  "Dragón de plata cría": {
+    "name_en": "Silver Dragon Wyrmling",
+    "habitat": [
+      "Mountain",
+      "Urban"
+    ]
+  },
+  "Dragón de plata joven": {
+    "name_en": "Young Silver Dragon",
+    "habitat": [
+      "Mountain",
+      "Urban"
+    ]
+  },
+  "Dragón negro adulto": {
+    "name_en": "Adult Black Dragon",
+    "habitat": [
+      "Swamp"
+    ]
+  },
+  "Dragón negro anciano": {
+    "name_en": "Ancient Black Dragon",
+    "habitat": [
+      "Swamp"
+    ]
+  },
+  "Dragón negro cría": {
+    "name_en": "Black Dragon Wyrmling",
+    "habitat": [
+      "Swamp"
+    ]
+  },
+  "Dragón negro joven": {
+    "name_en": "Young Black Dragon",
+    "habitat": [
+      "Swamp"
+    ]
+  },
+  "Dragón rojo adulto": {
+    "name_en": "Adult Red Dragon",
+    "habitat": [
+      "Hill",
+      "Mountain"
+    ]
+  },
+  "Dragón rojo anciano": {
+    "name_en": "Ancient Red Dragon",
+    "habitat": [
+      "Hill",
+      "Mountain"
+    ]
+  },
+  "Dragón rojo cría": {
+    "name_en": "Red Dragon Wyrmling",
+    "habitat": [
+      "Hill",
+      "Mountain"
+    ]
+  },
+  "Dragón rojo joven": {
+    "name_en": "Young Red Dragon",
+    "habitat": [
+      "Hill",
+      "Mountain"
+    ]
+  },
+  "Dragón tortuga": {
+    "name_en": "Dragon Turtle",
+    "habitat": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  "Dragón verde adulto": {
+    "name_en": "Adult Green Dragon",
+    "habitat": [
+      "Forest"
+    ]
+  },
+  "Dragón verde anciano": {
+    "name_en": "Ancient Green Dragon",
+    "habitat": [
+      "Forest"
+    ]
+  },
+  "Dragón verde cría": {
+    "name_en": "Green Dragon Wyrmling",
+    "habitat": [
+      "Forest"
+    ]
+  },
+  "Dragón verde joven": {
+    "name_en": "Young Green Dragon",
+    "habitat": [
+      "Forest"
+    ]
+  },
+  "Draña": {
+    "name_en": "Drider",
+    "habitat": [
+      "Forest",
+      "Underdark"
+    ]
+  },
+  "Dretch": {
+    "name_en": "Dretch",
+    "habitat": [
+      "Planar (Abyss)"
+    ]
+  },
+  "Druida": {
+    "name_en": "Druid",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Dríade": {
+    "name_en": "Dryad",
+    "habitat": [
+      "Forest"
+    ]
+  },
+  "Duende": {
+    "name_en": "Sprite",
+    "habitat": [
+      "Forest",
+      "Planar (Feywild)"
+    ]
+  },
+  "Elefante": {
+    "name_en": "Elephant",
+    "habitat": [
+      "Grassland"
+    ]
+  },
+  "Embaucador bandido": {
+    "name_en": "Bandit Deceiver",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Engendro vampírico": {
+    "name_en": "Vampire Spawn",
+    "habitat": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Ent": {
+    "name_en": "Treant",
+    "habitat": [
+      "Forest"
+    ]
+  },
+  "Erinia": {
+    "name_en": "Erinyes",
+    "habitat": [
+      "Planar (Nine Hells)"
+    ]
+  },
+  "Escarabajo de fuego gigante": {
+    "name_en": "Giant Fire Beetle",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Escoba animada": {
+    "name_en": "Animated Broom",
+    "habitat": [
+      "Urban"
+    ]
+  },
+  "Escorpión": {
+    "name_en": "Scorpion",
+    "habitat": [
+      "Desert"
+    ]
+  },
+  "Escorpión gigante": {
+    "name_en": "Giant Scorpion",
+    "habitat": [
+      "Desert"
+    ]
+  },
+  "Esfinge de las maravillas": {
+    "name_en": "Sphinx of Wonder",
+    "habitat": [
+      "Desert",
+      "Planar (Upper Planes)"
+    ]
+  },
+  "Esfinge del conocimiento": {
+    "name_en": "Sphinx of Lore",
+    "habitat": [
+      "Desert",
+      "Planar (Upper Planes)"
+    ]
+  },
+  "Esfinge del valor": {
+    "name_en": "Sphinx of Valor",
+    "habitat": [
+      "Desert",
+      "Planar (Upper Planes)"
+    ]
+  },
+  "Espada voladora animada": {
+    "name_en": "Animated Flying Sword",
+    "habitat": [
+      "Urban"
+    ]
+  },
+  "Espantapájaros": {
+    "name_en": "Scarecrow",
+    "habitat": [
+      "Grassland"
+    ]
+  },
+  "Espectador": {
+    "name_en": "Spectator",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Espectro": {
+    "name_en": "Specter",
+    "habitat": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Espía": {
+    "name_en": "Spy",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Espía maestro": {
+    "name_en": "Spy Master",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Esqueleto llameante": {
+    "name_en": "Flaming Skeleton",
+    "habitat": [
+      "Planar (Shadowfell)",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Estirge": {
+    "name_en": "Stirge",
+    "habitat": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Ettercap": {
+    "name_en": "Ettercap",
+    "habitat": [
+      "Forest"
+    ]
+  },
+  "Ettin": {
+    "name_en": "Ettin",
+    "habitat": [
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  "Extraño de agua": {
+    "name_en": "Water Weird",
+    "habitat": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Extremidad de troll": {
+    "name_en": "Troll Limb",
+    "habitat": [
+      "Arctic",
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  "Fantasma": {
+    "name_en": "Ghost",
+    "habitat": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Flumph": {
+    "name_en": "Flumph",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Fomoré": {
+    "name_en": "Fomorian",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Fuego fatuo": {
+    "name_en": "Will-o'-Wisp",
+    "habitat": [
+      "Forest",
+      "Swamp",
+      "Urban"
+    ]
+  },
+  "Galeb Duhr": {
+    "name_en": "Galeb Duhr",
+    "habitat": [
+      "Hill",
+      "Mountain"
+    ]
+  },
+  "Garra reptante": {
+    "name_en": "Crawling Claw",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Gato": {
+    "name_en": "Cat",
+    "habitat": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Urban"
+    ]
+  },
+  "Gelatina ocre": {
+    "name_en": "Ochre Jelly",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Ghast": {
+    "name_en": "Ghast",
+    "habitat": [
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Gigante de escarcha": {
+    "name_en": "Frost Giant",
+    "habitat": [
+      "Arctic",
+      "Mountain"
+    ]
+  },
+  "Gigante de fuego": {
+    "name_en": "Fire Giant",
+    "habitat": [
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  "Gigante de las colinas": {
+    "name_en": "Hill Giant",
+    "habitat": [
+      "Hill"
+    ]
+  },
+  "Gigante de las nubes": {
+    "name_en": "Cloud Giant",
+    "habitat": [
+      "Mountain"
+    ]
+  },
+  "Gigante de las tormentas": {
+    "name_en": "Storm Giant",
+    "habitat": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  "Gigante de piedra": {
+    "name_en": "Stone Giant",
+    "habitat": [
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  "Glabrezu": {
+    "name_en": "Glabrezu",
+    "habitat": [
+      "Planar (Abyss)"
+    ]
+  },
+  "Gladiador": {
+    "name_en": "Gladiator",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Gnoll colmillo de Yeenoghu": {
+    "name_en": "Gnoll Fang of Yeenoghu",
+    "habitat": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  "Gnoll demoníaco": {
+    "name_en": "Gnoll Demoniac",
+    "habitat": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  "Gnoll guerrero": {
+    "name_en": "Gnoll Warrior",
+    "habitat": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  "Gnoll líder de manada": {
+    "name_en": "Gnoll Pack Lord",
+    "habitat": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  "Goblin embrujador": {
+    "name_en": "Goblin Hexer",
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Planar (Acheron)",
+      "Planar (Feywild)",
+      "Underdark"
+    ]
+  },
+  "Goblin guerrero": {
+    "name_en": "Goblin Warrior",
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Planar (Acheron",
+      "Feywild)",
+      "Underdark"
+    ]
+  },
+  "Goblin jefe": {
+    "name_en": "Goblin Boss",
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Planar (Acheron",
+      "Feywild)",
+      "Underdark"
+    ]
+  },
+  "Goblin secuaz": {
+    "name_en": "Goblin Minion",
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Planar (Acheron",
+      "Feywild)",
+      "Underdark"
+    ]
+  },
+  "Gorgon": {
+    "name_en": "Gorgon",
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  "Gorgon de latón": {
+    "name_en": "Brazen Gorgon",
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  "Goristro": {
+    "name_en": "Goristro",
+    "habitat": [
+      "Planar (Abyss)"
+    ]
+  },
+  "Grell": {
+    "name_en": "Grell",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Grick": {
+    "name_en": "Grick",
+    "habitat": [
+      "Forest",
+      "Underdark"
+    ]
+  },
+  "Grifo": {
+    "name_en": "Griffon",
+    "habitat": [
+      "Arctic",
+      "Coastal",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  "Grimlock": {
+    "name_en": "Grimlock",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Guardia": {
+    "name_en": "Guard",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Guardia capitán": {
+    "name_en": "Guard Captain",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Guardián escudo": {
+    "name_en": "Shield Guardian",
+    "habitat": [
+      "Urban"
+    ]
+  },
+  "Guerrero comandante": {
+    "name_en": "Warrior Commander",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Guerrero de infantería": {
+    "name_en": "Warrior Infantry",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Guerrero veterano": {
+    "name_en": "Warrior Veteran",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Guiverno": {
+    "name_en": "Wyvern",
+    "habitat": [
+      "Hill",
+      "Mountain"
+    ]
+  },
+  "Gul": {
+    "name_en": "Ghoul",
+    "habitat": [
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Gusano púrpura": {
+    "name_en": "Purple Worm",
+    "habitat": [
+      "Desert",
+      "Underdark"
+    ]
+  },
+  "Gárgola": {
+    "name_en": "Gargoyle",
+    "habitat": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Gólem de arcilla": {
+    "name_en": "Clay Golem",
+    "habitat": [
+      "Urban"
+    ]
+  },
+  "Gólem de carne": {
+    "name_en": "Flesh Golem",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Gólem de hierro": {
+    "name_en": "Iron Golem",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Gólem de piedra": {
+    "name_en": "Stone Golem",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Halcón": {
+    "name_en": "Hawk",
+    "habitat": [
+      "Arctic",
+      "Coastal",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  "Halcón sangriento": {
+    "name_en": "Blood Hawk",
+    "habitat": [
+      "Arctic",
+      "Coastal",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  "Hezrou": {
+    "name_en": "Hezrou",
+    "habitat": [
+      "Planar (Abyss)"
+    ]
+  },
+  "Hidra": {
+    "name_en": "Hydra",
+    "habitat": [
+      "Coastal",
+      "Swamp"
+    ]
+  },
+  "Hiena": {
+    "name_en": "Hyena",
+    "habitat": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  "Hiena gigante": {
+    "name_en": "Giant Hyena",
+    "habitat": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  "Hipogrifo": {
+    "name_en": "Hippogriff",
+    "habitat": [
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  "Hipopótamo": {
+    "name_en": "Hippopotamus",
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Swamp"
+    ]
+  },
+  "Hobgoblin capitán": {
+    "name_en": "Hobgoblin Captain",
+    "habitat": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Planar (Acheron)",
+      "Underdark"
+    ]
+  },
+  "Hobgoblin guerrero": {
+    "name_en": "Hobgoblin Warrior",
+    "habitat": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Planar (Acheron)",
+      "Underdark"
+    ]
+  },
+  "Hobgoblin señor de la guerra": {
+    "name_en": "Hobgoblin Warlord",
+    "habitat": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Planar (Acheron)",
+      "Underdark"
+    ]
+  },
+  "Hombre jabalí": {
+    "name_en": "Wereboar",
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  "Hombre lagarto geomante": {
+    "name_en": "Lizardfolk Geomancer",
+    "habitat": [
+      "Forest",
+      "Swamp"
+    ]
+  },
+  "Hombre lagarto soberano": {
+    "name_en": "Lizardfolk Sovereign",
+    "habitat": [
+      "Forest",
+      "Swamp"
+    ]
+  },
+  "Hombre lobo": {
+    "name_en": "Werewolf",
+    "habitat": [
+      "Forest",
+      "Hill"
+    ]
+  },
+  "Hombre oso": {
+    "name_en": "Werebear",
+    "habitat": [
+      "Arctic",
+      "Forest",
+      "Hill"
+    ]
+  },
+  "Hombre rata": {
+    "name_en": "Wererat",
+    "habitat": [
+      "Forest",
+      "Urban"
+    ]
+  },
+  "Hombre tigre": {
+    "name_en": "Weretiger",
+    "habitat": [
+      "Desert",
+      "Forest",
+      "Grassland"
+    ]
+  },
+  "Homúnculo": {
+    "name_en": "Homunculus",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Hongo chillón": {
+    "name_en": "Shrieker Fungus",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Hongo espora de gas": {
+    "name_en": "Gas Spore Fungus",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Hongo violeta": {
+    "name_en": "Violet Fungus",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Horror acorazado": {
+    "name_en": "Helmed Horror",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Horror ganchudo": {
+    "name_en": "Hook Horror",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Huargo": {
+    "name_en": "Worg",
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Planar (Feywild)"
+    ]
+  },
+  "Huargo terrible": {
+    "name_en": "Dire Worg",
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Planar (Feywild)"
+    ]
+  },
+  "Ifrit": {
+    "name_en": "Efreeti",
+    "habitat": [
+      "Desert",
+      "Planar (Elemental Plane of Fire)"
+    ]
+  },
+  "Jabalí gigante": {
+    "name_en": "Giant Boar",
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  "Kenku": {
+    "name_en": "Kenku",
+    "habitat": [
+      "Forest",
+      "Planar (Shadowfell)",
+      "Urban"
+    ]
+  },
+  "Kobold alado": {
+    "name_en": "Winged Kobold",
+    "habitat": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Kobold guerrero": {
+    "name_en": "Kobold Warrior",
+    "habitat": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Kraken": {
+    "name_en": "Kraken",
+    "habitat": [
+      "Underwater"
+    ]
+  },
+  "Kuo-toa": {
+    "name_en": "Kuo-toa",
+    "habitat": [
+      "Coastal",
+      "Underdark"
+    ]
+  },
+  "Kuo-toa arcipreste": {
+    "name_en": "Kuo-toa Archpriest",
+    "habitat": [
+      "Coastal",
+      "Underdark"
+    ]
+  },
+  "Kuo-toa látigo": {
+    "name_en": "Kuo-toa Whip",
+    "habitat": [
+      "Coastal",
+      "Underdark"
+    ]
+  },
+  "Kuo-toa vigilante": {
+    "name_en": "Kuo-toa Monitor",
+    "habitat": [
+      "Coastal",
+      "Underdark"
+    ]
+  },
+  "Lacero": {
+    "name_en": "Roper",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Lagarto": {
+    "name_en": "Lizard",
+    "habitat": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  "Lagarto gigante": {
+    "name_en": "Giant Lizard",
+    "habitat": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  "Lamia": {
+    "name_en": "Lamia",
+    "habitat": [
+      "Desert"
+    ]
+  },
+  "Larva": {
+    "name_en": "Larva",
+    "habitat": [
+      "Planar (Lower Planes)"
+    ]
+  },
+  "León": {
+    "name_en": "Lion",
+    "habitat": [
+      "Desert",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  "Liche": {
+    "name_en": "Lich",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Lobo": {
+    "name_en": "Wolf",
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  "Lobo invernal": {
+    "name_en": "Winter Wolf",
+    "habitat": [
+      "Arctic"
+    ]
+  },
+  "Lobo terrible": {
+    "name_en": "Dire Wolf",
+    "habitat": [
+      "Forest",
+      "Hill"
+    ]
+  },
+  "Lémur": {
+    "name_en": "Lemure",
+    "habitat": [
+      "Planar (Nine Hells)"
+    ]
+  },
+  "Magmin": {
+    "name_en": "Magmin",
+    "habitat": [
+      "Planar (Elemental Plane of Fire)"
+    ]
+  },
+  "Mago": {
+    "name_en": "Mage",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Mago aprendiz": {
+    "name_en": "Mage Apprentice",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Mamut": {
+    "name_en": "Mammoth",
+    "habitat": [
+      "Arctic"
+    ]
+  },
+  "Mane": {
+    "name_en": "Manes",
+    "habitat": [
+      "Planar (Abyss)"
+    ]
+  },
+  "Manto": {
+    "name_en": "Cloaker",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Mantoscuro": {
+    "name_en": "Darkmantle",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Mantícora": {
+    "name_en": "Manticore",
+    "habitat": [
+      "Arctic",
+      "Coastal",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  "Marchita aguja": {
+    "name_en": "Needle Blight",
+    "habitat": [
+      "Forest"
+    ]
+  },
+  "Marchita de Gulthias": {
+    "name_en": "Gulthias Blight",
+    "habitat": [
+      "Forest"
+    ]
+  },
+  "Marchita enredadera": {
+    "name_en": "Vine Blight",
+    "habitat": [
+      "Forest"
+    ]
+  },
+  "Marchita rama": {
+    "name_en": "Twig Blight",
+    "habitat": [
+      "Forest"
+    ]
+  },
+  "Marchito árbol": {
+    "name_en": "Tree Blight",
+    "habitat": [
+      "Forest"
+    ]
+  },
+  "Marid": {
+    "name_en": "Marid",
+    "habitat": [
+      "Coastal",
+      "Planar (Elemental Plane of Water)",
+      "Underwater"
+    ]
+  },
+  "Marilith": {
+    "name_en": "Marilith",
+    "habitat": [
+      "Planar (Abyss)"
+    ]
+  },
+  "Mastín": {
+    "name_en": "Mastiff",
+    "habitat": [
+      "Forest",
+      "Hill",
+      "Urban"
+    ]
+  },
+  "Medusa": {
+    "name_en": "Medusa",
+    "habitat": [
+      "Desert"
+    ]
+  },
+  "Mephit de barro": {
+    "name_en": "Mud Mephit",
+    "habitat": [
+      "Planar (Elemental Planes)",
+      "Swamp"
+    ]
+  },
+  "Mephit de hielo": {
+    "name_en": "Ice Mephit",
+    "habitat": [
+      "Planar (Elemental Planes)",
+      "Arctic"
+    ]
+  },
+  "Mephit de humo": {
+    "name_en": "Smoke Mephit",
+    "habitat": [
+      "Planar (Elemental Planes)"
+    ]
+  },
+  "Mephit de magma": {
+    "name_en": "Magma Mephit",
+    "habitat": [
+      "Planar (Elemental Planes)"
+    ]
+  },
+  "Mephit de polvo": {
+    "name_en": "Dust Mephit",
+    "habitat": [
+      "Planar (Elemental Planes)",
+      "Desert"
+    ]
+  },
+  "Mephit de vapor": {
+    "name_en": "Steam Mephit",
+    "habitat": [
+      "Planar (Elemental Planes)"
+    ]
+  },
+  "Merrow": {
+    "name_en": "Merrow",
+    "habitat": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  "Mezzoloth": {
+    "name_en": "Mezzoloth",
+    "habitat": [
+      "Planar (Gehenna)"
+    ]
+  },
+  "Micónido adulto": {
+    "name_en": "Myconid Adult",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Micónido brote": {
+    "name_en": "Myconid Sprout",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Micónido siervo espora": {
+    "name_en": "Myconid Spore Servant",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Micónido soberano": {
+    "name_en": "Myconid Sovereign",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Mimeto": {
+    "name_en": "Mimic",
+    "habitat": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Minotauro de Bafomet": {
+    "name_en": "Minotaur of Baphomet",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Minotauro esqueleto": {
+    "name_en": "Minotaur Skeleton",
+    "habitat": [
+      "Planar (Shadowfell)",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Mole sombría": {
+    "name_en": "Umber Hulk",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Momia": {
+    "name_en": "Mummy",
+    "habitat": [
+      "Desert",
+      "Swamp"
+    ]
+  },
+  "Monstruo corrosivo": {
+    "name_en": "Rust Monster",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Mula": {
+    "name_en": "Mule",
+    "habitat": [
+      "Desert",
+      "Hill",
+      "Urban"
+    ]
+  },
+  "Murciélago": {
+    "name_en": "Bat",
+    "habitat": [
+      "Forest",
+      "Mountain",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Murciélago gigante": {
+    "name_en": "Giant Bat",
+    "habitat": [
+      "Forest",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  "Naga espiritual": {
+    "name_en": "Spirit Naga",
+    "habitat": [
+      "Planar (Lower Planes)",
+      "Underdark"
+    ]
+  },
+  "Naga guardiana": {
+    "name_en": "Guardian Naga",
+    "habitat": [
+      "Desert",
+      "Forest",
+      "Planar (Upper Planes)"
+    ]
+  },
+  "Naga ósea": {
+    "name_en": "Bone Naga",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Nalfeshnee": {
+    "name_en": "Nalfeshnee",
+    "habitat": [
+      "Planar (Abyss)"
+    ]
+  },
+  "Necromole de hongos violetas": {
+    "name_en": "Violet Fungus Necrohulk",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Noble": {
+    "name_en": "Noble",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Noble prodigio": {
+    "name_en": "Noble Prodigy",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Nycaloth": {
+    "name_en": "Nycaloth",
+    "habitat": [
+      "Planar (Gehenna)"
+    ]
+  },
+  "Nótico": {
+    "name_en": "Nothic",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Ogro": {
+    "name_en": "Ogre",
+    "habitat": [
+      "Arctic",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  "Ogro zombi": {
+    "name_en": "Ogre Zombie",
+    "habitat": [
+      "Planar (Shadowfell)",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Oni": {
+    "name_en": "Oni",
+    "habitat": [
+      "Forest",
+      "Urban"
+    ]
+  },
+  "Orca": {
+    "name_en": "Killer Whale",
+    "habitat": [
+      "Underwater"
+    ]
+  },
+  "Osgo acechador": {
+    "name_en": "Bugbear Stalker",
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Planar (Feywild)",
+      "Underdark"
+    ]
+  },
+  "Osgo guerrero": {
+    "name_en": "Bugbear Warrior",
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Planar (Feywild)",
+      "Underdark"
+    ]
+  },
+  "Oso lechuza": {
+    "name_en": "Owlbear",
+    "habitat": [
+      "Forest"
+    ]
+  },
+  "Oso negro": {
+    "name_en": "Black Bear",
+    "habitat": [
+      "Forest"
+    ]
+  },
+  "Oso pardo": {
+    "name_en": "Brown Bear",
+    "habitat": [
+      "Arctic",
+      "Forest",
+      "Hill"
+    ]
+  },
+  "Oso polar": {
+    "name_en": "Polar Bear",
+    "habitat": [
+      "Arctic"
+    ]
+  },
+  "Otyugh": {
+    "name_en": "Otyugh",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Pantera": {
+    "name_en": "Panther",
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  "Pegaso": {
+    "name_en": "Pegasus",
+    "habitat": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Planar (Upper Planes)"
+    ]
+  },
+  "Pendenciero": {
+    "name_en": "Tough",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Pendenciero jefe": {
+    "name_en": "Tough Boss",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Perforador": {
+    "name_en": "Piercer",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Perro del inframundo": {
+    "name_en": "Death Dog",
+    "habitat": [
+      "Desert"
+    ]
+  },
+  "Perro intermitente": {
+    "name_en": "Blink Dog",
+    "habitat": [
+      "Forest",
+      "Planar (Feywild)"
+    ]
+  },
+  "Peryton": {
+    "name_en": "Peryton",
+    "habitat": [
+      "Hill",
+      "Mountain"
+    ]
+  },
+  "Pesadilla": {
+    "name_en": "Nightmare",
+    "habitat": [
+      "Planar (Lower Planes)"
+    ]
+  },
+  "Pico de hacha": {
+    "name_en": "Axe Beak",
+    "habitat": [
+      "Arctic",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  "Pico de hacha gigante": {
+    "name_en": "Giant Axe Beak",
+    "habitat": [
+      "Arctic",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  "Pirata": {
+    "name_en": "Pirate",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Pirata almirante": {
+    "name_en": "Pirate Admiral",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Pirata capitán": {
+    "name_en": "Pirate Captain",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Piraña": {
+    "name_en": "Piranha",
+    "habitat": [
+      "Underwater"
+    ]
+  },
+  "Pixie": {
+    "name_en": "Pixie",
+    "habitat": [
+      "Forest",
+      "Planar (Feywild)"
+    ]
+  },
+  "Planetar": {
+    "name_en": "Planetar",
+    "habitat": [
+      "Planar (Upper Planes)"
+    ]
+  },
+  "Plebeyo": {
+    "name_en": "Commoner",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Plesiosaurio": {
+    "name_en": "Plesiosaurus",
+    "habitat": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  "Poltergeist": {
+    "name_en": "Poltergeist",
+    "habitat": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Poni": {
+    "name_en": "Pony",
+    "habitat": [
+      "Grassland",
+      "Urban"
+    ]
+  },
+  "Pseudodragón": {
+    "name_en": "Pseudodragon",
+    "habitat": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Urban"
+    ]
+  },
+  "Pteranodon": {
+    "name_en": "Pteranodon",
+    "habitat": [
+      "Coastal",
+      "Grassland",
+      "Mountain"
+    ]
+  },
+  "Pudin negro": {
+    "name_en": "Black Pudding",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Pulpo": {
+    "name_en": "Octopus",
+    "habitat": [
+      "Underwater"
+    ]
+  },
+  "Pulpo gigante": {
+    "name_en": "Giant Octopus",
+    "habitat": [
+      "Underwater"
+    ]
+  },
+  "Quaggoth": {
+    "name_en": "Quaggoth",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Quaggoth thonot": {
+    "name_en": "Quaggoth Thonot",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Quasit": {
+    "name_en": "Quasit",
+    "habitat": [
+      "Planar (Abyss)"
+    ]
+  },
+  "Quimera": {
+    "name_en": "Chimera",
+    "habitat": [
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  "Rakshasa": {
+    "name_en": "Rakshasa",
+    "habitat": [
+      "Planar (Nine Hells)",
+      "Urban"
+    ]
+  },
+  "Rana": {
+    "name_en": "Frog",
+    "habitat": [
+      "Forest",
+      "Swamp"
+    ]
+  },
+  "Rana gigante": {
+    "name_en": "Giant Frog",
+    "habitat": [
+      "Forest",
+      "Swamp"
+    ]
+  },
+  "Rata": {
+    "name_en": "Rat",
+    "habitat": [
+      "Forest",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Rata gigante": {
+    "name_en": "Giant Rat",
+    "habitat": [
+      "Forest",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Redivivo": {
+    "name_en": "Revenant",
+    "habitat": [
+      "Forest",
+      "Swamp",
+      "Urban"
+    ]
+  },
+  "Remorhaz": {
+    "name_en": "Remorhaz",
+    "habitat": [
+      "Arctic"
+    ]
+  },
+  "Renacuajo slaad": {
+    "name_en": "Slaad Tadpole",
+    "habitat": [
+      "Planar (Limbo)"
+    ]
+  },
+  "Rinoceronte": {
+    "name_en": "Rhinoceros",
+    "habitat": [
+      "Grassland"
+    ]
+  },
+  "Roc": {
+    "name_en": "Roc",
+    "habitat": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  "Sabueso infernal": {
+    "name_en": "Hell Hound",
+    "habitat": [
+      "Mountain",
+      "Planar (Lower Planes)",
+      "Underdark"
+    ]
+  },
+  "Sacerdote": {
+    "name_en": "Priest",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Sacerdote acólito": {
+    "name_en": "Priest Acolyte",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Saga cetrina": {
+    "name_en": "Green Hag",
+    "habitat": [
+      "Forest",
+      "Hill",
+      "Swamp"
+    ]
+  },
+  "Saga de la noche": {
+    "name_en": "Night Hag",
+    "habitat": [
+      "Planar (Lower Planes)"
+    ]
+  },
+  "Saga de los mares": {
+    "name_en": "Sea Hag",
+    "habitat": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  "Sahuagin barón": {
+    "name_en": "Sahuagin Baron",
+    "habitat": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  "Sahuagin guerrero": {
+    "name_en": "Sahuagin Warrior",
+    "habitat": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  "Sahuagin sacerdote": {
+    "name_en": "Sahuagin Priest",
+    "habitat": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  "Salamandra": {
+    "name_en": "Salamander",
+    "habitat": [
+      "Planar (Elemental Plane of Fire)",
+      "Underdark"
+    ]
+  },
+  "Salamandra maestra infernal": {
+    "name_en": "Salamander Inferno Master",
+    "habitat": [
+      "Planar (Elemental Plane of Fire)",
+      "Underdark"
+    ]
+  },
+  "Salamandra serpiente de fuego": {
+    "name_en": "Salamander Fire Snake",
+    "habitat": [
+      "Planar (Elemental Plane of Fire)",
+      "Underdark"
+    ]
+  },
+  "Sapo gigante": {
+    "name_en": "Giant Toad",
+    "habitat": [
+      "Coastal",
+      "Forest",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  "Sectario": {
+    "name_en": "Cultist",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Sectario aberrante": {
+    "name_en": "Aberrant Cultist",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Sectario de la muerte": {
+    "name_en": "Death Cultist",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Sectario fanático": {
+    "name_en": "Cultist Fanatic",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Sectario hierofante": {
+    "name_en": "Cultist Hierophant",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Sectario infernal": {
+    "name_en": "Fiend Cultist",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Semidragón": {
+    "name_en": "Half-Dragon",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Semilich": {
+    "name_en": "Demilich",
+    "habitat": [
+      "Any"
+    ]
+  },
+  "Serpiente constrictora": {
+    "name_en": "Constrictor Snake",
+    "habitat": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underwater"
+    ]
+  },
+  "Serpiente constrictora gigante": {
+    "name_en": "Giant Constrictor Snake",
+    "habitat": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underwater"
+    ]
+  },
+  "Serpiente venenosa": {
+    "name_en": "Venomous Snake",
+    "habitat": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Swamp"
+    ]
+  },
+  "Serpiente venenosa gigante": {
+    "name_en": "Giant Venomous Snake",
+    "habitat": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Swamp"
+    ]
+  },
+  "Serpiente voladora": {
+    "name_en": "Flying Snake",
+    "habitat": [
+      "Desert",
+      "Forest",
+      "Grassland"
+    ]
+  },
+  "Señor de las momias": {
+    "name_en": "Mummy Lord",
+    "habitat": [
+      "Desert",
+      "Swamp"
+    ]
+  },
+  "Siervo de vampiro": {
+    "name_en": "Vampire Familiar",
+    "habitat": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Simio": {
+    "name_en": "Ape",
+    "habitat": [
+      "Forest"
+    ]
+  },
+  "Simio gigante": {
+    "name_en": "Giant Ape",
+    "habitat": [
+      "Forest"
+    ]
+  },
+  "Sirénido dominaolas": {
+    "name_en": "Merfolk Wavebender",
+    "habitat": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  "Sirénido experto en escaramuzas": {
+    "name_en": "Merfolk Skirmisher",
+    "habitat": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  "Slaad azul": {
+    "name_en": "Blue Slaad",
+    "habitat": [
+      "Planar (Limbo)"
+    ]
+  },
+  "Slaad de la muerte": {
+    "name_en": "Death Slaad",
+    "habitat": [
+      "Planar (Limbo)"
+    ]
+  },
+  "Slaad gris": {
+    "name_en": "Gray Slaad",
+    "habitat": [
+      "Planar (Limbo)"
+    ]
+  },
+  "Slaad rojo": {
+    "name_en": "Red Slaad",
+    "habitat": [
+      "Planar (Limbo)"
+    ]
+  },
+  "Slaad verde": {
+    "name_en": "Green Slaad",
+    "habitat": [
+      "Planar (Limbo)"
+    ]
+  },
+  "Solar": {
+    "name_en": "Solar",
+    "habitat": [
+      "Planar (Upper Planes)"
+    ]
+  },
+  "Sombra": {
+    "name_en": "Shadow",
+    "habitat": [
+      "Planar (Shadowfell)",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Sátiro": {
+    "name_en": "Satyr",
+    "habitat": [
+      "Forest",
+      "Planar (Feywild)"
+    ]
+  },
+  "Sátiro gran vividor": {
+    "name_en": "Satyr Revelmaster",
+    "habitat": [
+      "Forest",
+      "Planar (Feywild)"
+    ]
+  },
+  "Súcubo": {
+    "name_en": "Succubus",
+    "habitat": [
+      "Planar (Lower Planes)",
+      "Urban"
+    ]
+  },
+  "Tarasca": {
+    "name_en": "Tarrasque",
+    "habitat": [
+      "Urban"
+    ]
+  },
+  "Tarántula gigante": {
+    "name_en": "Giant Wolf Spider",
+    "habitat": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  "Tejón": {
+    "name_en": "Badger",
+    "habitat": [
+      "Forest"
+    ]
+  },
+  "Tejón gigante": {
+    "name_en": "Giant Badger",
+    "habitat": [
+      "Forest"
+    ]
+  },
+  "Thri-kreen merodeador": {
+    "name_en": "Thri-kreen Marauder",
+    "habitat": [
+      "Desert",
+      "Grassland"
+    ]
+  },
+  "Thri-kreen psiónico": {
+    "name_en": "Thri-kreen Psion",
+    "habitat": [
+      "Desert",
+      "Grassland"
+    ]
+  },
+  "Tiburón cazador": {
+    "name_en": "Hunter Shark",
+    "habitat": [
+      "Underwater"
+    ]
+  },
+  "Tiburón de arrecife": {
+    "name_en": "Reef Shark",
+    "habitat": [
+      "Underwater"
+    ]
+  },
+  "Tiburón gigante": {
+    "name_en": "Giant Shark",
+    "habitat": [
+      "Underwater"
+    ]
+  },
+  "Tigre": {
+    "name_en": "Tiger",
+    "habitat": [
+      "Forest",
+      "Grassland"
+    ]
+  },
+  "Tigre dientes de sable": {
+    "name_en": "Saber-Toothed Tiger",
+    "habitat": [
+      "Arctic",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  "Tiranosaurio Rex": {
+    "name_en": "Tyrannosaurus Rex",
+    "habitat": [
+      "Grassland"
+    ]
+  },
+  "Triceratops": {
+    "name_en": "Triceratops",
+    "habitat": [
+      "Grassland"
+    ]
+  },
+  "Troglodita": {
+    "name_en": "Troglodyte",
+    "habitat": [
+      "Underdark"
+    ]
+  },
+  "Troll": {
+    "name_en": "Troll",
+    "habitat": [
+      "Arctic",
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  "Tumulario": {
+    "name_en": "Wight",
+    "habitat": [
+      "Desert",
+      "Planar (Shadowfell)",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Ultroloth": {
+    "name_en": "Ultroloth",
+    "habitat": [
+      "Planar (Lower Planes)"
+    ]
+  },
+  "Unicornio": {
+    "name_en": "Unicorn",
+    "habitat": [
+      "Forest",
+      "Planar (Feywild)"
+    ]
+  },
+  "Vampiro": {
+    "name_en": "Vampire",
+    "habitat": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Vrock": {
+    "name_en": "Vrock",
+    "habitat": [
+      "Planar (Abyss)"
+    ]
+  },
+  "Xorn": {
+    "name_en": "Xorn",
+    "habitat": [
+      "Planar (Elemental Plane of Earth)",
+      "Underdark"
+    ]
+  },
+  "Yeti": {
+    "name_en": "Yeti",
+    "habitat": [
+      "Arctic"
+    ]
+  },
+  "Yeti abominable": {
+    "name_en": "Abominable Yeti",
+    "habitat": [
+      "Arctic"
+    ]
+  },
+  "Yochlol": {
+    "name_en": "Yochlol",
+    "habitat": [
+      "Planar (Abyss)"
+    ]
+  },
+  "Yuan-ti abominación": {
+    "name_en": "Yuan-ti Abomination",
+    "habitat": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Urban"
+    ]
+  },
+  "Yuan-ti corrupto (tipo 1)": {
+    "name_en": "Yuan-ti Malison (Type 1)",
+    "habitat": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Urban"
+    ]
+  },
+  "Yuan-ti corrupto (tipo 2)": {
+    "name_en": "Yuan-ti Malison (Type 2)",
+    "habitat": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Urban"
+    ]
+  },
+  "Yuan-ti corrupto (tipo 3)": {
+    "name_en": "Yuan-ti Malison (Type 3)",
+    "habitat": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Urban"
+    ]
+  },
+  "Yuan-ti infiltrado": {
+    "name_en": "Yuan-ti Infiltrator",
+    "habitat": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Urban"
+    ]
+  },
+  "Zombi": {
+    "name_en": "Zombie",
+    "habitat": [
+      "Planar (Shadowfell)",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  "Águila": {
+    "name_en": "Eagle",
+    "habitat": [
+      "Coastal",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  "Águila gigante": {
+    "name_en": "Giant Eagle",
+    "habitat": [
+      "Coastal",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  "Árbol despertado": {
+    "name_en": "Awakened Tree",
+    "habitat": [
+      "Forest"
+    ]
+  },
+  "Íncubo": {
+    "name_en": "Incubus",
+    "habitat": [
+      "Planar (Lower Planes)",
+      "Urban"
+    ]
+  }
+}
