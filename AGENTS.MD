@@ -292,7 +292,7 @@ ejecuta scripts de extracción. Los subagentes delegan la automatización al Asi
 | **Director** | Regla concreta durante la partida | Busca en `rules/<game_id>/*.md` |
 | **Director** | Contenido de campaña (descripción, PNJ, encuentro) | Busca en `campaigns/<source_id>/*.md`, capítulo o índice |
 | **Rules Keeper** | Conocimiento profundo de reglas, mantiene índice | Escanea `rules/<game_id>/` entero, actualiza entradas |
-| **Character Keeper** | Reglas de clase, raza, equipo — orquesta creación de personajes | Para rasgos de clase/subclase usa el MCP `clases_get_class_features`, `clases_get_subclass_features`. Para equipo, especies, dotes y checklist carga `personajes.md`. Delega consultas al Rules Keeper |
+| **Character Keeper** | Reglas de clase, raza, equipo — orquesta creación de personajes | Para rasgos de clase/subclase usa el MCP `clases_get_class_features`, `clases_get_subclass_features`. Para dotes usa el MCP `dotes_listar_dotes`, `dotes_detalle_dote`. Para equipo, especies y checklist carga `personajes.md`. Delega consultas al Rules Keeper |
 | **Memory Keeper** | Referencias para enlazar; audita extracciones de reglas y campañas | Lee `rules/<game_id>/index.md` y `campaigns/_index.md`; audita `.md` contra `.txt` en `raw/` |
 | **Asistente** | Extracciones masivas de reglas o campañas (>100 entradas) | Ejecuta scripts directamente (ver extraction_protocol.md §4) |
 

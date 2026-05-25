@@ -121,6 +121,8 @@ Cuando el Rules Keeper te solicite auditar archivos extraídos, verifica **cada 
 
 **D. Dotes y trasfondos (en personajes.md)**
 
+> **Nota**: Durante la partida, los dotes se consultan vía MCP (`dotes_detalle_dote`, `dotes_buscar_dotes`, `dotes_listar_dotes`). La auditoría de `personajes.md` verifica que estos datos fuente sean correctos para que Rules Keeper pueda corregir gaps si el MCP devuelve información incompleta.
+
 | # | Ítem | Verificación |
 |---|---|---|
 | D1 | **Lista completa** | ¿Están todas las dotes del SRD listadas? |
