@@ -23,9 +23,9 @@
       "command": ["python", "tools/monstruos/src/mcp_server.py"],
       "enabled": true
     },
-    "objectosMágicos": {
+    "tesoros": {
       "type": "local",
-      "command": ["python", "tools/objetosMagicos/server.py"],
+      "command": ["python", "tools/tesoros/server.py"],
       "enabled": true
     },
     "clases": {

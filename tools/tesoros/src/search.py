@@ -1,3 +1,4 @@
+import random
 from typing import Iterable
 from thefuzz import fuzz, process
 
@@ -72,3 +73,15 @@ class SearchEngine:
         for item in self._items:
             seen.add(item["rareza"])
         return sorted(seen)
+
+    def random_by_rarity(self, rareza: str, cantidad: int = 1) -> list[MagicItem]:
+        rareza_lower = rareza.lower()
+        candidates = [i for i in self._items if rareza_lower in i["rareza"].lower()]
+
+        if not candidates:
+            raise ValueError(f"No hay objetos de rareza '{rareza}'")
+
+        if cantidad >= len(candidates):
+            return candidates[:]
+
+        return random.sample(candidates, cantidad)
