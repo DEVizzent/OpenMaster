@@ -88,6 +88,8 @@ Cuando el Rules Keeper te solicite auditar archivos extraídos, verifica **cada 
 
 **A. Clases (en personajes.md)**
 
+> **Nota**: Durante la partida, los rasgos de clase se consultan vía MCP (`clases_get_class_features`, `clases_get_subclass_features`, `clases_get_feature_by_id`). La auditoría de `personajes.md` verifica que estos datos fuente sean correctos para que Rules Keeper pueda corregir gaps si el MCP devuelve información incompleta.
+
 | # | Ítem | Verificación |
 |---|---|---|
 | A1 | **Equipo inicial** | ¿La entrada incluye TODAS las opciones de equipo (A y B) con cada objeto listado? |

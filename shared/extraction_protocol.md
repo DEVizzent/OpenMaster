@@ -346,7 +346,7 @@ Memory Keeper para campañas) toma el relevo para la validación y auditoría.
 | **Rules Keeper** | Extrae categorías pequeñas. Valida entradas contra `.txt`. Corrige en bucle. | No involucrado. |
 | **Memory Keeper** | Audita extracciones contra `sistema_raw/`. Emite objeciones y visto bueno. | Audita extracciones contra `campaign_raw/`. Emite objeciones y visto bueno. Mantiene `campaigns/_index.md`. |
 | **Director** | Consulta reglas durante la partida. | Consulta capítulos, PNJs, localizaciones durante la partida. Lee boxed text. |
-| **Character Keeper** | Carga `personajes.md` para creación. Delega consultas al Rules Keeper. | No involucrado. |
+| **Character Keeper** | Para rasgos de clase usa MCP `clases_*`; para equipo/especies/dotes carga `personajes.md`. Delega consultas al Rules Keeper. | No involucrado. |
 
 ### 5.2 Protocolo de Objeción (Memory Keeper)
 
