@@ -338,21 +338,7 @@ expectations: >
 
 ---
 
-## 9. Formato de Respuesta en Partida
-
-### 9.1 Dos bloques de respuesta
-
-Toda acción resuelta de un jugador se responde con dos bloques:
-
-1. **Bloque narrativo**: Describe lo ocurrido según los campos de la campaña:
-   - `narrative_style` — nivel de detalle
-   - `tone` — atmósfera
-   - `narrative_control` — cuánto narra el jugador vs el agente
-   - `age_rating` — respeta líneas y velos
-
-2. **Bloque mecánico**: Notación compacta con cálculo completo, emoji de resultado y efecto. El formato concreto depende del sistema de juego y se define en `rules/<game_id>/formato_mecanico.md`.
-
-### 9.2 Control narrativo (`narrative_control`)
+## 9. Control narrativo (`narrative_control`)
 
 Valor de 0 a 10 definido en el campaign compact:
 
@@ -367,81 +353,21 @@ Valor de 0 a 10 definido en el campaign compact:
 - La narración del jugador **no puede contradecir el resultado mecánico**. Si el jugador describe algo inconsistente con los dados, el agente ignora esa narración y toma el control.
 - El agente aplica siempre el bloque mecánico tras cualquier narración.
 
-### 9.3 Códigos de emoji estándar
-
-| Emoji | Significado | Uso |
-|---|---|---|
-| ✅ | Éxito | Tirada iguala o supera CD/CA |
-| ❌ | Fallo | Tirada no alcanza CD/CA |
-| 🎯 | Crítico | 20 natural (o equivalente del sistema) |
-| 💀 | Pifia | 1 natural (o equivalente) |
-| 🩸 | Daño | Pérdida de PG o heridas |
-| 🔥 | Daño elemental | Fuego, rayo, ácido, etc. |
-| 🛡️ | Defensa | Bloqueo, armadura, cobertura, resistencia |
-| ✨ | Magia | Conjuro o efecto mágico |
-| ☠️ | Estado | Condición aplicada (envenenado, asustado, etc.) |
-| 💚 | Curación | Recuperación de PG o heridas |
-| ⚡ | Reacción | Ataque de oportunidad, reacción usada |
-| 📍 | Movimiento | Cambio de posición relevante |
-
-### 9.4 Formato mecánico por sistema
-
-Cada sistema define ejemplos concretos de su notación en `rules/<game_id>/formato_mecanico.md`. Carga este archivo al inicio de la sesión para aplicar el formato correcto. Los emojis de la tabla 9.3 son estándar para todos los sistemas.
-
-### 9.5 Acciones sin tirada (ritos, decisiones narrativas)
-
-Cuando una acción no requiera tirada de dados pero tenga consecuencias mecánicas relevantes, incluye un **bloque mecánico mínimo**:
-
-```
-🎭 [ACCIÓN NARRATIVA] — Sin tirada requerida.
-Efecto: [descripción concisa del resultado mecánico]
-```
-
-Ejemplo: `🎭 RITO DE SELLADO — Sin tirada. Efecto: Yunque Primigenio sellado. Forja Eterna apagada permanentemente. Fragmentos y Corazón consumidos.`
-
-Esto garantiza que el bloque mecánico exista siempre, incluso cuando no hay dados de por medio.
-
----
 
 ## 10. Diseño de Ritmo de Campaña
 
 ### 10.1 Encuentros de viaje
 
-Para cada tramo de viaje (1 día o 1 noche de campamento), el Director determina si ocurre un encuentro en dos pasos:
+Por cada tramo (1 día o 1 noche), elige `rhythm` (fast/normal/lively),
+`danger_level` (low/medium/high/lethal) y `boost` (positive/neutral/negative)
+según la situación y llama a `encuentros_roll_encounter`.
 
-**Paso 1 — Probabilidad de que ocurra algo (1d100)**
-
-| Ritmo deseado | Prob. | Cuándo usarlo |
-|---|---|---|
-| Viaje rápido | 40% | El destino es lo importante, no el camino. |
-| Ritmo normal | 60% | Por defecto. |
-| Mundo vivo | 80% | La travesía importa tanto como el destino. |
-
-**Paso 2 — Si ocurre, el tipo depende del `danger_level` de la zona:**
-
-| danger_level | Social | Entorno | Combate | Descubrimiento |
-|---|---|---|---|---|
-| **Baja** (carretera transitada) | 60-80% | 10-20% | 0-5% | 5-15% |
-| **Media** (bosque, colinas) | 30-50% | 15-25% | 15-25% | 10-20% |
-| **Alta** (montañas salvajes, ruinas) | 10-20% | 20-30% | 35-55% | 10-20% |
-| **Letal** (guarida de dragón, zona de guerra) | 0-10% | 10-20% | 60-80% | 5-15% |
-
-**Tipos de encuentro:**
-
-| Tipo | Descripción |
-|---|---|
-| **Social** | Interacción con PNJs sin hostilidad por defecto. Mercaderes, peregrinos, guardias, refugiados. |
-| **Entorno** | Fenómeno natural, clima adverso, terreno difícil. Lluvia, tormenta, desprendimiento, niebla densa. |
-| **Combate** | Criaturas o enemigos hostiles. Desde fauna salvaje hasta patrullas organizadas. |
-| **Descubrimiento** | Hallazgos que no atacan: ruinas, rastros, objetos, cadáveres con pistas. |
-
-**Reglas de aplicación:**
-
-- **Unidad de tramo**: 1 día de viaje o 1 noche de campamento.
-- **Tirada oculta**: el Director tira 1d100 sin revelar el resultado a los jugadores.
-- **Sigilo y precauciones**: si el grupo toma medidas, el Director puede bajar un escalón de peligrosidad (Alta → Media). Si van haciendo ruido, subirlo.
-- **Cada tramo es independiente**: un tramo tranquilo no influye en el siguiente.
-- **Cualquier tipo puede generar una subtrama** si los PJs investigan o se implican.
+**Salida e interpretación:**
+- `"none"` — no ocurre nada, el viaje transcurre sin incidentes
+- `"social"` — interacción con PNJs no hostiles (comerciantes, viajeros)
+- `"environment"` — clima, terreno o fenómeno natural
+- `"combat"` — criaturas o enemigos hostiles
+- `"discovery"` — hallazgo (ruinas, pistas, objetos)
 
 ### 10.2 Elecciones genuinas (anti-railroad)
 
