@@ -1,0 +1,13 @@
+[project]
+name = "viajes-mcp"
+version = "0.1.0"
+description = "MCP server for RPG travel encounter generation"
+requires-python = ">=3.11"
+dependencies = ["mcp[cli]"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

@@ -32,6 +32,11 @@
       "type": "local",
       "command": ["python", "tools/clases/server.py"],
       "enabled": true
+    },
+    "encuentros": {
+      "type": "local",
+      "command": ["python", "tools/encuentros/server.py"],
+      "enabled": true
     }
   }
 }
