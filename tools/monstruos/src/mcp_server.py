@@ -4,9 +4,11 @@ MCP Server for D&D 5.5 Monster Lookup.
 Provides tools for searching, filtering, and retrieving monster data
 from a local database parsed from aidedd.org.
 """
+import sys
 import json
 import asyncio
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from mcp.server import Server
 from mcp.server.stdio import stdio_server

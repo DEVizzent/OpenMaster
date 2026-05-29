@@ -166,7 +166,7 @@ def main():
     import asyncio
     async def run():
         async with stdio_server() as (read, write):
-            await server.run(read, write)
+            await server.run(read, write, server.create_initialization_options())
 
     asyncio.run(run())
 
